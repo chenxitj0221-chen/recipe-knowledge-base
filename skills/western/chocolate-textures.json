@@ -1,0 +1,210 @@
+{
+  "id": "chocolate-textures",
+  "source_type": "single_dish",
+  "source_file": "EN-_Recipe-Book_Amazing-Menus-To-Go-1.pdf",
+  "source_author": null,
+
+  "cuisine_branch": "western",
+
+  "name": {
+    "original": "Chocolate Textures",
+    "original_lang": "en",
+    "translation": "巧克力多重质感",
+    "translation_lang": "zh",
+    "review_status": "pending"
+  },
+
+  "classification": {
+    "cuisine": { "original": "Modern European", "original_lang": "en", "translation": "现代欧式", "translation_lang": "zh" },
+    "scenes": { "original": ["dessert", "entertaining"], "original_lang": "en", "translation": ["甜点", "宴客"], "translation_lang": "zh" },
+    "meal": { "original": "dessert", "original_lang": "en", "translation": "甜点", "translation_lang": "zh" },
+    "role": { "original": "dessert", "original_lang": "en", "translation": "甜点", "translation_lang": "zh" },
+    "temperature": "cold"
+  },
+
+  "technique": null,
+  "sub_technique": null,
+
+  "flavor_profile": {
+    "original": ["chocolate", "sweet", "salty", "rich"],
+    "original_lang": "en",
+    "translation": ["巧克力", "甜", "咸", "浓郁"],
+    "translation_lang": "zh",
+    "review_status": "pending"
+  },
+
+  "execution": {
+    "total_time_min": 180,
+    "active_time_min": 60,
+    "prep_ahead_required": true,
+    "prep_ahead_note": {
+      "original": "Chocolate cream needs 2 hours in fridge. Microwave sponge batter needs 2 hours rest. Cocoa crumble can be made ahead.",
+      "original_lang": "en",
+      "translation": "巧克力奶油需冷藏 2 小时。微波海绵蛋糕面糊需静置 2 小时。可可酥粒可提前做。",
+      "translation_lang": "zh"
+    },
+    "difficulty": 5,
+    "servings": 1,
+    "serving_note": {
+      "original": "Final dish is 1 pax. Each component yields 10 pax.",
+      "original_lang": "en",
+      "translation": "最终出品为 1 人份。每个组件各为 10 人份。",
+      "translation_lang": "zh"
+    },
+    "heat_level": null,
+    "oil_temperature": null,
+    "critical_points": [
+      {
+        "original": "For the chocolate cream, use the figure-of-eight motion to prevent sticking, and bring to 84°C for a proper custard.",
+        "original_lang": "en",
+        "translation": "巧克力奶油用「8」字搅拌防粘，加热到 84°C 形成蛋奶酱。",
+        "translation_lang": "zh"
+      },
+      {
+        "original": "Pour the liquid mixture over the chocolate in 3 stages, stirring from the center, to achieve a shiny, elastic emulsion.",
+        "original_lang": "en",
+        "translation": "液体分 3 次倒入巧克力，从中心搅拌，做出有光泽、有弹性的乳化。",
+        "translation_lang": "zh"
+      },
+      {
+        "original": "Microwave sponge: fill plastic cups a third full and cook two at a time at 900W for 40 seconds.",
+        "original_lang": "en",
+        "translation": "微波海绵：塑料杯装三分之一满，每次两杯，900W 微波 40 秒。",
+        "translation_lang": "zh"
+      },
+      {
+        "original": "Cocoa crumble: keep the butter very cold so the dough is firm; bake at 150–160°C for about 18 minutes.",
+        "original_lang": "en",
+        "translation": "可可酥粒：黄油保持低温，面团才够硬；150–160°C 烤约 18 分钟。",
+        "translation_lang": "zh"
+      }
+    ],
+    "common_mistakes": [
+      {
+        "original": "Overheating the chocolate cream above 84°C, causing the yolks to scramble.",
+        "original_lang": "en",
+        "translation": "巧克力奶油超过 84°C，蛋黄会结块。",
+        "translation_lang": "zh"
+      },
+      {
+        "original": "Warm butter in the crumble makes the dough soft and the final texture sandy.",
+        "original_lang": "en",
+        "translation": "酥粒黄油温度过高，面团变软，成品口感沙化。",
+        "translation_lang": "zh"
+      }
+    ]
+  },
+
+  "components": [
+    {
+      "id": "chocolate-cream",
+      "name": { "original": "Chocolate Cream", "original_lang": "en", "translation": "巧克力奶油", "translation_lang": "zh" },
+      "prep_ahead": "2 hours in fridge",
+      "reusable": true,
+      "ingredients": [
+        { "item": { "original": "milk", "original_lang": "en", "translation": "牛奶", "translation_lang": "zh" }, "amount": "210 g" },
+        { "item": { "original": "cream", "original_lang": "en", "translation": "淡奶油", "translation_lang": "zh" }, "amount": "210 g" },
+        { "item": { "original": "egg yolk", "original_lang": "en", "translation": "蛋黄", "translation_lang": "zh" }, "amount": "85 g" },
+        { "item": { "original": "sugar", "original_lang": "en", "translation": "糖", "translation_lang": "zh" }, "amount": "40 g" },
+        { "item": { "original": "chocolate 70%", "original_lang": "en", "translation": "70% 黑巧克力", "translation_lang": "zh" }, "amount": "200 g" },
+        { "item": { "original": "gelatin leaf", "original_lang": "en", "translation": "吉利丁片", "translation_lang": "zh" }, "amount": "1" }
+      ],
+      "method_steps": [
+        { "original": "Hydrate the gelatin sheet in very cold water.", "original_lang": "en", "translation": "吉利丁片用冰水泡软。", "translation_lang": "zh" },
+        { "original": "Pour the milk and cream in a saucepan. Weigh the yolks with the sugar and beat.", "original_lang": "en", "translation": "牛奶和奶油入锅。蛋黄和糖称好，打散。", "translation_lang": "zh" },
+        { "original": "Heat the milk and cream to 50°C. Add the yolks together with the sugar.", "original_lang": "en", "translation": "牛奶奶油加热至 50°C，加入蛋黄糖。", "translation_lang": "zh" },
+        { "original": "Stir continuously until it reaches 84°C.", "original_lang": "en", "translation": "持续搅拌至 84°C。", "translation_lang": "zh" },
+        { "original": "Remove from the heat and add the hydrated gelatin.", "original_lang": "en", "translation": "离火，加入泡软的吉利丁。", "translation_lang": "zh" },
+        { "original": "Pour the liquid mixture on top of the chocolate in 3 stages, stirring to create a shiny, elastic mixture.", "original_lang": "en", "translation": "分 3 次把液体倒入巧克力，搅拌至有光泽、有弹性。", "translation_lang": "zh" },
+        { "original": "Finish with a blender to refine. Place on a tray lined with cling film and rest in the fridge for 2 hours.", "original_lang": "en", "translation": "用搅拌机细化。倒在铺保鲜膜的托盘上，冷藏 2 小时。", "translation_lang": "zh" }
+      ]
+    },
+    {
+      "id": "microwave-sponge",
+      "name": { "original": "Microwave Sponge", "original_lang": "en", "translation": "微波海绵蛋糕", "translation_lang": "zh" },
+      "prep_ahead": "2 hours rest",
+      "reusable": true,
+      "ingredients": [
+        { "item": { "original": "egg", "original_lang": "en", "translation": "鸡蛋", "translation_lang": "zh" }, "amount": "300 g" },
+        { "item": { "original": "white sugar", "original_lang": "en", "translation": "白砂糖", "translation_lang": "zh" }, "amount": "75 g" },
+        { "item": { "original": "chocolate 70% melted", "original_lang": "en", "translation": "70% 黑巧克力，融化", "translation_lang": "zh" }, "amount": "15 g" },
+        { "item": { "original": "flour", "original_lang": "en", "translation": "面粉", "translation_lang": "zh" }, "amount": "20 g" },
+        { "item": { "original": "cocoa powder", "original_lang": "en", "translation": "可可粉", "translation_lang": "zh" }, "amount": "10 g" },
+        { "item": { "original": "plastic cups (microwave-safe)", "original_lang": "en", "translation": "微波炉可用塑料杯", "translation_lang": "zh" }, "amount": "as needed" }
+      ],
+      "method_steps": [
+        { "original": "Whisk the egg with the sugar in the blender for 2 minutes.", "original_lang": "en", "translation": "鸡蛋和糖入搅拌机打 2 分钟。", "translation_lang": "zh" },
+        { "original": "Add the melted chocolate to the egg mixture and mix.", "original_lang": "en", "translation": "加入融化巧克力，拌匀。", "translation_lang": "zh" },
+        { "original": "Add the flour and cocoa powder. Mix.", "original_lang": "en", "translation": "加面粉和可可粉，拌匀。", "translation_lang": "zh" },
+        { "original": "Put the batter in a siphon with two charges and let it rest for 2 hours in the fridge.", "original_lang": "en", "translation": "面糊装入奶油枪，加两个气弹，冷藏静置 2 小时。", "translation_lang": "zh" },
+        { "original": "Fill the plastic cups a third full with batter. Put the glasses two by two in the microwave at maximum power for 40 seconds at 900W.", "original_lang": "en", "translation": "塑料杯装三分之一满，两杯一组，900W 微波 40 秒。", "translation_lang": "zh" },
+        { "original": "Remove from the microwave, turn over, and cool on a wire rack.", "original_lang": "en", "translation": "取出，倒扣，网架冷却。", "translation_lang": "zh" },
+        { "original": "Once cold, with the help of a paring knife, turn out the cakes from the cups.", "original_lang": "en", "translation": "冷却后用削皮刀脱模。", "translation_lang": "zh" }
+      ]
+    },
+    {
+      "id": "cocoa-crumble",
+      "name": { "original": "Cocoa Crumble", "original_lang": "en", "translation": "可可酥粒", "translation_lang": "zh" },
+      "prep_ahead": "same day",
+      "reusable": true,
+      "ingredients": [
+        { "item": { "original": "brown sugar", "original_lang": "en", "translation": "红糖", "translation_lang": "zh" }, "amount": "130 g" },
+        { "item": { "original": "flour", "original_lang": "en", "translation": "面粉", "translation_lang": "zh" }, "amount": "80 g" },
+        { "item": { "original": "ground almonds", "original_lang": "en", "translation": "杏仁粉", "translation_lang": "zh" }, "amount": "50 g" },
+        { "item": { "original": "butter", "original_lang": "en", "translation": "黄油", "translation_lang": "zh" }, "amount": "80 g" },
+        { "item": { "original": "salt", "original_lang": "en", "translation": "盐", "translation_lang": "zh" }, "amount": "3 g" },
+        { "item": { "original": "cocoa powder", "original_lang": "en", "translation": "可可粉", "translation_lang": "zh" }, "amount": "30 g" }
+      ],
+      "method_steps": [
+        { "original": "Dice the butter into cubes and reserve in the fridge.", "original_lang": "en", "translation": "黄油切丁，冷藏备用。", "translation_lang": "zh" },
+        { "original": "Lightly mix all the dry ingredients.", "original_lang": "en", "translation": "所有干料轻轻拌匀。", "translation_lang": "zh" },
+        { "original": "In a food processor using the paddle attachment, mix with the butter. The butter must be very cold to make a firm dough.", "original_lang": "en", "translation": "用桨叶搅拌机与黄油混合。黄油必须很冷，面团才够硬。", "translation_lang": "zh" },
+        { "original": "Roll out the dough between two kitchen papers. Rest in the fridge.", "original_lang": "en", "translation": "面团夹在两张烘焙纸间擀开，冷藏静置。", "translation_lang": "zh" },
+        { "original": "Once cold and hard, cook it in the fan oven at 150–160°C for approximately 18 minutes.", "original_lang": "en", "translation": "冷硬后，风炉 150–160°C 烤约 18 分钟。", "translation_lang": "zh" },
+        { "original": "Leave to cool, cut into pieces and dust in cocoa powder at the time of serving.", "original_lang": "en", "translation": "冷却，切块，上桌时撒可可粉。", "translation_lang": "zh" }
+      ]
+    }
+  ],
+
+  "assembly": {
+    "name": { "original": "Plating: Chocolate Textures", "original_lang": "en", "translation": "装盘：巧克力多重质感", "translation_lang": "zh" },
+    "steps": [
+      { "original": "Plate to your liking. With a pastry bag, prepare the cream, followed by the lightly crumbled sponge cake and the cocoa crumble.", "original_lang": "en", "translation": "按喜好摆盘。裱花袋挤奶油，放上轻碎的海绵蛋糕和可可酥粒。", "translation_lang": "zh" },
+      { "original": "Place the chocolate cream on the plate.", "original_lang": "en", "translation": "将巧克力奶油放在盘上。", "translation_lang": "zh" },
+      { "original": "Drizzle a few drops of olive oil over the cake, along with salt flakes.", "original_lang": "en", "translation": "在蛋糕上淋几滴橄榄油，撒海盐片。", "translation_lang": "zh" }
+    ]
+  },
+
+  "images": { "hero": null, "components": [], "process": [], "note": { "original": "Source PDF contains page images; not extracted.", "original_lang": "en", "translation": "源 PDF 有页面图片，暂未提取。", "translation_lang": "zh" } },
+
+  "allergens": {
+    "original": ["sulphites", "dairy", "eggs", "cereals", "nuts"],
+    "original_lang": "en",
+    "translation": ["亚硫酸盐", "奶", "蛋", "谷物", "坚果"],
+    "translation_lang": "zh"
+  },
+
+  "dietary_flags": { "original": [], "original_lang": "en", "translation": [], "translation_lang": "zh" },
+
+  "tags": {
+    "original": ["make-ahead", "component-reuse", "dessert", "entertaining", "chocolate"],
+    "original_lang": "en",
+    "translation": ["可预制", "组件复用", "甜点", "宴客", "巧克力"],
+    "translation_lang": "zh"
+  },
+
+  "review_queue": [
+    {
+      "field": "name",
+      "original": "Chocolate Textures",
+      "translation": "巧克力多重质感",
+      "issue": {
+        "original": "'Textures' refers to the three distinct mouthfeels (cream, sponge, crumble). Chinese translation is descriptive but accurate.",
+        "original_lang": "en",
+        "translation": "「多重质感」指奶油、海绵、酥粒三种口感，中文译名描述准确。",
+        "translation_lang": "zh"
+      },
+      "status": "pending"
+    }
+  ]
+}
