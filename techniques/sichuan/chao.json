@@ -1,0 +1,211 @@
+{
+  "id": "technique-chao",
+  "source_type": "technique",
+  "source_file": "川菜烹饪技法解密.爆、炒、熘、煎、浸、炸.李凯.扫描版.pdf",
+  "source_author": "李凯、普天红",
+
+  "cuisine_branch": "chinese",
+  "cuisine": {
+    "original": "川菜",
+    "original_lang": "zh",
+    "translation": "Sichuan Cuisine",
+    "translation_lang": "en"
+  },
+
+  "name": {
+    "original": "炒",
+    "original_lang": "zh",
+    "translation": "Chao (stir-frying)",
+    "translation_lang": "en",
+    "review_status": "pending",
+    "review_note": {
+      "original": "「炒」英文常译为 stir-fry，但 stir-fry 无法区分滑炒、生炒、熟炒、软炒四种细分。建议保留拼音 chao 并附注。",
+      "original_lang": "zh",
+      "translation": "'Chao' is usually rendered 'stir-fry', but stir-fry cannot distinguish the four subtypes. Keep pinyin with a gloss.",
+      "translation_lang": "en"
+    }
+  },
+
+  "category": "热菜技法",
+
+  "subtypes": {
+    "original": ["滑炒", "生炒", "熟炒", "软炒"],
+    "original_lang": "zh",
+    "translation": ["velvet stir-fry", "raw stir-fry", "pre-cooked stir-fry", "soft stir-fry"],
+    "translation_lang": "en"
+  },
+
+  "definition": {
+    "original": "炒，中国烹调技艺中最具特色、历史最悠久、运用最广泛、制作较为简单的菜品烹饪方法。制作时，原料下锅，不断翻簸使其熟。炒可分为滑炒、生炒、熟炒、软炒等。小炒也是川菜最有特点、运用最广的一种炒法，最能体现川菜烹调中的单锅小炒，不过油，不换锅，临时兑滋汁，急火短炒，一锅成菜。",
+    "original_lang": "zh",
+    "translation": "Chao is the most characteristic, oldest, most widely used, and simplest of Chinese cooking techniques. Ingredients are added to the wok and tossed continuously until cooked. It divides into velvet stir-fry, raw stir-fry, pre-cooked stir-fry, and soft stir-fry. 'Small stir-fry' (xiao chao) is the most distinctive Sichuan variant: single-wok, no oil-passing, no wok change, sauce mixed on the spot, flash-cooked over high heat, finished in one wok.",
+    "translation_lang": "en"
+  },
+
+  "procedure": [
+    {
+      "step": 1,
+      "name": { "original": "码味上浆", "original_lang": "zh", "translation": "Season and velvet", "translation_lang": "en" },
+      "detail": {
+        "original": "先码味后上浆。码味的调味品主要是精盐、料酒、酱油等，其浓淡咸度、上色及颜色的深浅，要根据菜肴的复合味决定。浆汁原料主要是淀粉或蛋清，要以烹制原料的性质（老嫩、水分含量、肥瘦比例）决定上浆的干稀程度。",
+        "original_lang": "zh",
+        "translation": "Season first, then velvet. Seasonings are mainly salt, wine, soy sauce; the strength and color depend on the dish's composite flavor. The velveting medium is starch or egg white; its thickness depends on the ingredient's age, moisture, and fat-lean ratio.",
+        "translation_lang": "en"
+      }
+    },
+    {
+      "step": 2,
+      "name": { "original": "兑芡汁或味汁", "original_lang": "zh", "translation": "Mix slurry or sauce", "translation_lang": "en" },
+      "detail": {
+        "original": "滑炒过程中，由于火力大、操作速度快、成菜时间短，因此，需事先或操作时在调味碗中兑好芡汁或味汁，确定菜肴最后的复合味。",
+        "original_lang": "zh",
+        "translation": "Because stir-frying uses high heat and is fast, the slurry or sauce must be pre-mixed in a bowl to lock in the final composite flavor.",
+        "translation_lang": "en"
+      }
+    },
+    {
+      "step": 3,
+      "name": { "original": "滑油翻炒", "original_lang": "zh", "translation": "Oil-pass and stir-fry", "translation_lang": "en" },
+      "detail": {
+        "original": "要根据原料的性质、上浆的差异，掌握好油量、温度和滑炒的时间。上蛋清淀粉浆的原料适合中油量三四成油温滑炒，上湿淀粉浆的原料适合小油量五至七成高油温滑炒。",
+        "original_lang": "zh",
+        "translation": "Adjust oil quantity, temperature, and timing to the ingredient and its coating. Egg-white starch coatings suit medium oil at 30–40%; wet starch coatings suit low oil at 50–70%.",
+        "translation_lang": "en"
+      }
+    },
+    {
+      "step": 4,
+      "name": { "original": "收汁亮油，成菜装盘", "original_lang": "zh", "translation": "Reduce sauce, finish, plate", "translation_lang": "en" },
+      "detail": {
+        "original": "原料炒散籽断生后，及时放入辅料（也可先煸炒断生或与主料同时滑油）、调味品等一同翻炒，待刚熟，香味溢出，烹入芡汁或味汁，收汁亮油，装盘成菜。",
+        "original_lang": "zh",
+        "translation": "Once the main ingredient separates and is just done, add auxiliaries (or pre-fry them, or oil-pass together), toss, and when fragrant, pour in the slurry or sauce; reduce until glossy, plate.",
+        "translation_lang": "en"
+      }
+    }
+  ],
+
+  "workflow": {
+    "original": "选料 → 初加工 → 切配 → 码味上浆 → 兑芡汁或味汁 → 锅内烧油炙锅 → 放入主料滑油翻炒（或同时放入辅料）→ 放入辅料和调料 → 烹入芡汁 → 收汁亮油 → 装盘成菜",
+    "original_lang": "zh",
+    "translation": "Select → prep → cut → season and velvet → mix slurry → heat and season wok → oil-pass main (or add auxiliaries together) → add auxiliaries and seasonings → pour slurry → reduce until glossy → plate",
+    "translation_lang": "en"
+  },
+
+  "execution": {
+    "heat_level": {
+      "original": "旺火为主，熟炒以中火为主",
+      "original_lang": "zh",
+      "translation": "mainly high heat; pre-cooked stir-fry uses medium heat",
+      "translation_lang": "en"
+    },
+    "oil_temperature": {
+      "original": "滑炒三四成至七成；生炒旺火热油；熟炒五至六成",
+      "original_lang": "zh",
+      "translation": "velvet stir-fry 30–70%; raw stir-fry high heat; pre-cooked stir-fry 50–60%",
+      "translation_lang": "en"
+    },
+    "time": {
+      "original": "以秒计，通常十几秒到半分钟",
+      "original_lang": "zh",
+      "translation": "measured in seconds, usually 10–30 seconds",
+      "translation_lang": "en"
+    },
+    "critical_points": [
+      {
+        "original": "码味上浆，抓拌原料出手要轻，用力均匀，抓匀拌透，使原料全部被浆包裹住。",
+        "original_lang": "zh",
+        "translation": "When velveting, use a light, even hand so every piece is coated.",
+        "translation_lang": "en"
+      },
+      {
+        "original": "主辅料配合滑炒的菜肴，一般应将辅料另行煸炒或滑油，以保证主辅料成熟一致。",
+        "original_lang": "zh",
+        "translation": "For mixed dishes, pre-cook auxiliaries separately so everything finishes at the same time.",
+        "translation_lang": "en"
+      },
+      {
+        "original": "烹入芡汁或味汁，应从菜肴四周浇淋，待芡汁糊化，才能翻炒簸锅，使芡汁紧裹菜肴。",
+        "original_lang": "zh",
+        "translation": "Pour the sauce around the edge of the wok, let it gelatinize, then toss so it clings.",
+        "translation_lang": "en"
+      },
+      {
+        "original": "生炒的关键是火候，锅内保持高温，包括生料下锅以后，温度也不能下降。",
+        "original_lang": "zh",
+        "translation": "Raw stir-fry depends on sustained high wok temperature, even after ingredients go in.",
+        "translation_lang": "en"
+      },
+      {
+        "original": "软炒半成品原料，经勾芡、挂糊或上浆入锅，不沾锅、不糊锅，凝固状态好，熟透成菜。必须掌握好火候，一般采用中火比较适中。",
+        "original_lang": "zh",
+        "translation": "Soft stir-fry needs a clean, non-sticking wok and medium heat so the mixture sets evenly.",
+        "translation_lang": "en"
+      }
+    ],
+    "common_mistakes": [
+      {
+        "original": "上浆不匀，滑炒时出水脱浆，影响菜肴质量。",
+        "original_lang": "zh",
+        "translation": "Uneven velveting causes water release and coating slip during cooking.",
+        "translation_lang": "en"
+      },
+      {
+        "original": "芡汁中湿淀粉的浓淡不当：上蛋清淀粉浆的原料宜稀，上水粉浆的宜浓。",
+        "original_lang": "zh",
+        "translation": "Wrong slurry thickness: egg-white coatings need thin slurry, wet-starch coatings need thicker slurry.",
+        "translation_lang": "en"
+      },
+      {
+        "original": "生炒火力不旺，锅内温度下降，菜不脆嫩。",
+        "original_lang": "zh",
+        "translation": "Weak heat during raw stir-fry drops wok temperature and the dish loses crispness.",
+        "translation_lang": "en"
+      },
+      {
+        "original": "软炒火力过大，原料凝结过快、成菜散烂或半生不熟。",
+        "original_lang": "zh",
+        "translation": "Too-high heat during soft stir-fry sets the mixture too fast, leaving it crumbly or undercooked.",
+        "translation_lang": "en"
+      }
+    ]
+  },
+
+  "finished_dish_traits": {
+    "original": ["柔软滑嫩", "紧汁亮油", "见油不见汁（熟炒）", "鲜香嫩脆（生炒）"],
+    "original_lang": "zh",
+    "translation": ["soft and silky", "tight sauce, glossy oil", "oil visible, no loose sauce (pre-cooked)", "fresh, fragrant, crisp-tender (raw)"],
+    "translation_lang": "en"
+  },
+
+  "flavor_profile": {
+    "original": ["咸鲜味", "鱼香味", "家常味等（视具体菜品而定）"],
+    "original_lang": "zh",
+    "translation": ["savory-fresh", "fish-fragrant", "home-style, depending on the dish"],
+    "translation_lang": "en"
+  },
+
+  "related_dishes": {
+    "original": ["白油肉片", "辣子鸡", "宫保鸡", "鱼香肉片", "家常牛肉丝", "盐煎肉", "蒜薹肉丝", "韭黄肉丝", "野鸡红"],
+    "original_lang": "zh",
+    "translation": ["white-oil pork slices", "spicy chicken", "kung pao chicken", "fish-fragrant pork slices", "home-style beef shreds", "salt-fried pork", "garlic sprout pork shreds", "chive pork shreds", "pheasant red"],
+    "translation_lang": "en"
+  },
+
+  "images": {
+    "hero": null,
+    "note": {
+      "original": "技法类无成品图。",
+      "original_lang": "zh",
+      "translation": "Technique entries have no finished-dish photo.",
+      "translation_lang": "en"
+    }
+  },
+
+  "tags": {
+    "original": ["川菜技法", "炒", "热菜", "小煎小炒", "火候菜"],
+    "original_lang": "zh",
+    "translation": ["Sichuan technique", "chao", "hot dish", "small stir-fry", "heat-controlled"],
+    "translation_lang": "en"
+  }
+}

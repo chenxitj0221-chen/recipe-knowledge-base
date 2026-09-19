@@ -1,0 +1,211 @@
+{
+  "id": "technique-zha",
+  "source_type": "technique",
+  "source_file": "川菜烹饪技法解密.爆、炒、熘、煎、浸、炸.李凯.扫描版.pdf",
+  "source_author": "李凯、普天红",
+
+  "cuisine_branch": "chinese",
+  "cuisine": {
+    "original": "川菜",
+    "original_lang": "zh",
+    "translation": "Sichuan Cuisine",
+    "translation_lang": "en"
+  },
+
+  "name": {
+    "original": "炸",
+    "original_lang": "zh",
+    "translation": "Zha (deep-frying)",
+    "translation_lang": "en",
+    "review_status": "pending",
+    "review_note": {
+      "original": "「炸」英文常译 deep-fry，但 deep-fry 无法区分清炸、软炸、酥炸、浸炸、油淋、卷包炸等细分。建议保留拼音 zha 并附注。",
+      "original_lang": "zh",
+      "translation": "'Zha' is usually 'deep-fry', but that cannot distinguish its many subtypes. Keep pinyin with a gloss.",
+      "translation_lang": "en"
+    }
+  },
+
+  "category": "热菜技法",
+
+  "subtypes": {
+    "original": ["清炸", "软炸", "酥炸", "浸炸", "油淋", "卷包炸"],
+    "original_lang": "zh",
+    "translation": ["plain zha", "soft zha", "crisp zha", "immersed zha", "oil-drizzled", "wrapped zha"],
+    "translation_lang": "en"
+  },
+
+  "definition": {
+    "original": "炸，是将经过加工处理的原料，放入多量油锅中加热，使原料成熟并达到外酥脆或外酥内嫩等不同质感的烹调方法。炸制根据原料性质、成菜要求、挂糊拍粉的方式，分为清炸、软炸、酥炸、浸炸、油淋、卷包炸等多种类型。",
+    "original_lang": "zh",
+    "translation": "Zha cooks prepped ingredients in a large quantity of oil until done, producing textures from crisp-outside to crisp-outside-tender-inside. Depending on the ingredient, the target texture, and the coating, it divides into plain zha, soft zha, crisp zha, immersed zha, oil-drizzled, and wrapped zha.",
+    "translation_lang": "en"
+  },
+
+  "procedure": [
+    {
+      "step": 1,
+      "name": { "original": "原料加工与码味", "original_lang": "zh", "translation": "Prep and season", "translation_lang": "en" },
+      "detail": {
+        "original": "炸制类原料必须先进行适当的刀工处理和码味。码味一般选用精盐、料酒、姜、葱等调味品，并掌握在基本咸味的程度上。清炸原料最宜选用料酒码味，慎用或不用酱油，防止原料经油炸上色变黑。",
+        "original_lang": "zh",
+        "translation": "Deep-fried ingredients must first be cut and seasoned. Seasonings are usually salt, wine, ginger, and scallion, to a basic salinity. For plain zha, wine is preferred over soy sauce to prevent darkening.",
+        "translation_lang": "en"
+      }
+    },
+    {
+      "step": 2,
+      "name": { "original": "挂糊、拍粉或蒸制", "original_lang": "zh", "translation": "Coat, dust, or steam", "translation_lang": "en" },
+      "detail": {
+        "original": "根据菜肴需要，有四种处理方式：第一种是挂糊，适合炸制的糊有蛋黄糊、全蛋糊、湿淀粉糊、脆浆糊等。第二种是拍粉，适合炸制的粉有干淀粉、面包粉、面粉等。第三种是先挂薄糊再拍粉。第四种是码味后直接上笼蒸至软熟，再拍粉油炸，或既不拍粉也不油炸，再糊制。",
+        "original_lang": "zh",
+        "translation": "Four options: (1) batter — yolk, whole-egg, wet-starch, or crisp batter; (2) dust — dry starch, breadcrumbs, flour; (3) thin batter then dust; (4) steam until tender, then dust and fry, or skip frying entirely and glaze.",
+        "translation_lang": "en"
+      }
+    },
+    {
+      "step": 3,
+      "name": { "original": "油炸酥脆", "original_lang": "zh", "translation": "Fry until crisp", "translation_lang": "en" },
+      "detail": {
+        "original": "炸制的菜肴都要经过油炸，油炸的质感有酥脆、外酥内嫩、外酥松内熟软三种类型。油炸时要掌握好油温、次数、时间及质感程度。一般以复油炸为主：第一次用中火，五至六成油温炸至原料收缩定型、断生即可捞出；第二次用旺火高油温快速炸制，以达到表面酥脆。",
+        "original_lang": "zh",
+        "translation": "Frying yields three textures: crisp, crisp-outside-tender-inside, and crisp-outside-soft-inside. Control temperature, number of passes, and timing. Usually double-fry: first at 50–60% over medium heat to set and cook through, then at high heat to crisp the surface.",
+        "translation_lang": "en"
+      }
+    },
+    {
+      "step": 4,
+      "name": { "original": "调制炸汁", "original_lang": "zh", "translation": "Prepare the sauce", "translation_lang": "en" },
+      "detail": {
+        "original": "炸制的芡汁常采用油汁芡，只有保证油汁芡的质量，才能使菜肴具有味浓、爽滑、滋润、发亮的效果。炸制芡汁主要有糖醋、荔枝、咸鲜、鱼香等复合味。一般浇淋的芡汁呈二流芡，沾裹芡汁比二流芡稠，要求能沾裹在菜肴上。",
+        "original_lang": "zh",
+        "translation": "The sauce for zha is typically an oil-based starch sauce; its quality determines whether the dish is rich, smooth, moist, and glossy. Composite flavors include sweet-sour, lychee, savory-fresh, and fish-fragrant. Pouring sauces are 'second-stream' thickness; coating sauces are thicker.",
+        "translation_lang": "en"
+      }
+    }
+  ],
+
+  "workflow": {
+    "original": "选料 → 原料的初加工 → 切配 → 码味 → 挂糊拍粉 → 定型油炸 → 酥脆复炸 → 调制芡汁 → 炸制 → 成菜装盘",
+    "original_lang": "zh",
+    "translation": "Select → prep → cut → season → coat/dust → first fry to set → second fry to crisp → mix sauce → finish → plate",
+    "translation_lang": "en"
+  },
+
+  "execution": {
+    "heat_level": {
+      "original": "初炸中火，复炸旺火",
+      "original_lang": "zh",
+      "translation": "medium heat for the first fry, high heat for the second",
+      "translation_lang": "en"
+    },
+    "oil_temperature": {
+      "original": "初炸五至六成；复炸六至七成或更高",
+      "original_lang": "zh",
+      "translation": "first fry 50–60%; second fry 60–70% or higher",
+      "translation_lang": "en"
+    },
+    "time": {
+      "original": "视原料大小而定，复炸时间短",
+      "original_lang": "zh",
+      "translation": "depends on ingredient size; the second fry is brief",
+      "translation_lang": "en"
+    },
+    "critical_points": [
+      {
+        "original": "原料刀工规格一致。需要锲花刀的原料，锲刀时要适度，形状完整。这样炸制才受热均匀，调味渗透，形态美观。",
+        "original_lang": "zh",
+        "translation": "Cut uniformly; score carefully so pieces stay intact, cook evenly, and absorb seasoning.",
+        "translation_lang": "en"
+      },
+      {
+        "original": "控制好糊粉干稀厚薄。糊粉过厚要影响原料本身的质感和鲜香味；糊粉太薄，油炸时高温会过多损失原料所含水分和鲜香味，影响酥脆的质感。",
+        "original_lang": "zh",
+        "translation": "Control coating thickness: too thick masks the ingredient; too thin lets moisture and aroma escape.",
+        "translation_lang": "en"
+      },
+      {
+        "original": "清炸最后成菜后是整形原料的要迅速刀工装盘，及时上桌，保证菜肴的食用效果。",
+        "original_lang": "zh",
+        "translation": "For whole-ingredient plain zha, cut and plate quickly and serve immediately.",
+        "translation_lang": "en"
+      },
+      {
+        "original": "注意火候和炸制时间的控制：火力过小，时间过长会引起大量脱水，影响口感，使成菜干裂。",
+        "original_lang": "zh",
+        "translation": "Control heat and time: low heat plus long frying dries the ingredient and cracks the crust.",
+        "translation_lang": "en"
+      },
+      {
+        "original": "半成品下锅酥炸前，要擦干水分，趁热油炸，防止因原料带上水分，引起油爆伤人。",
+        "original_lang": "zh",
+        "translation": "Dry the semi-finished ingredient before frying to avoid dangerous oil splatter.",
+        "translation_lang": "en"
+      }
+    ],
+    "common_mistakes": [
+      {
+        "original": "糊粉过厚或太薄，影响口感和酥脆度。",
+        "original_lang": "zh",
+        "translation": "Coating too thick or thin ruins texture and crispness.",
+        "translation_lang": "en"
+      },
+      {
+        "original": "油温过低，原料浸油，成菜不酥。",
+        "original_lang": "zh",
+        "translation": "Oil too cool lets the ingredient absorb oil and lose crispness.",
+        "translation_lang": "en"
+      },
+      {
+        "original": "复炸时间过长，原料失水，变得干硬。",
+        "original_lang": "zh",
+        "translation": "Second fry too long dries and hardens the ingredient.",
+        "translation_lang": "en"
+      },
+      {
+        "original": "成菜后未及时上桌，外皮回软，风味尽失。",
+        "original_lang": "zh",
+        "translation": "Late serving softens the crust and loses the intended texture.",
+        "translation_lang": "en"
+      }
+    ]
+  },
+
+  "finished_dish_traits": {
+    "original": ["色泽金黄或淡黄", "外酥脆或外酥内嫩", "口味随芡汁而定"],
+    "original_lang": "zh",
+    "translation": ["golden or pale yellow", "crisp outside or crisp-outside-tender-inside", "flavor depends on the sauce"],
+    "translation_lang": "en"
+  },
+
+  "flavor_profile": {
+    "original": ["糖醋味", "荔枝味", "咸鲜味", "鱼香味"],
+    "original_lang": "zh",
+    "translation": ["sweet-sour", "lychee flavor", "savory-fresh", "fish-fragrant"],
+    "translation_lang": "en"
+  },
+
+  "related_dishes": {
+    "original": ["糖醋脆皮鱼", "鱼香八块鸡", "椒盐茄饼", "香酥鸭", "油淋仔鸡", "芝麻蛋黄卷", "虾仁黄金球"],
+    "original_lang": "zh",
+    "translation": ["sweet-sour crispy fish", "fish-fragrant eight-piece chicken", "salt-pepper eggplant patties", "crispy duck", "oil-drizzled spring chicken", "sesame egg-yolk rolls", "golden shrimp balls"],
+    "translation_lang": "en"
+  },
+
+  "images": {
+    "hero": null,
+    "note": {
+      "original": "技法类无成品图。",
+      "original_lang": "zh",
+      "translation": "Technique entries have no finished-dish photo.",
+      "translation_lang": "en"
+    }
+  },
+
+  "tags": {
+    "original": ["川菜技法", "炸", "热菜", "油炸", "复炸"],
+    "original_lang": "zh",
+    "translation": ["Sichuan technique", "zha", "hot dish", "deep-fry", "double-fry"],
+    "translation_lang": "en"
+  }
+}

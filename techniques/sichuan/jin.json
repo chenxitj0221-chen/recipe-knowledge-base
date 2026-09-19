@@ -1,0 +1,216 @@
+{
+  "id": "technique-jin",
+  "source_type": "technique",
+  "source_file": "川菜烹饪技法解密.爆、炒、熘、煎、浸、炸.李凯.扫描版.pdf",
+  "source_author": "李凯、普天红",
+
+  "cuisine_branch": "chinese",
+  "cuisine": {
+    "original": "川菜",
+    "original_lang": "zh",
+    "translation": "Sichuan Cuisine",
+    "translation_lang": "en"
+  },
+
+  "name": {
+    "original": "浸",
+    "original_lang": "zh",
+    "translation": "Jin (gentle immersion)",
+    "translation_lang": "en",
+    "review_status": "pending",
+    "review_note": {
+      "original": "「浸」英文无精确对应。有 oil-jin、water-jin、stock-jin 三种介质。建议保留拼音 jin 并附注。",
+      "original_lang": "zh",
+      "translation": "'Jin' has no exact English equivalent; it uses oil, water, or stock as the medium. Keep pinyin with a gloss.",
+      "translation_lang": "en"
+    }
+  },
+
+  "category": "热菜技法",
+
+  "subtypes": {
+    "original": ["油浸", "水浸", "汤浸"],
+    "original_lang": "zh",
+    "translation": ["oil-jin", "water-jin", "stock-jin"],
+    "translation_lang": "en"
+  },
+
+  "definition": {
+    "original": "浸，是将经过刀工处理和腌制的原料，放入适当温度的传热介质（油、水或汤）中，用慢火加热，浸至刚刚熟，淋入调味汁成菜的方法。浸法用微沸的介质做传热介质，原料在加热过程中失水较少，故产品具有新鲜嫩滑的特点。",
+    "original_lang": "zh",
+    "translation": "Jin cooks prepped and marinated ingredients in a temperature-controlled medium (oil, water, or stock) over low heat until just done, then finishes with a sauce. Because the medium is barely simmering, the ingredient loses little moisture and emerges fresh, tender, and silky.",
+    "translation_lang": "en"
+  },
+
+  "procedure": [
+    {
+      "step": 1,
+      "name": { "original": "生料用调味料腌制", "original_lang": "zh", "translation": "Marinate raw ingredient", "translation_lang": "en" },
+      "detail": {
+        "original": "为了保持原料的嫩度，在加工前尽可能不调味，以防水分流失，使肉发硬。",
+        "original_lang": "zh",
+        "translation": "To preserve tenderness, season as little as possible before cooking — salt draws out water and toughens the meat.",
+        "translation_lang": "en"
+      }
+    },
+    {
+      "step": 2,
+      "name": { "original": "加热介质至合适温度", "original_lang": "zh", "translation": "Bring medium to temperature", "translation_lang": "en" },
+      "detail": {
+        "original": "猛火烧锅，加入色拉油，把油加热至合适温度；或清水用猛火加热至微沸；或猛火加热，把汤烧至微沸。",
+        "original_lang": "zh",
+        "translation": "Heat the wok over high heat and bring the oil to the right temperature; or bring water to a bare simmer; or bring stock to a bare simmer.",
+        "translation_lang": "en"
+      }
+    },
+    {
+      "step": 3,
+      "name": { "original": "投入生料慢火浸熟", "original_lang": "zh", "translation": "Add ingredient and poach gently", "translation_lang": "en"
+    },
+      "detail": {
+        "original": "投入生料，改用慢火加热，浸至刚刚熟，取出上碟。油浸时油温降低后再升温，反复加热直至原料成熟。",
+        "original_lang": "zh",
+        "translation": "Add the ingredient, lower the heat, and poach until just done; remove and plate. For oil-jin, let the temperature fall and rise repeatedly until cooked.",
+        "translation_lang": "en"
+      }
+    },
+    {
+      "step": 4,
+      "name": { "original": "加料头，溅沸油", "original_lang": "zh", "translation": "Add aromatics and splash hot oil", "translation_lang": "en" },
+      "detail": {
+        "original": "加料头，溅沸油。",
+        "original_lang": "zh",
+        "translation": "Add aromatics and splash with hot oil.",
+        "translation_lang": "en"
+      }
+    },
+    {
+      "step": 5,
+      "name": { "original": "调制调味汁淋上", "original_lang": "zh", "translation": "Dress with sauce", "translation_lang": "en" },
+      "detail": {
+        "original": "调制调味汁，并淋于浸熟的物料上；或调芡汁，淋于浸熟的料上或跟佐料上席。",
+        "original_lang": "zh",
+        "translation": "Mix the dressing and pour over the cooked ingredient; or thicken a sauce and pour over, or serve condiments on the side.",
+        "translation_lang": "en"
+      }
+    }
+  ],
+
+  "workflow": {
+    "original": "原料 → 初加工 → 投入已升好温的介质中 → 反复加热原料 → 成熟",
+    "original_lang": "zh",
+    "translation": "Ingredient → prep → add to tempered medium → heat gently until cooked",
+    "translation_lang": "en"
+  },
+
+  "execution": {
+    "heat_level": {
+      "original": "慢火",
+      "original_lang": "zh",
+      "translation": "low heat",
+      "translation_lang": "en"
+    },
+    "oil_temperature": {
+      "original": "油浸时油温与氽差不多，但方法不同：氽是冷油下料升温，浸是热油下料降温",
+      "original_lang": "zh",
+      "translation": "Oil-jin starts with hot oil and lets it cool, unlike 'cuan' which starts cold and heats up",
+      "translation_lang": "en"
+    },
+    "time": {
+      "original": "视原料大小而定，通常几分钟到十几分钟",
+      "original_lang": "zh",
+      "translation": "depends on size, usually a few to a dozen minutes",
+      "translation_lang": "en"
+    },
+    "critical_points": [
+      {
+        "original": "选料范围：质地较嫩的动物性原料。",
+        "original_lang": "zh",
+        "translation": "Choose tender animal proteins.",
+        "translation_lang": "en"
+      },
+      {
+        "original": "刀工成形：小型原料或整形原料。",
+        "original_lang": "zh",
+        "translation": "Cut into small pieces or leave whole.",
+        "translation_lang": "en"
+      },
+      {
+        "original": "油浸时用油要多于原料，一般为4：1，以便于使原料浸于油中。",
+        "original_lang": "zh",
+        "translation": "Oil-jin uses about 4:1 oil to ingredient so the ingredient is submerged.",
+        "translation_lang": "en"
+      },
+      {
+        "original": "加热时，油温降低后再升温，这样反复加热直至原料成熟。",
+        "original_lang": "zh",
+        "translation": "Let the temperature fall then rise repeatedly until the ingredient is cooked.",
+        "translation_lang": "en"
+      },
+      {
+        "original": "为了保持原料的嫩度，在加工前尽可能不调味，以防水分流失，使肉发硬。",
+        "original_lang": "zh",
+        "translation": "Season as little as possible beforehand to keep the ingredient tender.",
+        "translation_lang": "en"
+      }
+    ],
+    "common_mistakes": [
+      {
+        "original": "油温过高，原料表面迅速变老，内部未熟。",
+        "original_lang": "zh",
+        "translation": "Oil too hot toughens the surface before the inside cooks.",
+        "translation_lang": "en"
+      },
+      {
+        "original": "浸的时间过长，原料失水，质地变老。",
+        "original_lang": "zh",
+        "translation": "Over-cooking dries the ingredient and toughens it.",
+        "translation_lang": "en"
+      },
+      {
+        "original": "调味过早，盐分逼出水分，肉质发硬。",
+        "original_lang": "zh",
+        "translation": "Seasoning too early draws out water and hardens the meat.",
+        "translation_lang": "en"
+      }
+    ]
+  },
+
+  "finished_dish_traits": {
+    "original": ["色泽悦目", "口味鲜嫩", "新鲜嫩滑"],
+    "original_lang": "zh",
+    "translation": ["attractive color", "fresh and tender", "moist and silky"],
+    "translation_lang": "en"
+  },
+
+  "flavor_profile": {
+    "original": ["咸鲜味", "果香味等（视具体菜品而定）"],
+    "original_lang": "zh",
+    "translation": ["savory-fresh", "fruity, depending on the dish"],
+    "translation_lang": "en"
+  },
+
+  "related_dishes": {
+    "original": ["香橙浸仔鸭", "油浸草鱼", "红白萝卜浸蛤", "水浸鱼片"],
+    "original_lang": "zh",
+    "translation": ["orange-immersed duckling", "oil-immersed grass carp", "radish-immersed clams", "water-immersed fish slices"],
+    "translation_lang": "en"
+  },
+
+  "images": {
+    "hero": null,
+    "note": {
+      "original": "技法类无成品图。",
+      "original_lang": "zh",
+      "translation": "Technique entries have no finished-dish photo.",
+      "translation_lang": "en"
+    }
+  },
+
+  "tags": {
+    "original": ["川菜技法", "浸", "热菜", "慢火"],
+    "original_lang": "zh",
+    "translation": ["Sichuan technique", "jin", "hot dish", "low heat"],
+    "translation_lang": "en"
+  }
+}

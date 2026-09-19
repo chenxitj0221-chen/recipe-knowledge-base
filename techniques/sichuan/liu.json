@@ -1,0 +1,201 @@
+{
+  "id": "technique-liu",
+  "source_type": "technique",
+  "source_file": "川菜烹饪技法解密.爆、炒、熘、煎、浸、炸.李凯.扫描版.pdf",
+  "source_author": "李凯、普天红",
+
+  "cuisine_branch": "chinese",
+  "cuisine": {
+    "original": "川菜",
+    "original_lang": "zh",
+    "translation": "Sichuan Cuisine",
+    "translation_lang": "en"
+  },
+
+  "name": {
+    "original": "熘",
+    "original_lang": "zh",
+    "translation": "Liu (quick-fry with sauce)",
+    "translation_lang": "en",
+    "review_status": "pending",
+    "review_note": {
+      "original": "「熘」英文无精确对应，常与「炒」混译为 stir-fry。建议保留拼音 liu 并附注。",
+      "original_lang": "zh",
+      "translation": "'Liu' has no exact English equivalent and is often merged with stir-fry. Keep pinyin with a gloss.",
+      "translation_lang": "en"
+    }
+  },
+
+  "category": "热菜技法",
+
+  "subtypes": {
+    "original": ["鲜熘", "炸熘"],
+    "original_lang": "zh",
+    "translation": ["fresh liu", "fried liu"],
+    "translation_lang": "en"
+  },
+
+  "definition": {
+    "original": "熘，又称「滑」，是热菜烹饪方法之一。一般按对菜肴的质地的不同要求分为鲜熘和炸熘两种。熘制的工艺一般包括两个步骤和三种熘法：第一步是将原料经过油滑或熟处理，成为滑嫩、酥脆、外酥内软等不同质感的半成品；第二步是调制相应的芡汁，给第一步的半成品上芡。三种熘法分别为浇汁熘、拌汁熘和淋汁熘。",
+    "original_lang": "zh",
+    "translation": "Liu, also called 'hua' (slip), is a hot-dish technique. It divides by texture into fresh liu and fried liu. The process has two steps and three methods: (1) oil-pass or pre-cook the ingredient into a silky, crisp, or crisp-outside-tender-inside semi-finished product; (2) prepare the matching sauce and apply it. The three methods are pour-sauce liu, toss-sauce liu, and drizzle-sauce liu.",
+    "translation_lang": "en"
+  },
+
+  "procedure": [
+    {
+      "step": 1,
+      "name": { "original": "加工切配", "original_lang": "zh", "translation": "Prep and cutting", "translation_lang": "en" },
+      "detail": {
+        "original": "滑熘所用的原料以加工成丝、片、条、丁、小块的规格为主。滑熘原料刀工规格应比滑炒同一性能的原料细、薄一些，辅料也一般选用色彩艳丽，味鲜、细嫩的原料，如冬笋、丝瓜、番茄、菜心等。",
+        "original_lang": "zh",
+        "translation": "Fresh liu ingredients are cut into shreds, slices, strips, dice, or small pieces — finer and thinner than for velvet stir-fry. Auxiliaries should be colorful and delicate: winter bamboo, loofah, tomato, cabbage heart.",
+        "translation_lang": "en"
+      }
+    },
+    {
+      "step": 2,
+      "name": { "original": "码味上浆", "original_lang": "zh", "translation": "Season and velvet", "translation_lang": "en" },
+      "detail": {
+        "original": "蛋清淀粉浆一般蛋清与淀粉在1:1的比例，码味只用精盐，咸度为六至七成即可。上浆的稠度和厚度，应为蛋清淀粉浆能薄薄均匀地在原料表面沾裹一层为度。码味上浆后有的原料可冷藏静置一段时间，这样上浆效果更好，如虾仁、牛肉、猪肉、鸡肉等。",
+        "original_lang": "zh",
+        "translation": "Egg-white starch at about 1:1. Season with salt only, to about 60–70% of final salinity. The coating should be a thin, even layer. After velveting, some ingredients (shrimp, beef, pork, chicken) benefit from a short chill.",
+        "translation_lang": "en"
+      }
+    },
+    {
+      "step": 3,
+      "name": { "original": "滑油熘制", "original_lang": "zh", "translation": "Oil-pass and liu", "translation_lang": "en" },
+      "detail": {
+        "original": "先用热油把锅芡好，再中火三至四成油温放入原料，滑散断生，滗去余油，加入辅料轻轻推匀，烹入芡汁，簸锅成菜。",
+        "original_lang": "zh",
+        "translation": "Heat and season the wok, then over medium heat at 30–40% oil, slide in the ingredient, separate, and cook until just done. Drain excess oil, add auxiliaries, toss gently, pour in the sauce, and finish with a wok toss.",
+        "translation_lang": "en"
+      }
+    }
+  ],
+
+  "workflow": {
+    "original": "选料 → 切配 → 码味上浆 → 热油炙锅 → 主料滑油 → 调制芡汁 → 熘制 → 下辅料 → 烹入芡汁 → 成菜装盘",
+    "original_lang": "zh",
+    "translation": "Select → cut → season and velvet → heat and season wok → oil-pass main → mix slurry → liu → add auxiliaries → pour slurry → plate",
+    "translation_lang": "en"
+  },
+
+  "execution": {
+    "heat_level": {
+      "original": "中火为主",
+      "original_lang": "zh",
+      "translation": "mainly medium heat",
+      "translation_lang": "en"
+    },
+    "oil_temperature": {
+      "original": "三至四成，约 90–120°C",
+      "original_lang": "zh",
+      "translation": "30–40%, approx. 90–120°C",
+      "translation_lang": "en"
+    },
+    "time": {
+      "original": "以秒计，滑散即起",
+      "original_lang": "zh",
+      "translation": "measured in seconds; remove once separated",
+      "translation_lang": "en"
+    },
+    "critical_points": [
+      {
+        "original": "上浆时必须上劲，稀稠厚薄恰当，并料散入油锅，有利于滑散原料。",
+        "original_lang": "zh",
+        "translation": "Velvet until the coating binds; correct thickness helps the pieces separate in oil.",
+        "translation_lang": "en"
+      },
+      {
+        "original": "油温控制在三至四成热，油温高了会使原料在滑散之前凝结成块，低了容易使上浆后的淀粉脱浆。",
+        "original_lang": "zh",
+        "translation": "Keep oil at 30–40%: too hot sets pieces into clumps, too cool causes starch to slip.",
+        "translation_lang": "en"
+      },
+      {
+        "original": "一般滑熘类菜肴调制芡汁时鲜汤的用量比用湿淀粉上浆的菜肴量多一些。因为滑熘类原料都上蛋清淀粉浆，其厚度比用湿淀粉上浆的原料略厚，吸水量也要大一些。",
+        "original_lang": "zh",
+        "translation": "Fresh liu needs more stock in the slurry because egg-white coatings are thicker and absorb more water.",
+        "translation_lang": "en"
+      },
+      {
+        "original": "原料码味上浆拌料时手法要轻，原料上浆静置后，滑油前还应将上浆原料的稀稠度调制一下，以利于原料料散入锅和保证滑散。",
+        "original_lang": "zh",
+        "translation": "Handle gently; after resting, re-loosen the coating before oil-passing to ensure separation.",
+        "translation_lang": "en"
+      },
+      {
+        "original": "炸熘的原料一般不用含糖分和乙醇高的醪糟、曲酒、甜酒码味。糖分高油温炸制时原料上色深，易焦煳；含乙醇量高的调味酒，用挂糊拍粉封闭原料，高温炸制也挥发不净，影响菜肴的风味。",
+        "original_lang": "zh",
+        "translation": "For fried liu, avoid high-sugar or high-alcohol marinades: sugar darkens and burns; alcohol trapped under batter won't fully evaporate.",
+        "translation_lang": "en"
+      }
+    ],
+    "common_mistakes": [
+      {
+        "original": "油温过低，淀粉脱浆，成菜糊汤。",
+        "original_lang": "zh",
+        "translation": "Oil too cool causes starch to slip and the dish turns cloudy.",
+        "translation_lang": "en"
+      },
+      {
+        "original": "油温过高，原料凝结成块，不易滑散。",
+        "original_lang": "zh",
+        "translation": "Oil too hot clumps the pieces and prevents separation.",
+        "translation_lang": "en"
+      },
+      {
+        "original": "炸熘芡汁过稀或过稠，影响酥脆质感和沾裹效果。",
+        "original_lang": "zh",
+        "translation": "Fried liu sauce too thin or thick ruins crispness and coating.",
+        "translation_lang": "en"
+      },
+      {
+        "original": "成菜后未及时上桌，外皮回软，风味尽失。",
+        "original_lang": "zh",
+        "translation": "Serving late softens the crust and loses the intended texture.",
+        "translation_lang": "en"
+      }
+    ]
+  },
+
+  "finished_dish_traits": {
+    "original": ["滑嫩鲜香（鲜熘）", "外酥香松脆、内鲜嫩熟软（炸熘）", "明汁亮芡"],
+    "original_lang": "zh",
+    "translation": ["silky and fragrant (fresh liu)", "crisp outside, tender inside (fried liu)", "clear sauce, glossy starch"],
+    "translation_lang": "en"
+  },
+
+  "flavor_profile": {
+    "original": ["咸鲜味", "糖醋味", "荔枝味", "鱼香味"],
+    "original_lang": "zh",
+    "translation": ["savory-fresh", "sweet-sour", "lychee flavor", "fish-fragrant"],
+    "translation_lang": "en"
+  },
+
+  "related_dishes": {
+    "original": ["鲜熘鱼片", "番茄熘鱼片", "熘鸡丝", "醋熘鸡", "蚕豆熘虾仁", "糖醋脆皮鱼", "鱼香八块鸡"],
+    "original_lang": "zh",
+    "translation": ["fresh liu fish slices", "tomato liu fish slices", "liu chicken shreds", "vinegar liu chicken", "fava liu shrimp", "sweet-sour crispy fish", "fish-fragrant eight-piece chicken"],
+    "translation_lang": "en"
+  },
+
+  "images": {
+    "hero": null,
+    "note": {
+      "original": "技法类无成品图。",
+      "original_lang": "zh",
+      "translation": "Technique entries have no finished-dish photo.",
+      "translation_lang": "en"
+    }
+  },
+
+  "tags": {
+    "original": ["川菜技法", "熘", "热菜", "滑嫩菜"],
+    "original_lang": "zh",
+    "translation": ["Sichuan technique", "liu", "hot dish", "silky-texture dish"],
+    "translation_lang": "en"
+  }
+}
