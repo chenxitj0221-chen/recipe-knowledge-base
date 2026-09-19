@@ -1,0 +1,824 @@
+{
+  "id": "cilbir-turkish-eggs",
+  "source_type": "single_dish",
+  "source_file": "Cilbir - Turkish Eggs on Flatbread FULL RECIPE-1.pdf",
+  "source_author": "Sian",
+
+  "cuisine_branch": "western",
+
+  "name": {
+    "original": "Cilbir - Turkish Eggs on Flatbread",
+    "original_lang": "en",
+    "translation": "土耳其蛋配扁面包",
+    "translation_lang": "zh",
+    "review_status": "pending"
+  },
+
+  "classification": {
+    "cuisine": {
+      "original": "Turkish",
+      "original_lang": "en",
+      "translation": "土耳其",
+      "translation_lang": "zh"
+    },
+    "scenes": {
+      "original": ["brunch", "entertaining", "vegetarian option"],
+      "original_lang": "en",
+      "translation": ["早午餐", "宴客", "素食可选"],
+      "translation_lang": "zh"
+    },
+    "meal": {
+      "original": "brunch",
+      "original_lang": "en",
+      "translation": "早午餐",
+      "translation_lang": "zh"
+    },
+    "role": {
+      "original": "main",
+      "original_lang": "en",
+      "translation": "主菜",
+      "translation_lang": "zh"
+    },
+    "temperature": "hot"
+  },
+
+  "execution": {
+    "total_time_min": 90,
+    "active_time_min": 45,
+    "prep_ahead_required": true,
+    "prep_ahead_note": {
+      "original": "Pickled red onions need 1 day ahead (minimum 4 hours, best 12 hours).",
+      "original_lang": "en",
+      "translation": "腌红洋葱需提前 1 天制作（最少 4 小时，最佳 12 小时）。",
+      "translation_lang": "zh"
+    },
+    "difficulty": 3,
+    "servings": 10,
+    "serving_note": {
+      "original": "Recipe yields 10 portions of garnish; divide as necessary.",
+      "original_lang": "en",
+      "translation": "配方为 10 人份装饰量，可按需拆分。",
+      "translation_lang": "zh"
+    }
+  },
+
+  "flavor": {
+    "original": ["sour", "savory", "creamy", "mildly spicy", "herbal"],
+    "original_lang": "en",
+    "translation": ["酸", "咸鲜", "奶香", "微辣", "香草"],
+    "translation_lang": "zh"
+  },
+
+  "method": {
+    "original": ["pickle", "poach", "emulsify", "brown butter"],
+    "original_lang": "en",
+    "translation": ["腌制", "水波", "乳化", "焦化黄油"],
+    "translation_lang": "zh",
+    "review_status": "pending",
+    "review_note": {
+      "original": "brown butter is more accurately 'browned butter' or 'beurre noisette'; Chinese translation varies between 焦化黄油 / 褐化黄油 / 榛子黄油.",
+      "original_lang": "en",
+      "translation": "brown butter 更准确应为「褐化黄油」或「榛子黄油」，中文译名不统一。",
+      "translation_lang": "zh"
+    }
+  },
+
+  "components": [
+    {
+      "id": "pickled-red-onions",
+      "name": {
+        "original": "Pickled Red Onions",
+        "original_lang": "en",
+        "translation": "腌红洋葱",
+        "translation_lang": "zh"
+      },
+      "prep_ahead": "1 day",
+      "min_rest_hours": 4,
+      "best_rest_hours": 12,
+      "shelf_life": {
+        "original": "Not specified; suggest 5-7 days refrigerated.",
+        "original_lang": "en",
+        "translation": "原文未明确，建议冷藏 5-7 天。",
+        "translation_lang": "zh"
+      },
+      "reusable": true,
+      "reuse_note": {
+        "original": "Pickling liquid can be reused: bring back to boil and pour over next batch.",
+        "original_lang": "en",
+        "translation": "腌渍液可重复使用，重新煮沸后浇下一批洋葱即可。",
+        "translation_lang": "zh"
+      },
+      "ingredients": [
+        {
+          "item": {
+            "original": "red onions",
+            "original_lang": "en",
+            "translation": "红洋葱",
+            "translation_lang": "zh"
+          },
+          "amount": "2 large",
+          "note": {
+            "original": "petals separated and finely sliced",
+            "original_lang": "en",
+            "translation": "剥瓣后切细丝",
+            "translation_lang": "zh"
+          }
+        },
+        {
+          "item": {
+            "original": "white wine vinegar",
+            "original_lang": "en",
+            "translation": "白葡萄酒醋",
+            "translation_lang": "zh"
+          },
+          "amount": "200 g"
+        },
+        {
+          "item": {
+            "original": "water",
+            "original_lang": "en",
+            "translation": "水",
+            "translation_lang": "zh"
+          },
+          "amount": "200 g"
+        },
+        {
+          "item": {
+            "original": "caster sugar",
+            "original_lang": "en",
+            "translation": "细砂糖",
+            "translation_lang": "zh"
+          },
+          "amount": "100 g"
+        },
+        {
+          "item": {
+            "original": "fennel seeds",
+            "original_lang": "en",
+            "translation": "茴香籽",
+            "translation_lang": "zh"
+          },
+          "amount": "10"
+        },
+        {
+          "item": {
+            "original": "cloves",
+            "original_lang": "en",
+            "translation": "丁香",
+            "translation_lang": "zh"
+          },
+          "amount": "2"
+        },
+        {
+          "item": {
+            "original": "coriander seeds",
+            "original_lang": "en",
+            "translation": "芫荽籽",
+            "translation_lang": "zh"
+          },
+          "amount": "5"
+        },
+        {
+          "item": {
+            "original": "yellow mustard seeds",
+            "original_lang": "en",
+            "translation": "黄芥末籽",
+            "translation_lang": "zh"
+          },
+          "amount": "1 tbsp"
+        }
+      ],
+      "method_steps": [
+        {
+          "original": "Slice the onions thinly and place them in a tupperware container suitable for very hot liquid.",
+          "original_lang": "en",
+          "translation": "洋葱切细丝，放入耐热容器。",
+          "translation_lang": "zh"
+        },
+        {
+          "original": "Add the vinegar, water and sugar to a pot and bring to the boil.",
+          "original_lang": "en",
+          "translation": "醋、水、糖入锅煮沸。",
+          "translation_lang": "zh"
+        },
+        {
+          "original": "Stir so the sugar dissolves.",
+          "original_lang": "en",
+          "translation": "搅拌至糖溶解。",
+          "translation_lang": "zh"
+        },
+        {
+          "original": "Add in the aromats and remove from the heat.",
+          "original_lang": "en",
+          "translation": "加入香料，离火。",
+          "translation_lang": "zh"
+        },
+        {
+          "original": "Pour the liquid over the red onions, submerge them with the back of a spoon.",
+          "original_lang": "en",
+          "translation": "将热液倒入洋葱，用勺背压住使其浸没。",
+          "translation_lang": "zh"
+        },
+        {
+          "original": "Place a piece of parchment paper over the top and press it against the liquid.",
+          "original_lang": "en",
+          "translation": "表面盖烘焙纸，压住液体。",
+          "translation_lang": "zh"
+        },
+        {
+          "original": "Cool to room temperature, then refrigerate with a lid. Ready after 4 hours, best after 12.",
+          "original_lang": "en",
+          "translation": "室温冷却后加盖冷藏。4 小时后可用，12 小时最佳。",
+          "translation_lang": "zh"
+        }
+      ]
+    },
+    {
+      "id": "flatbread-brush",
+      "name": {
+        "original": "Flatbread Brush",
+        "original_lang": "en",
+        "translation": "扁面包刷油",
+        "translation_lang": "zh"
+      },
+      "prep_ahead": "same day",
+      "reusable": false,
+      "ingredients": [
+        {
+          "item": {
+            "original": "olive oil",
+            "original_lang": "en",
+            "translation": "橄榄油",
+            "translation_lang": "zh"
+          },
+          "amount": "a few glugs"
+        },
+        {
+          "item": {
+            "original": "sumac",
+            "original_lang": "en",
+            "translation": "苏马克",
+            "translation_lang": "zh"
+          },
+          "amount": "2 large pinches"
+        },
+        {
+          "item": {
+            "original": "mint leaves, chiffonade",
+            "original_lang": "en",
+            "translation": "薄荷叶，切丝",
+            "translation_lang": "zh"
+          },
+          "amount": "a pinch"
+        },
+        {
+          "item": {
+            "original": "salt",
+            "original_lang": "en",
+            "translation": "盐",
+            "translation_lang": "zh"
+          },
+          "amount": "a pinch"
+        },
+        {
+          "item": {
+            "original": "white pepper",
+            "original_lang": "en",
+            "translation": "白胡椒",
+            "translation_lang": "zh"
+          },
+          "amount": "a pinch"
+        }
+      ],
+      "method_steps": [
+        {
+          "original": "Mix everything together in a small bowl ready for plating.",
+          "original_lang": "en",
+          "translation": "所有材料放入小碗混合均匀，备用刷面包边缘。",
+          "translation_lang": "zh"
+        }
+      ]
+    },
+    {
+      "id": "garlic-labneh",
+      "name": {
+        "original": "Garlic Labneh",
+        "original_lang": "en",
+        "translation": "蒜味 Labneh",
+        "translation_lang": "zh"
+      },
+      "prep_ahead": "same day",
+      "reusable": true,
+      "substitution": {
+        "original": "If you cannot source Labneh, use thick Greek yoghurt instead.",
+        "original_lang": "en",
+        "translation": "买不到 Labneh 可用浓稠希腊酸奶代替。",
+        "translation_lang": "zh"
+      },
+      "ingredients": [
+        {
+          "item": {
+            "original": "labneh (or Greek yoghurt)",
+            "original_lang": "en",
+            "translation": "Labneh（或希腊酸奶）",
+            "translation_lang": "zh"
+          },
+          "amount": "500 g"
+        },
+        {
+          "item": {
+            "original": "raw garlic",
+            "original_lang": "en",
+            "translation": "生蒜",
+            "translation_lang": "zh"
+          },
+          "amount": "1 large clove",
+          "note": {
+            "original": "microplaned",
+            "original_lang": "en",
+            "translation": "用微刨器刨成泥",
+            "translation_lang": "zh"
+          }
+        }
+      ],
+      "method_steps": [
+        {
+          "original": "Place the labneh (or Greek yoghurt) into a bowl and microplane in the garlic.",
+          "original_lang": "en",
+          "translation": "Labneh 放入碗中，刨入蒜泥。",
+          "translation_lang": "zh"
+        },
+        {
+          "original": "Spoon into a piping bag or keep in a bowl, ready for plating.",
+          "original_lang": "en",
+          "translation": "拌匀后装入裱花袋或保留在碗中备用。",
+          "translation_lang": "zh"
+        }
+      ]
+    },
+    {
+      "id": "poached-eggs",
+      "name": {
+        "original": "Poached Eggs",
+        "original_lang": "en",
+        "translation": "水波蛋",
+        "translation_lang": "zh"
+      },
+      "prep_ahead": "same day (can be pre-poached and reheated)",
+      "reusable": false,
+      "ingredients": [
+        {
+          "item": {
+            "original": "eggs",
+            "original_lang": "en",
+            "translation": "鸡蛋",
+            "translation_lang": "zh"
+          },
+          "amount": "2 per portion"
+        },
+        {
+          "item": {
+            "original": "white wine vinegar",
+            "original_lang": "en",
+            "translation": "白葡萄酒醋",
+            "translation_lang": "zh"
+          },
+          "amount": "1 cup",
+          "note": {
+            "original": "for poaching water",
+            "original_lang": "en",
+            "translation": "煮蛋水中",
+            "translation_lang": "zh"
+          }
+        },
+        {
+          "item": {
+            "original": "salt",
+            "original_lang": "en",
+            "translation": "盐",
+            "translation_lang": "zh"
+          },
+          "amount": "a handful",
+          "note": {
+            "original": "for poaching water",
+            "original_lang": "en",
+            "translation": "煮蛋水中",
+            "translation_lang": "zh"
+          }
+        }
+      ],
+      "method_steps": [
+        {
+          "original": "Fill a large pot with water and bring it up to a light rolling boil.",
+          "original_lang": "en",
+          "translation": "大锅水烧至微滚。",
+          "translation_lang": "zh"
+        },
+        {
+          "original": "Add a handful of salt and one cup of white wine vinegar and mix.",
+          "original_lang": "en",
+          "translation": "加一把盐和一杯白葡萄酒醋，搅匀。",
+          "translation_lang": "zh"
+        },
+        {
+          "original": "With the rolling boil add in the eggs one by one, as quickly as possible so they all cook evenly.",
+          "original_lang": "en",
+          "translation": "鸡蛋逐个快速下锅，使受热均匀。",
+          "translation_lang": "zh"
+        },
+        {
+          "original": "Very lightly turn the water with the spoon to keep the eggs floating and moving around in the pot.",
+          "original_lang": "en",
+          "translation": "用勺轻推水面，让蛋保持浮动。",
+          "translation_lang": "zh"
+        },
+        {
+          "original": "When cooked to your liking, remove the eggs with a slotted spoon.",
+          "original_lang": "en",
+          "translation": "达到理想熟度后用漏勺捞出。",
+          "translation_lang": "zh"
+        },
+        {
+          "original": "Place the eggs into a tupperware container with water inside to keep the round shape - ready to reheat just before plating.",
+          "original_lang": "en",
+          "translation": "放入装有水的保鲜盒中保持圆形，上桌前快速复热。",
+          "translation_lang": "zh"
+        }
+      ]
+    },
+    {
+      "id": "brown-butter",
+      "name": {
+        "original": "Brown Butter",
+        "original_lang": "en",
+        "translation": "焦化黄油",
+        "translation_lang": "zh",
+        "review_status": "pending"
+      },
+      "prep_ahead": "same day",
+      "reusable": false,
+      "ingredients": [
+        {
+          "item": {
+            "original": "butter",
+            "original_lang": "en",
+            "translation": "黄油",
+            "translation_lang": "zh"
+          },
+          "amount": "150 g"
+        },
+        {
+          "item": {
+            "original": "paprika",
+            "original_lang": "en",
+            "translation": "辣椒粉",
+            "translation_lang": "zh"
+          },
+          "amount": "1 tsp"
+        },
+        {
+          "item": {
+            "original": "chilli flakes",
+            "original_lang": "en",
+            "translation": "辣椒碎",
+            "translation_lang": "zh"
+          },
+          "amount": "a pinch"
+        },
+        {
+          "item": {
+            "original": "salt",
+            "original_lang": "en",
+            "translation": "盐",
+            "translation_lang": "zh"
+          },
+          "amount": "a pinch"
+        }
+      ],
+      "method_steps": [
+        {
+          "original": "Heat a small pot to medium heat.",
+          "original_lang": "en",
+          "translation": "小锅中火加热。",
+          "translation_lang": "zh"
+        },
+        {
+          "original": "Melt the butter and continue stirring till the butter turns light brown and starts to bubble.",
+          "original_lang": "en",
+          "translation": "融化黄油并持续搅拌，至变浅棕色并起泡。",
+          "translation_lang": "zh"
+        },
+        {
+          "original": "Remove from the heat and add the spices and seasoning.",
+          "original_lang": "en",
+          "translation": "离火，加入香料和调味。",
+          "translation_lang": "zh"
+        },
+        {
+          "original": "Mix well and place aside ready for plating.",
+          "original_lang": "en",
+          "translation": "拌匀备用。",
+          "translation_lang": "zh"
+        }
+      ]
+    },
+    {
+      "id": "lemon-dressing",
+      "name": {
+        "original": "Lemon Dressing",
+        "original_lang": "en",
+        "translation": "柠檬油醋汁",
+        "translation_lang": "zh"
+      },
+      "prep_ahead": "same day",
+      "reusable": true,
+      "ingredients": [
+        {
+          "item": {
+            "original": "lemon juice",
+            "original_lang": "en",
+            "translation": "柠檬汁",
+            "translation_lang": "zh"
+          },
+          "amount": "125 g"
+        },
+        {
+          "item": {
+            "original": "grapeseed oil",
+            "original_lang": "en",
+            "translation": "葡萄籽油",
+            "translation_lang": "zh"
+          },
+          "amount": "125 g"
+        },
+        {
+          "item": {
+            "original": "olive oil",
+            "original_lang": "en",
+            "translation": "橄榄油",
+            "translation_lang": "zh"
+          },
+          "amount": "125 g"
+        },
+        {
+          "item": {
+            "original": "Dijon mustard",
+            "original_lang": "en",
+            "translation": "第戎芥末",
+            "translation_lang": "zh"
+          },
+          "amount": "25 g"
+        },
+        {
+          "item": {
+            "original": "honey",
+            "original_lang": "en",
+            "translation": "蜂蜜",
+            "translation_lang": "zh"
+          },
+          "amount": "38 g"
+        },
+        {
+          "item": {
+            "original": "salt",
+            "original_lang": "en",
+            "translation": "盐",
+            "translation_lang": "zh"
+          },
+          "amount": "a pinch"
+        }
+      ],
+      "method_steps": [
+        {
+          "original": "Measure and place everything into a tall jug for emulsification.",
+          "original_lang": "en",
+          "translation": "所有材料放入高杯。",
+          "translation_lang": "zh"
+        },
+        {
+          "original": "Use a stick blender to emulsify the sauce till thick and glossy.",
+          "original_lang": "en",
+          "translation": "用均质机乳化至浓稠有光泽。",
+          "translation_lang": "zh"
+        },
+        {
+          "original": "Check seasonings.",
+          "original_lang": "en",
+          "translation": "调味。",
+          "translation_lang": "zh"
+        },
+        {
+          "original": "Store dressing in a bottle or jar.",
+          "original_lang": "en",
+          "translation": "装入瓶罐保存。",
+          "translation_lang": "zh"
+        }
+      ]
+    },
+    {
+      "id": "herb-salad",
+      "name": {
+        "original": "Herb Salad",
+        "original_lang": "en",
+        "translation": "香草沙拉",
+        "translation_lang": "zh"
+      },
+      "prep_ahead": "at plating",
+      "reusable": false,
+      "ingredients": [
+        {
+          "item": {
+            "original": "dill",
+            "original_lang": "en",
+            "translation": "莳萝",
+            "translation_lang": "zh"
+          },
+          "amount": "as needed"
+        },
+        {
+          "item": {
+            "original": "coriander",
+            "original_lang": "en",
+            "translation": "芫荽",
+            "translation_lang": "zh"
+          },
+          "amount": "as needed"
+        },
+        {
+          "item": {
+            "original": "mint",
+            "original_lang": "en",
+            "translation": "薄荷",
+            "translation_lang": "zh"
+          },
+          "amount": "as needed"
+        }
+      ],
+      "method_steps": [
+        {
+          "original": "Pick the herbs and place them in a bowl for dressing just before plating.",
+          "original_lang": "en",
+          "translation": "摘取香草放入碗中，上桌前用柠檬油醋汁拌好。",
+          "translation_lang": "zh"
+        }
+      ]
+    }
+  ],
+
+  "assembly": {
+    "name": {
+      "original": "Plating: Cilbir - Turkish Eggs on Flatbread",
+      "original_lang": "en",
+      "translation": "装盘：土耳其蛋配扁面包",
+      "translation_lang": "zh"
+    },
+    "steps": [
+      {
+        "original": "Cook your flatbreads and allow to drain of oil for a minute.",
+        "original_lang": "en",
+        "translation": "烤好扁面包，沥油一分钟。",
+        "translation_lang": "zh"
+      },
+      {
+        "original": "Place your cooked flatbread on to a tray or rack for garnishing. We will not garnish and finish plating directly on the serving plate as it will keep the final plate clean and beautifully presented.",
+        "original_lang": "en",
+        "translation": "扁面包放在烤架或托盘上装饰。不要直接在出餐盘上装饰，以保持成品干净美观。",
+        "translation_lang": "zh"
+      },
+      {
+        "original": "Brush the oil, sumac and mint oil all around the edges of the flatbread.",
+        "original_lang": "en",
+        "translation": "用刷油（橄榄油、苏马克、薄荷油）刷扁面包边缘。",
+        "translation_lang": "zh"
+      },
+      {
+        "original": "Pipe garlic labneh into the middle of the flatbread and spread out with the back of a spoon - almost to the edges, about 1.5cm from the edge.",
+        "original_lang": "en",
+        "translation": "将蒜味 Labneh 挤在扁面包中央，用勺背抹开至距边缘约 1.5 cm。",
+        "translation_lang": "zh"
+      },
+      {
+        "original": "Flash your eggs in the boiling water for a few seconds to heat, then place them into the center of the labneh.",
+        "original_lang": "en",
+        "translation": "水波蛋在沸水中快速复热几秒，放在 Labneh 中央。",
+        "translation_lang": "zh"
+      },
+      {
+        "original": "Spoon the brown butter over the eggs and labneh, making sure to leak over the sides slightly for colour contrast.",
+        "original_lang": "en",
+        "translation": "将棕色黄油淋在蛋和 Labneh 上，让黄油略微流到边缘形成颜色对比。",
+        "translation_lang": "zh"
+      },
+      {
+        "original": "Dress the herb salad generously with lemon dressing and season to taste.",
+        "original_lang": "en",
+        "translation": "香草沙拉用柠檬油醋汁充分拌匀，调味。",
+        "translation_lang": "zh"
+      },
+      {
+        "original": "Decorate the eggs and labneh with the salad.",
+        "original_lang": "en",
+        "translation": "用沙拉装饰蛋和 Labneh。",
+        "translation_lang": "zh"
+      },
+      {
+        "original": "Finish garnishing the salad with the pickled red onions.",
+        "original_lang": "en",
+        "translation": "最后撒上腌红洋葱。",
+        "translation_lang": "zh"
+      },
+      {
+        "original": "Sprinkle over some sumac to finish.",
+        "original_lang": "en",
+        "translation": "再撒一些苏马克收尾。",
+        "translation_lang": "zh"
+      },
+      {
+        "original": "Move your beautiful flatbread on to a plate and serve!",
+        "original_lang": "en",
+        "translation": "将扁面包移至餐盘上桌。",
+        "translation_lang": "zh"
+      }
+    ]
+  },
+
+  "images": {
+    "hero": null,
+    "components": [],
+    "process": [],
+    "note": {
+      "original": "Source PDF contains no dish photos.",
+      "original_lang": "en",
+      "translation": "源 PDF 无成品图，待补拍。",
+      "translation_lang": "zh"
+    }
+  },
+
+  "allergens": {
+    "original": ["egg", "dairy", "mustard"],
+    "original_lang": "en",
+    "translation": ["蛋", "奶", "芥末"],
+    "translation_lang": "zh"
+  },
+
+  "dietary_flags": {
+    "original": ["vegetarian option (remove eggs for vegan)"],
+    "original_lang": "en",
+    "translation": ["素食可选（去掉蛋即为素食）"],
+    "translation_lang": "zh"
+  },
+
+  "tags": {
+    "original": ["make-ahead", "component-reuse", "brunch", "entertaining", "turkish"],
+    "original_lang": "en",
+    "translation": ["可预制", "组件复用", "早午餐", "宴客", "土耳其菜"],
+    "translation_lang": "zh"
+  },
+
+  "review_queue": [
+    {
+      "field": "method",
+      "original": "brown butter",
+      "translation": "焦化黄油",
+      "issue": {
+        "original": "Chinese translation varies: 焦化黄油 / 褐化黄油 / 榛子黄油.",
+        "original_lang": "en",
+        "translation": "中文译名不统一：焦化黄油 / 褐化黄油 / 榛子黄油。",
+        "translation_lang": "zh"
+      },
+      "status": "pending"
+    },
+    {
+      "field": "name",
+      "original": "Cilbir",
+      "translation": "土耳其蛋配扁面包",
+      "issue": {
+        "original": "Cilbir is the specific Turkish dish name; the translation describes it rather than naming it.",
+        "original_lang": "en",
+        "translation": "Cilbir 是土耳其菜专名，中文译名偏描述性，建议保留原名 Cilbir 并附注。",
+        "translation_lang": "zh"
+      },
+      "status": "pending"
+    },
+    {
+      "field": "component.garlic-labneh",
+      "original": "labneh",
+      "translation": "Labneh",
+      "issue": {
+        "original": "Labneh has no standard Chinese translation; transliteration '拉布尼' is sometimes used.",
+        "original_lang": "en",
+        "translation": "Labneh 无标准中文译名，偶见音译「拉布尼」。",
+        "translation_lang": "zh"
+      },
+      "status": "pending"
+    },
+    {
+      "field": "missing_info",
+      "original": "Flatbread recipe is in attachment, not in this file.",
+      "original_lang": "en",
+      "translation": "扁面包配方在附件中，当前文件未包含。",
+      "translation_lang": "zh",
+      "status": "pending"
+    }
+  ]
+}
