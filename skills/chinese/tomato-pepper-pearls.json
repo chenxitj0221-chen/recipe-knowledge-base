@@ -1,0 +1,365 @@
+{
+  "id": "tomato-pepper-pearls",
+  "source_type": "single_component",
+  "source_file": "pino的烹饪美学_番茄彩椒凝珠.jpg",
+  "source_author": "pino的烹饪美学",
+
+  "cuisine_branch": "chinese",
+
+  "technique_origin": {
+    "original": "现代西餐 / 分子料理",
+    "original_lang": "zh",
+    "translation": "Modern Western / Molecular Gastronomy",
+    "translation_lang": "en",
+    "review_status": "pending",
+    "review_note": {
+      "original": "该菜使用西餐分子料理技法（agar 凝珠、油浴定型），但以中文表达。归入 chinese 分支是因为原始信息语言为中文，技法来源单独标记，避免与中式烹饪混淆。",
+      "original_lang": "zh",
+      "translation": "Uses Western molecular technique (agar pearls, oil-set) but expressed in Chinese. Classified under 'chinese' branch because source language is Chinese; technique origin is tracked separately.",
+      "translation_lang": "en"
+    }
+  },
+
+  "name": {
+    "original": "番茄彩椒凝珠",
+    "original_lang": "zh",
+    "translation": "Tomato & Pepper Pearls",
+    "translation_lang": "en",
+    "review_status": "pending"
+  },
+
+  "classification": {
+    "cuisine": {
+      "original": "融合菜 / 现代西餐技法",
+      "original_lang": "zh",
+      "translation": "Fusion / Modern Western Technique",
+      "translation_lang": "en",
+      "review_status": "pending"
+    },
+    "scenes": {
+      "original": ["摆盘装饰", "宴客", "米其林风格", "前菜点缀"],
+      "original_lang": "zh",
+      "translation": ["plating garnish", "entertaining", "Michelin-style", "canape garnish"],
+      "translation_lang": "en"
+    },
+    "meal": {
+      "original": "装饰 / 前菜组件",
+      "original_lang": "zh",
+      "translation": "garnish / starter component",
+      "translation_lang": "en"
+    },
+    "role": {
+      "original": "装饰组件",
+      "original_lang": "zh",
+      "translation": "garnish component",
+      "translation_lang": "en"
+    },
+    "temperature": "cold"
+  },
+
+  "execution": {
+    "total_time_min": 150,
+    "active_time_min": 30,
+    "prep_ahead_required": true,
+    "prep_ahead_note": {
+      "original": "成型需冷藏 2 小时以上。",
+      "original_lang": "zh",
+      "translation": "Requires at least 2 hours chilling to set.",
+      "translation_lang": "en"
+    },
+    "difficulty": 4,
+    "servings": null,
+    "serving_note": {
+      "original": "原文未标注份量，按产出凝珠数量计。",
+      "original_lang": "zh",
+      "translation": "No serving size given; count by pearls produced.",
+      "translation_lang": "en"
+    }
+  },
+
+  "flavor": {
+    "original": ["酸甜", "番茄", "彩椒", "柠檬"],
+    "original_lang": "zh",
+    "translation": ["sweet-sour", "tomato", "bell pepper", "lemon"],
+    "translation_lang": "en"
+  },
+
+  "method": {
+    "original": ["榨汁", "过滤", "加热", "凝珠", "油浴定型"],
+    "original_lang": "zh",
+    "translation": ["juice", "strain", "heat", "spherify", "oil-set"],
+    "translation_lang": "en",
+    "review_status": "pending",
+    "review_note": {
+      "original": "「凝珠」对应 reverse spherification 或 direct spherification，具体取决于 agar 用量与油浴方式；「油浴定型」中文无标准英文对应，需人工确认是否等同 oil bath setting。",
+      "original_lang": "zh",
+      "translation": "The Chinese term '凝珠' may map to reverse/direct spherification; '油浴定型' has no standard English equivalent. Manual review needed.",
+      "translation_lang": "en"
+    }
+  },
+
+  "components": [
+    {
+      "id": "tomato-pepper-juice",
+      "name": {
+        "original": "番茄彩椒榨汁",
+        "original_lang": "zh",
+        "translation": "Tomato & Pepper Juice",
+        "translation_lang": "en"
+      },
+      "prep_ahead": "same day",
+      "reusable": true,
+      "ingredients": [
+        {
+          "item": {
+            "original": "彩椒",
+            "original_lang": "zh",
+            "translation": "bell pepper",
+            "translation_lang": "en"
+          },
+          "amount": "1 个"
+        },
+        {
+          "item": {
+            "original": "小番茄",
+            "original_lang": "zh",
+            "translation": "cherry tomatoes",
+            "translation_lang": "en"
+          },
+          "amount": "10 个"
+        },
+        {
+          "item": {
+            "original": "纯净水",
+            "original_lang": "zh",
+            "translation": "purified water",
+            "translation_lang": "en"
+          },
+          "amount": "240 ml"
+        },
+        {
+          "item": {
+            "original": "柠檬汁",
+            "original_lang": "zh",
+            "translation": "lemon juice",
+            "translation_lang": "en"
+          },
+          "amount": "40 g"
+        },
+        {
+          "item": {
+            "original": "白砂糖",
+            "original_lang": "zh",
+            "translation": "white sugar",
+            "translation_lang": "en"
+          },
+          "amount": "25 g"
+        }
+      ],
+      "method_steps": [
+        {
+          "original": "彩椒、小番茄、纯净水、柠檬汁、白砂糖混合榨汁。",
+          "original_lang": "zh",
+          "translation": "Blend bell pepper, cherry tomatoes, water, lemon juice and sugar.",
+          "translation_lang": "en"
+        },
+        {
+          "original": "过滤取汁。",
+          "original_lang": "zh",
+          "translation": "Strain to obtain clear juice.",
+          "translation_lang": "en"
+        },
+        {
+          "original": "加入汁水重量 1% 的 agar。",
+          "original_lang": "zh",
+          "translation": "Add agar at 1% of juice weight.",
+          "translation_lang": "en",
+          "review_status": "pending",
+          "review_note": {
+            "original": "agar 中文常译「琼脂」，但此处原文用英文 agar，保留原词更准确。",
+            "original_lang": "zh",
+            "translation": "'agar' is usually '琼脂' in Chinese, but keeping the English term avoids confusion with 寒天/agar-agar.",
+            "translation_lang": "en"
+          }
+        },
+        {
+          "original": "倒入锅中边搅拌边加热至沸腾。",
+          "original_lang": "zh",
+          "translation": "Heat in a saucepan while stirring until boiling.",
+          "translation_lang": "en"
+        }
+      ]
+    },
+    {
+      "id": "oil-set-pearls",
+      "name": {
+        "original": "油浴凝珠",
+        "original_lang": "zh",
+        "translation": "Oil-Set Pearls",
+        "translation_lang": "en",
+        "review_status": "pending"
+      },
+      "prep_ahead": "same day",
+      "reusable": false,
+      "equipment": [
+        {
+          "original": "挤酱瓶",
+          "original_lang": "zh",
+          "translation": "squeeze bottle",
+          "translation_lang": "en"
+        },
+        {
+          "original": "冷藏橄榄油",
+          "original_lang": "zh",
+          "translation": "chilled olive oil",
+          "translation_lang": "en"
+        }
+      ],
+      "method_steps": [
+        {
+          "original": "沸腾后装入挤酱瓶。",
+          "original_lang": "zh",
+          "translation": "Pour boiling mixture into a squeeze bottle.",
+          "translation_lang": "en"
+        },
+        {
+          "original": "将汁液挤入冷藏 2 小时以上的橄榄油中，形成小珍珠状。",
+          "original_lang": "zh",
+          "translation": "Squeeze droplets into olive oil chilled for at least 2 hours, forming small pearls.",
+          "translation_lang": "en"
+        },
+        {
+          "original": "完全冷却凝固后，从油中滤出，用纯净水冲洗。",
+          "original_lang": "zh",
+          "translation": "Once fully set, strain from oil and rinse with purified water.",
+          "translation_lang": "en"
+        },
+        {
+          "original": "保鲜冷藏保存。",
+          "original_lang": "zh",
+          "translation": "Store refrigerated in a sealed container.",
+          "translation_lang": "en"
+        }
+      ]
+    }
+  ],
+
+  "assembly": {
+    "name": {
+      "original": "装盘使用",
+      "original_lang": "zh",
+      "translation": "Plating & Use",
+      "translation_lang": "en"
+    },
+    "steps": [
+      {
+        "original": "从冷藏取出凝珠，用净水冲洗后直接用于摆盘点缀。",
+        "original_lang": "zh",
+        "translation": "Remove pearls from fridge, rinse and use directly as plating garnish.",
+        "translation_lang": "en"
+      }
+    ]
+  },
+
+  "images": {
+    "hero": null,
+    "components": [],
+    "process": [],
+    "note": {
+      "original": "来源为社交媒体截图，无成品图。",
+      "original_lang": "zh",
+      "translation": "Source is a social media screenshot; no finished dish photo.",
+      "translation_lang": "en"
+    }
+  },
+
+  "allergens": {
+    "original": [],
+    "original_lang": "zh",
+    "translation": [],
+    "translation_lang": "en",
+    "review_note": {
+      "original": "Agar 为海藻提取物，通常不列为过敏原，但需确认食用者是否对海藻敏感。",
+      "original_lang": "zh",
+      "translation": "Agar is a seaweed extract, not a standard allergen, but check for seaweed sensitivity.",
+      "translation_lang": "en"
+    }
+  },
+
+  "dietary_flags": {
+    "original": ["素食", "纯素"],
+    "original_lang": "zh",
+    "translation": ["vegetarian", "vegan"],
+    "translation_lang": "en"
+  },
+
+  "tags": {
+    "original": ["分子料理", "摆盘装饰", "可预制", "米其林风格", "西餐技法"],
+    "original_lang": "zh",
+    "translation": ["molecular gastronomy", "plating garnish", "make-ahead", "Michelin-style", "Western technique"],
+    "translation_lang": "en"
+  },
+
+  "review_queue": [
+    {
+      "field": "cuisine_branch",
+      "original": "chinese",
+      "translation": null,
+      "issue": {
+        "original": "该菜使用西餐分子料理技法，但以中文表达，归入 chinese 分支是否合适需人工决定。已通过 technique_origin 字段标记技法来源。",
+        "original_lang": "zh",
+        "translation": "Uses Western molecular technique but expressed in Chinese. Classified under 'chinese' branch; technique origin is tracked separately.",
+        "translation_lang": "en"
+      },
+      "status": "pending"
+    },
+    {
+      "field": "method",
+      "original": "凝珠",
+      "translation": "spherify",
+      "issue": {
+        "original": "「凝珠」需确认是 reverse spherification 还是 direct spherification，两者工艺不同。本菜用 agar + 油浴，严格说是 agar jelly droplets，不是真正的 spherification。",
+        "original_lang": "zh",
+        "translation": "Need to confirm reverse vs. direct spherification. This recipe uses agar + oil bath, strictly 'agar jelly droplets', not true spherification.",
+        "translation_lang": "en"
+      },
+      "status": "pending"
+    },
+    {
+      "field": "method",
+      "original": "油浴定型",
+      "translation": "oil-set",
+      "issue": {
+        "original": "「油浴定型」无标准英文对应，需人工确认术语。",
+        "original_lang": "zh",
+        "translation": "No standard English equivalent for '油浴定型'.",
+        "translation_lang": "en"
+      },
+      "status": "pending"
+    },
+    {
+      "field": "ingredient",
+      "original": "agar",
+      "translation": "琼脂",
+      "issue": {
+        "original": "原文用英文 agar，建议保留原词，避免与「寒天」混淆。",
+        "original_lang": "zh",
+        "translation": "Original uses 'agar'; keep as-is to avoid confusion with 'kanten/寒天'.",
+        "translation_lang": "en"
+      },
+      "status": "pending"
+    },
+    {
+      "field": "servings",
+      "original": "未标注",
+      "translation": null,
+      "issue": {
+        "original": "原文未给出份量，无法计算采购量，需补全。",
+        "original_lang": "zh",
+        "translation": "No serving size given; purchasing quantities cannot be calculated.",
+        "translation_lang": "en"
+      },
+      "status": "action_required"
+    }
+  ]
+}
