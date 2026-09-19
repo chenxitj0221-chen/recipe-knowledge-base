@@ -1,0 +1,117 @@
+{
+  "id": "tangcu-cuipi-yu",
+  "source_type": "single_dish",
+  "source_file": "川菜烹饪技法解密.爆、炒、熘、煎、浸、炸.李凯.扫描版.pdf",
+  "source_author": "李凯、普天红",
+
+  "cuisine_branch": "chinese",
+
+  "name": {
+    "original": "糖醋脆皮鱼",
+    "original_lang": "zh",
+    "translation": "Sweet-and-Sour Crispy Fish",
+    "translation_lang": "en",
+    "review_status": "pending",
+    "review_note": {
+      "original": "「脆皮」指炸后外皮酥脆，英文 crispy 可传达，但糖醋味的复合性需附注。",
+      "original_lang": "zh",
+      "translation": "'Crispy skin' translates well; the sweet-sour composite needs a note.",
+      "translation_lang": "en"
+    }
+  },
+
+  "classification": {
+    "cuisine": { "original": "川菜", "original_lang": "zh", "translation": "Sichuan Cuisine", "translation_lang": "en" },
+    "scenes": { "original": ["宴客", "节庆", "整鱼上桌"], "original_lang": "zh", "translation": ["entertaining", "festive", "whole-fish presentation"], "translation_lang": "en" },
+    "meal": { "original": "午餐 / 晚餐", "original_lang": "zh", "translation": "lunch / dinner", "translation_lang": "en" },
+    "role": { "original": "热菜 / 主菜", "original_lang": "zh", "translation": "hot dish / main", "translation_lang": "en" },
+    "temperature": "hot"
+  },
+
+  "technique": { "original": "炸", "original_lang": "zh", "translation": "Zha (deep-frying)", "translation_lang": "en", "technique_ref": "technique-zha" },
+  "sub_technique": { "original": "炸熘", "original_lang": "zh", "translation": "fried liu", "translation_lang": "en" },
+
+  "flavor_profile": {
+    "original": ["糖醋味"],
+    "original_lang": "zh",
+    "translation": ["sweet-and-sour"],
+    "translation_lang": "en",
+    "review_status": "pending",
+    "review_note": {
+      "original": "糖醋味为「大甜酸」，进口即有浓浓甜酸味，区别于荔枝味的「小甜酸」。",
+      "original_lang": "zh",
+      "translation": "Sweet-and-sour is 'big sweet-sour', immediately assertive, unlike lychee flavor's 'small sweet-sour'.",
+      "translation_lang": "en"
+    }
+  },
+
+  "execution": {
+    "total_time_min": 40,
+    "active_time_min": 20,
+    "prep_ahead_required": false,
+    "difficulty": 4,
+    "servings": 3,
+    "serving_note": { "original": "原书未标份量，按 1 尾鱼估算为 3 人份。", "original_lang": "zh", "translation": "Estimated 3 pax for one fish.", "translation_lang": "en" },
+    "heat_level": { "original": "旺火", "original_lang": "zh", "translation": "high heat", "translation_lang": "en" },
+    "oil_temperature": { "original": "八成左右", "original_lang": "zh", "translation": "around 80%", "translation_lang": "en" },
+    "critical_points": [
+      { "original": "鱼身两面各斜剞五至七刀，先直刀剞入，再放平刀身向前推进约 2–3 厘米。", "original_lang": "zh", "translation": "Score each side of the fish 5–7 times: cut straight down, then angle the blade forward 2–3 cm.", "translation_lang": "en" },
+      { "original": "炸制前，鱼身抹匀水淀粉，不能用全蛋淀粉。全蛋淀粉遇热后质地酥松而不酥脆，淋上滋汁则变软。", "original_lang": "zh", "translation": "Coat with wet starch only; whole-egg starch turns soft rather than crisp once sauce is poured on.", "translation_lang": "en" },
+      { "original": "鱼下锅时，油温宜高，将鱼炸定形后，再降低油温，浸炸至熟。", "original_lang": "zh", "translation": "Enter the fish at high oil temperature to set its shape, then lower to cook through.", "translation_lang": "en" },
+      { "original": "淋汁前，将鱼再用高油温回炸一次，以使表皮酥脆。", "original_lang": "zh", "translation": "Before saucing, re-fry at high heat to crisp the skin.", "translation_lang": "en" }
+    ],
+    "common_mistakes": [
+      { "original": "用全蛋淀粉挂糊，成菜回软不脆。", "original_lang": "zh", "translation": "Whole-egg starch coating softens the crust.", "translation_lang": "en" },
+      { "original": "油温不够，鱼身不酥。", "original_lang": "zh", "translation": "Low oil temperature yields a soggy fish.", "translation_lang": "en" },
+      { "original": "滋汁酸甜比例失衡，盖过鱼鲜。", "original_lang": "zh", "translation": "Unbalanced sweet-sour sauce masks the fish.", "translation_lang": "en" }
+    ]
+  },
+
+  "components": [
+    {
+      "id": "main",
+      "name": { "original": "主料", "original_lang": "zh", "translation": "Main", "translation_lang": "en" },
+      "ingredients": [
+        { "item": { "original": "草鱼", "original_lang": "zh", "translation": "grass carp", "translation_lang": "en" }, "amount": "1 尾，约 750 克" },
+        { "item": { "original": "姜、蒜米、葱段", "original_lang": "zh", "translation": "ginger, garlic, scallion", "translation_lang": "en" }, "amount": "各适量" }
+      ]
+    },
+    {
+      "id": "seasoning",
+      "name": { "original": "调味料", "original_lang": "zh", "translation": "Seasonings", "translation_lang": "en" },
+      "ingredients": [
+        { "item": { "original": "白糖", "original_lang": "zh", "translation": "sugar", "translation_lang": "en" }, "amount": "75 克" },
+        { "item": { "original": "醋", "original_lang": "zh", "translation": "vinegar", "translation_lang": "en" }, "amount": "30 克" },
+        { "item": { "original": "酱油、盐、绍酒、干豆粉、水豆粉、汤、芝麻油、菜油", "original_lang": "zh", "translation": "soy sauce, salt, wine, dry starch, wet starch, stock, sesame oil, vegetable oil", "translation_lang": "en" }, "amount": "适量" }
+      ]
+    }
+  ],
+
+  "method_steps": [
+    { "step": 1, "original": "鱼宰杀制净，两面斜剞五至七刀。", "original_lang": "zh", "translation": "Clean the fish and score each side 5–7 times.", "translation_lang": "en" },
+    { "step": 2, "original": "鱼身抹匀水淀粉，不能挂全蛋淀粉。", "original_lang": "zh", "translation": "Coat with wet starch only, not whole-egg starch.", "translation_lang": "en" },
+    { "step": 3, "original": "旺火烧油至八成，鱼下锅炸定形，再降低油温浸炸至熟，打起。", "original_lang": "zh", "translation": "Heat oil to 80%, fry the fish to set its shape, lower the heat to cook through, and remove.", "translation_lang": "en" },
+    { "step": 4, "original": "淋汁前再用高油温回炸一次，使表皮酥脆。", "original_lang": "zh", "translation": "Re-fry at high heat to crisp the skin before saucing.", "translation_lang": "en" },
+    { "step": 5, "original": "锅中留油，下姜蒜米炒香，烹入糖醋滋汁，收成二流芡。", "original_lang": "zh", "translation": "Leave oil in the wok, fry ginger and garlic, pour in the sweet-sour sauce, and reduce to second-stream thickness.", "translation_lang": "en" },
+    { "step": 6, "original": "将滋汁浇到鱼身上即成。", "original_lang": "zh", "translation": "Pour the sauce over the fish and serve.", "translation_lang": "en" }
+  ],
+
+  "images": { "hero": null, "process": [], "note": { "original": "源 PDF 有分步图，暂未提取。", "original_lang": "zh", "translation": "Source has step photos; not yet extracted.", "translation_lang": "en" } },
+
+  "allergens": {
+    "original": ["鱼", "大豆", "小麦"],
+    "original_lang": "zh",
+    "translation": ["fish", "soy", "wheat"],
+    "translation_lang": "en",
+    "review_note": { "original": "原文未标过敏原，此为根据鱼、酱油、豆粉推断。", "original_lang": "zh", "translation": "Inferred from fish, soy sauce, and starch.", "translation_lang": "en" }
+  },
+
+  "dietary_flags": { "original": [], "original_lang": "zh", "translation": [], "translation_lang": "en" },
+
+  "tags": {
+    "original": ["川菜", "炸", "炸熘", "糖醋味", "宴客菜"],
+    "original_lang": "zh",
+    "translation": ["Sichuan", "zha", "fried liu", "sweet-and-sour", "entertaining"],
+    "translation_lang": "en"
+  }
+}

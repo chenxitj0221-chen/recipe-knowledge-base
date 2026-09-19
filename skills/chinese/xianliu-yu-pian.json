@@ -1,0 +1,145 @@
+{
+  "id": "xianliu-yu-pian",
+  "source_type": "single_dish",
+  "source_file": "川菜烹饪技法解密.爆、炒、熘、煎、浸、炸.李凯.扫描版.pdf",
+  "source_author": "李凯、普天红",
+
+  "cuisine_branch": "chinese",
+
+  "name": {
+    "original": "鲜熘鱼片",
+    "original_lang": "zh",
+    "translation": "Fresh Liu Fish Slices",
+    "translation_lang": "en",
+    "review_status": "pending",
+    "review_note": {
+      "original": "「鲜熘」指不用炸、直接滑油的熘法，区别于「炸熘」。建议保留 xianliu 并附注。",
+      "original_lang": "zh",
+      "translation": "'Fresh liu' means oil-passing without deep-frying, as opposed to 'fried liu'.",
+      "translation_lang": "en"
+    }
+  },
+
+  "classification": {
+    "cuisine": { "original": "川菜", "original_lang": "zh", "translation": "Sichuan Cuisine", "translation_lang": "en" },
+    "scenes": { "original": ["家常", "宴客", "清淡"], "original_lang": "zh", "translation": ["home cooking", "entertaining", "light"], "translation_lang": "en" },
+    "meal": { "original": "午餐 / 晚餐", "original_lang": "zh", "translation": "lunch / dinner", "translation_lang": "en" },
+    "role": { "original": "热菜 / 主菜", "original_lang": "zh", "translation": "hot dish / main", "translation_lang": "en" },
+    "temperature": "hot"
+  },
+
+  "technique": { "original": "熘", "original_lang": "zh", "translation": "Liu (quick-fry with sauce)", "translation_lang": "en", "technique_ref": "technique-liu" },
+  "sub_technique": { "original": "鲜熘", "original_lang": "zh", "translation": "fresh liu", "translation_lang": "en" },
+
+  "flavor_profile": {
+    "original": ["咸鲜味"],
+    "original_lang": "zh",
+    "translation": ["savory-fresh (xian xian)"],
+    "translation_lang": "en",
+    "review_status": "pending",
+    "review_note": {
+      "original": "鲜熘菜以咸鲜味为主，要求清淡、素雅，不使用深色调味品。",
+      "original_lang": "zh",
+      "translation": "Fresh liu is primarily savory-fresh; light and pale, no dark seasonings.",
+      "translation_lang": "en"
+    }
+  },
+
+  "execution": {
+    "total_time_min": 30,
+    "active_time_min": 15,
+    "prep_ahead_required": false,
+    "difficulty": 4,
+    "servings": 2,
+    "serving_note": { "original": "原书未标份量，按 750 克草鱼估算为 2 人份。", "original_lang": "zh", "translation": "Source does not specify servings; estimated 2 pax based on 750 g grass carp.", "translation_lang": "en" },
+    "heat_level": { "original": "中火", "original_lang": "zh", "translation": "medium heat", "translation_lang": "en" },
+    "oil_temperature": { "original": "三至四成，约 90–120°C", "original_lang": "zh", "translation": "30–40%, approx. 90–120°C", "translation_lang": "en" },
+    "critical_points": [
+      {
+        "original": "鱼片切片厚薄要依鱼的肉质结构而定：乌鱼肉紧，可切薄；草鱼肉松，需切厚，否则易烂。",
+        "original_lang": "zh",
+        "translation": "Slice thickness depends on the fish: firm snakehead can be thin; looser grass carp needs thicker slices to avoid breaking.",
+        "translation_lang": "en"
+      },
+      {
+        "original": "鱼片切好后用清水泡一下，让鱼片吸点水，防止翻硬。",
+        "original_lang": "zh",
+        "translation": "Soak the slices briefly in water so they absorb moisture and don't toughen.",
+        "translation_lang": "en"
+      },
+      {
+        "original": "码味上浆要先码水豆粉，再用蛋清豆粉，顺序不能反。",
+        "original_lang": "zh",
+        "translation": "Velvet with wet starch first, then egg-white starch; do not reverse the order.",
+        "translation_lang": "en"
+      },
+      {
+        "original": "鱼片在锅里滑散后，大部分油要滗起来，只留少许，避免菜油腻。",
+        "original_lang": "zh",
+        "translation": "After the fish separates in oil, drain most of it, leaving only a little.",
+        "translation_lang": "en"
+      },
+      {
+        "original": "滋汁要简单：盐、水豆粉、味精。鱼本身有鲜味，味精可少放或不放。",
+        "original_lang": "zh",
+        "translation": "Keep the sauce simple: salt, wet starch, MSG. Fish is already savory; MSG can be reduced or omitted.",
+        "translation_lang": "en"
+      }
+    ],
+    "common_mistakes": [
+      { "original": "鱼片切太薄，下锅易碎。", "original_lang": "zh", "translation": "Slices too thin break in the wok.", "translation_lang": "en" },
+      { "original": "油温过高，鱼片不滑散，或脱芡。", "original_lang": "zh", "translation": "Oil too hot prevents separation or slips the coating.", "translation_lang": "en" },
+      { "original": "滋汁颜色过深，破坏鲜熘菜素雅的要求。", "original_lang": "zh", "translation": "A dark sauce ruins the pale elegance of fresh liu.", "translation_lang": "en" }
+    ]
+  },
+
+  "components": [
+    {
+      "id": "main",
+      "name": { "original": "主料与配料", "original_lang": "zh", "translation": "Main and auxiliary", "translation_lang": "en" },
+      "ingredients": [
+        { "item": { "original": "草鱼", "original_lang": "zh", "translation": "grass carp", "translation_lang": "en" }, "amount": "约 750 克", "note": { "original": "取净肉，切片", "original_lang": "zh", "translation": "fillet, slice", "translation_lang": "en" } },
+        { "item": { "original": "熟冬笋", "original_lang": "zh", "translation": "cooked winter bamboo", "translation_lang": "en" }, "amount": "75 克", "note": { "original": "切薄片", "original_lang": "zh", "translation": "thin slices", "translation_lang": "en" } },
+        { "item": { "original": "番茄", "original_lang": "zh", "translation": "tomato", "translation_lang": "en" }, "amount": "半个或 1 个", "note": { "original": "去皮去瓤，切片", "original_lang": "zh", "translation": "peel, seed, slice", "translation_lang": "en" } },
+        { "item": { "original": "蒜片、姜片、马耳朵葱", "original_lang": "zh", "translation": "garlic, ginger, horse-ear scallion", "translation_lang": "en" }, "amount": "各 15 克" }
+      ]
+    },
+    {
+      "id": "seasoning",
+      "name": { "original": "调味料", "original_lang": "zh", "translation": "Seasonings", "translation_lang": "en" },
+      "ingredients": [
+        { "item": { "original": "鸡蛋清", "original_lang": "zh", "translation": "egg white", "translation_lang": "en" }, "amount": "1 个" },
+        { "item": { "original": "干豆粉", "original_lang": "zh", "translation": "dry starch", "translation_lang": "en" }, "amount": "30 克" },
+        { "item": { "original": "盐、味精、胡椒面、绍酒、水豆粉、化猪油、汤", "original_lang": "zh", "translation": "salt, MSG, pepper, wine, wet starch, lard, stock", "translation_lang": "en" }, "amount": "适量" }
+      ]
+    }
+  ],
+
+  "method_steps": [
+    { "step": 1, "original": "鱼整治干净，去头尾、去刺、去皮，取净肉片成 0.4 厘米厚、6 厘米宽的片。", "original_lang": "zh", "translation": "Clean the fish, remove head, tail, bones, skin; slice fillet into 0.4 cm thick, 6 cm wide pieces.", "translation_lang": "en" },
+    { "step": 2, "original": "鱼片入碗，加盐、绍酒、蛋清豆粉拌匀。", "original_lang": "zh", "translation": "In a bowl, mix fish with salt, wine, and egg-white starch.", "translation_lang": "en" },
+    { "step": 3, "original": "另取碗，放盐、胡椒面、味精、绍酒、水豆粉、汤，调成滋汁。", "original_lang": "zh", "translation": "In another bowl, mix salt, pepper, MSG, wine, wet starch, and stock into the sauce.", "translation_lang": "en" },
+    { "step": 4, "original": "炒锅旺火，化猪油烧至三四成，下鱼片轻轻滑散，打起。", "original_lang": "zh", "translation": "Heat lard in a wok over high heat to 30–40%, slide in the fish, gently separate, and remove.", "translation_lang": "en" },
+    { "step": 5, "original": "锅中留油 25 克，油温略升至五成，下冬笋、姜、葱、蒜、番茄炒熟。", "original_lang": "zh", "translation": "Leave 25 g oil, raise to 50%, add bamboo, ginger, scallion, garlic, and tomato; stir-fry until cooked.", "translation_lang": "en" },
+    { "step": 6, "original": "下鱼片，烹滋汁，合炒几下，汁一收浓，起锅。", "original_lang": "zh", "translation": "Add the fish, pour in the sauce, toss briefly until thickened, and plate.", "translation_lang": "en" }
+  ],
+
+  "images": { "hero": null, "process": [], "note": { "original": "源 PDF 有分步图，暂未提取。", "original_lang": "zh", "translation": "Source has step photos; not yet extracted.", "translation_lang": "en" } },
+
+  "allergens": {
+    "original": ["鱼", "蛋"],
+    "original_lang": "zh",
+    "translation": ["fish", "egg"],
+    "translation_lang": "en",
+    "review_note": { "original": "原文未标过敏原，此为根据鱼、蛋清推断。", "original_lang": "zh", "translation": "Inferred from fish and egg white.", "translation_lang": "en" }
+  },
+
+  "dietary_flags": { "original": [], "original_lang": "zh", "translation": [], "translation_lang": "en" },
+
+  "tags": {
+    "original": ["川菜", "熘", "鲜熘", "咸鲜味", "清淡"],
+    "original_lang": "zh",
+    "translation": ["Sichuan", "liu", "fresh liu", "savory-fresh", "light"],
+    "translation_lang": "en"
+  }
+}
