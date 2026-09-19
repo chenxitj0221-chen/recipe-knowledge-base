@@ -1,0 +1,212 @@
+{
+  "id": "technique-bao",
+  "source_type": "technique",
+  "source_file": "川菜烹饪技法解密.爆、炒、熘、煎、浸、炸.李凯.扫描版.pdf",
+  "source_author": "李凯、普天红",
+
+  "cuisine_branch": "chinese",
+  "cuisine": {
+    "original": "川菜",
+    "original_lang": "zh",
+    "translation": "Sichuan Cuisine",
+    "translation_lang": "en"
+  },
+
+  "name": {
+    "original": "爆",
+    "original_lang": "zh",
+    "translation": "Bao (quick-fry over high heat)",
+    "translation_lang": "en",
+    "review_status": "pending",
+    "review_note": {
+      "original": "「爆」英文无精确对应，quick-fry 只捕捉了快速，未体现高油温、短时间、翻花成形等特征。建议保留拼音 bao 并附注。",
+      "original_lang": "zh",
+      "translation": "'Bao' has no exact English equivalent; quick-fry misses the high oil temperature and shape-forming aspects. Keep pinyin with a gloss.",
+      "translation_lang": "en"
+    }
+  },
+
+  "category": "热菜技法",
+
+  "subtypes": {
+    "original": ["油爆", "酱爆", "葱爆", "汤爆"],
+    "original_lang": "zh",
+    "translation": ["oil-bao", "sauce-bao", "scallion-bao", "soup-bao"],
+    "translation_lang": "en"
+  },
+
+  "definition": {
+    "original": "爆分为有芡和无芡两大类，有芡的如油爆，无芡的炒法有酱爆、葱爆、汤爆等。根据材料的不同运用不同的方法。其中油爆菜肴居多，是爆炒的重点。",
+    "original_lang": "zh",
+    "translation": "Bao is divided into two broad categories: with starch slurry (such as oil-bao) and without (such as sauce-bao, scallion-bao, soup-bao). The method is chosen according to the ingredient. Oil-bao is the most common and the core of bao cookery.",
+    "translation_lang": "en"
+  },
+
+  "procedure": [
+    {
+      "step": 1,
+      "name": { "original": "刀工切配", "original_lang": "zh", "translation": "Cutting and mise en place", "translation_lang": "en" },
+      "detail": {
+        "original": "爆制类菜肴除少数薄片外，一般都必须锲花刀，选料应选用厚大、形整。锲花刀要整齐划一，刀距、刀深要均匀，刀纹深而不透，利于受热迅速和入味均匀。",
+        "original_lang": "zh",
+        "translation": "Except for a few thin-slice dishes, bao dishes require scored knife-work. Choose thick, uniform ingredients. Cuts must be even in spacing and depth, deep but not through, for fast and even cooking.",
+        "translation_lang": "en"
+      }
+    },
+    {
+      "step": 2,
+      "name": { "original": "上浆调芡", "original_lang": "zh", "translation": "Velveting and slurry prep", "translation_lang": "en" },
+      "detail": {
+        "original": "爆制的菜肴大部分要上浆，上浆时湿淀粉宜干宜少，码匀拌匀。爆的菜肴都要预先调制好芡汁，掌握好汁水和湿淀粉的比例，成菜后达到稠而不干，汁芡均匀，亮油滋润，食用后盘内无余汁。",
+        "original_lang": "zh",
+        "translation": "Most bao dishes need velveting; use dry and minimal wet starch, coat evenly. Prepare the slurry in advance, balance liquid and starch so the finished dish is thick but not dry, evenly coated, glossy, with no residual sauce on the plate.",
+        "translation_lang": "en"
+      }
+    },
+    {
+      "step": 3,
+      "name": { "original": "汤氽油烫", "original_lang": "zh", "translation": "Blanching and oil-passing", "translation_lang": "en" },
+      "detail": {
+        "original": "油爆有4种烹调方式：第一种，大部分上浆，中油量（油与原料2：1），放入六至七成高油温中，氽炸翻花断生成形，沥油爆制成菜。第二种，不上浆，将原料放入沸汤中烫至翻花断生成形，捞出爆制成菜。第三种，不上浆，将原料放入沸汤中烫至翻花，再入热油内氽炸至断生成形，沥油爆制成菜。第四种，码味上浆，将原料放入六至七成高油温中直接爆制成菜。",
+        "original_lang": "zh",
+        "translation": "Oil-bao has four approaches: (1) velvet most ingredients, use medium oil (2:1 oil to ingredient), flash-fry at 60–70% oil temperature until scored edges open and set, drain, then bao. (2) No velveting; blanch in boiling stock until edges open, then bao. (3) No velveting; blanch in stock, then pass through hot oil until just set, drain, then bao. (4) Season and velvet, then bao directly at 60–70% oil temperature.",
+        "translation_lang": "en"
+      }
+    },
+    {
+      "step": 4,
+      "name": { "original": "爆制烹汁", "original_lang": "zh", "translation": "Final bao and sauce", "translation_lang": "en" },
+      "detail": {
+        "original": "原料沥干油或水分后，一种是随即放入锅内用旺火热油快速爆制，放入辅料，烹汁亮油成菜。另一种是原料沥干油或水分后，锅内先放热油，将辅料炒断生，倒入芡汁推匀，再加入主料簸匀成菜。",
+        "original_lang": "zh",
+        "translation": "After draining, either (a) return to a hot wok over high heat, toss quickly, add auxiliary ingredients, pour in sauce, finish glossy; or (b) heat oil, stir-fry auxiliaries until just cooked, add slurry and push to combine, then add main ingredient and toss to finish.",
+        "translation_lang": "en"
+      }
+    }
+  ],
+
+  "workflow": {
+    "original": "选料 → 锲花刀配料 → 码味上浆 → 调制芡汁 → 油氽汤烫 → 翻花断生成形 → 爆制烹汁 → 装盘成菜",
+    "original_lang": "zh",
+    "translation": "Select → score and prep → season and velvet → mix slurry → blanch/pass oil → edges open and set → bao and sauce → plate",
+    "translation_lang": "en"
+  },
+
+  "execution": {
+    "heat_level": {
+      "original": "旺火",
+      "original_lang": "zh",
+      "translation": "high heat",
+      "translation_lang": "en"
+    },
+    "oil_temperature": {
+      "original": "六至七成，约 180–210°C",
+      "original_lang": "zh",
+      "translation": "60–70%, approx. 180–210°C",
+      "translation_lang": "en"
+    },
+    "time": {
+      "original": "以秒计，通常 1 分钟左右",
+      "original_lang": "zh",
+      "translation": "measured in seconds; usually about 1 minute",
+      "translation_lang": "en"
+    },
+    "critical_points": [
+      {
+        "original": "火候要「三旺三热」：汤烫要旺火沸汤，油氽要旺火热油，爆制定汁要旺火热锅。",
+        "original_lang": "zh",
+        "translation": "Three points of high heat: boiling stock for blanching, hot oil for passing, hot wok for the final bao.",
+        "translation_lang": "en"
+      },
+      {
+        "original": "应预先调制好味汁或芡汁。要达到「稠而不干，油亮滋润，食毕盘内无余汁」。",
+        "original_lang": "zh",
+        "translation": "Pre-mix the sauce. Target: thick but not dry, glossy, no residual liquid on the plate.",
+        "translation_lang": "en"
+      },
+      {
+        "original": "在汤烫或油氽后要沥干水和油，才能入锅裹汁。",
+        "original_lang": "zh",
+        "translation": "Drain thoroughly after blanching or oil-passing before returning to the wok, otherwise the sauce will not cling.",
+        "translation_lang": "en"
+      },
+      {
+        "original": "动作要准确而迅速，装盘要快，才能保证菜肴的质感。",
+        "original_lang": "zh",
+        "translation": "Move fast and precisely; plate immediately to preserve texture.",
+        "translation_lang": "en"
+      },
+      {
+        "original": "辅料数量不宜多，最好选用受热易熟、色香味形富有特色的原料。",
+        "original_lang": "zh",
+        "translation": "Keep auxiliary ingredients few; choose ones that cook quickly and add color, aroma, and shape.",
+        "translation_lang": "en"
+      }
+    ],
+    "common_mistakes": [
+      {
+        "original": "油温不够，原料下锅后无法迅速凝结翻卷成形。",
+        "original_lang": "zh",
+        "translation": "Oil not hot enough — ingredients won't set and curl into shape quickly.",
+        "translation_lang": "en"
+      },
+      {
+        "original": "芡汁中湿淀粉比例失衡，成菜要么汁水四溢，要么结成团块。",
+        "original_lang": "zh",
+        "translation": "Wrong starch-to-liquid ratio — sauce either runs or clumps.",
+        "translation_lang": "en"
+      },
+      {
+        "original": "原料未沥干就入锅，导致脱芡。",
+        "original_lang": "zh",
+        "translation": "Ingredients not drained before returning to wok, causing the coating to slip.",
+        "translation_lang": "en"
+      }
+    ]
+  },
+
+  "finished_dish_traits": {
+    "original": ["油汁紧包", "光色美观", "性浓味美", "以咸鲜为主"],
+    "original_lang": "zh",
+    "translation": ["sauce clings tightly", "glossy and attractive", "rich flavor", "mainly savory-fresh"],
+    "translation_lang": "en"
+  },
+
+  "flavor_profile": {
+    "original": ["咸鲜味"],
+    "original_lang": "zh",
+    "translation": ["savory-fresh (xian xian)"],
+    "translation_lang": "en",
+    "review_status": "pending",
+    "review_note": {
+      "original": "爆类菜肴以咸鲜为主，糖醋量少，有「用糖不见甜、用醋不见酸」之说。",
+      "original_lang": "zh",
+      "translation": "Bao dishes are primarily savory-fresh; sugar and vinegar are used in small amounts — 'sugar without sweetness, vinegar without sourness'.",
+      "translation_lang": "en"
+    }
+  },
+
+  "related_dishes": {
+    "original": ["火爆腰花", "青笋爆肚条", "腐乳爆肉片", "孜然肥牛肉", "山椒爆蛤"],
+    "original_lang": "zh",
+    "translation": ["huo-bao pig kidney", "celtuce bao tripe strips", "fermented tofu bao pork slices", "cumin bao beef", "wild pepper bao clams"],
+    "translation_lang": "en"
+  },
+
+  "images": {
+    "hero": null,
+    "note": {
+      "original": "技法类无成品图。",
+      "original_lang": "zh",
+      "translation": "Technique entries have no finished-dish photo.",
+      "translation_lang": "en"
+    }
+  },
+
+  "tags": {
+    "original": ["川菜技法", "爆", "热菜", "火候菜", "快速成菜"],
+    "original_lang": "zh",
+    "translation": ["Sichuan technique", "bao", "hot dish", "heat-controlled", "fast cooking"],
+    "translation_lang": "en"
+  }
+}

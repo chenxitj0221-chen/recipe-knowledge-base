@@ -1,0 +1,324 @@
+{
+  "id": "furubi-bao-rou-pian",
+  "source_type": "single_dish",
+  "source_file": "川菜烹饪技法解密.爆、炒、熘、煎、浸、炸.李凯.扫描版.pdf",
+  "source_author": "李凯、普天红",
+
+  "cuisine_branch": "chinese",
+
+  "name": {
+    "original": "腐乳爆肉片",
+    "original_lang": "zh",
+    "translation": "Fermented Tofu Bao Pork Slices",
+    "translation_lang": "en",
+    "review_status": "pending",
+    "review_note": {
+      "original": "「腐乳」英文常见译法有 fermented tofu、fermented bean curd、preserved tofu。本菜用的是豆腐乳（红腐乳），建议保留 fermented tofu 并附注。",
+      "original_lang": "zh",
+      "translation": "'腐乳' has several English renderings. This dish uses red fermented tofu; keep 'fermented tofu' with a note.",
+      "translation_lang": "en"
+    }
+  },
+
+  "classification": {
+    "cuisine": {
+      "original": "川菜",
+      "original_lang": "zh",
+      "translation": "Sichuan Cuisine",
+      "translation_lang": "en"
+    },
+    "scenes": {
+      "original": ["家常", "下饭", "快炒"],
+      "original_lang": "zh",
+      "translation": ["home cooking", "rice companion", "quick stir-fry"],
+      "translation_lang": "en"
+    },
+    "meal": {
+      "original": "午餐 / 晚餐",
+      "original_lang": "zh",
+      "translation": "lunch / dinner",
+      "translation_lang": "en"
+    },
+    "role": {
+      "original": "热菜 / 主菜",
+      "original_lang": "zh",
+      "translation": "hot dish / main",
+      "translation_lang": "en"
+    },
+    "temperature": "hot"
+  },
+
+  "technique": {
+    "original": "爆",
+    "original_lang": "zh",
+    "translation": "Bao (quick-fry over high heat)",
+    "translation_lang": "en",
+    "technique_ref": "technique-bao"
+  },
+
+  "sub_technique": {
+    "original": "酱爆",
+    "original_lang": "zh",
+    "translation": "sauce-bao",
+    "translation_lang": "en",
+    "review_status": "pending",
+    "review_note": {
+      "original": "「酱爆」的关键在于先炒香酱料再下主料，使酱汁包裹主料。",
+      "original_lang": "zh",
+      "translation": "Sauce-bao is defined by frying the sauce first, then adding the main ingredient so the sauce coats it.",
+      "translation_lang": "en"
+    }
+  },
+
+  "flavor_profile": {
+    "original": ["咸鲜味", "微甜", "腐乳香"],
+    "original_lang": "zh",
+    "translation": ["savory-fresh", "slightly sweet", "fermented tofu aroma"],
+    "translation_lang": "en",
+    "review_status": "pending"
+  },
+
+  "execution": {
+    "total_time_min": 25,
+    "active_time_min": 10,
+    "prep_ahead_required": false,
+    "difficulty": 3,
+    "servings": 2,
+    "serving_note": {
+      "original": "原书未标注份量，按 250 克里脊肉估算为 2 人份。",
+      "original_lang": "zh",
+      "translation": "Source does not specify servings; estimated 2 pax based on 250 g pork loin.",
+      "translation_lang": "en"
+    },
+    "heat_level": {
+      "original": "旺火",
+      "original_lang": "zh",
+      "translation": "high heat",
+      "translation_lang": "en"
+    },
+    "oil_temperature": {
+      "original": "滑肉片四成油温；爆制时油温略高",
+      "original_lang": "zh",
+      "translation": "40% for velveting the pork; slightly higher for the final bao",
+      "translation_lang": "en"
+    },
+    "critical_points": [
+      {
+        "original": "猪里脊肉切片时应注意厚薄一致、大小均匀。",
+        "original_lang": "zh",
+        "translation": "Slice the pork loin evenly in thickness and size.",
+        "translation_lang": "en"
+      },
+      {
+        "original": "此菜的腐乳汁只起调和滋味的作用，不可放得过多，以免影响成菜的效果。",
+        "original_lang": "zh",
+        "translation": "The fermented tofu liquid is a seasoning, not a sauce base. Too much will overpower the dish.",
+        "translation_lang": "en"
+      },
+      {
+        "original": "滑肉片时应注意控制好油温，过高则不易滑散，且肉质变老；过低容易脱芡，肉质同样会变老。",
+        "original_lang": "zh",
+        "translation": "Control the oil temperature when velveting: too hot and the slices won't separate and will toughen; too cool and the coating slips, also toughening the meat.",
+        "translation_lang": "en"
+      }
+    ],
+    "common_mistakes": [
+      {
+        "original": "腐乳汁放多，味道过重，盖住肉的本味。",
+        "original_lang": "zh",
+        "translation": "Using too much fermented tofu liquid, masking the pork's natural flavor.",
+        "translation_lang": "en"
+      },
+      {
+        "original": "滑油温过高或过低，导致肉片不散或脱芡。",
+        "original_lang": "zh",
+        "translation": "Oil too hot or too cool during velveting, causing the slices to clump or the coating to slip.",
+        "translation_lang": "en"
+      }
+    ]
+  },
+
+  "components": [
+    {
+      "id": "main",
+      "name": {
+        "original": "主料与配料",
+        "original_lang": "zh",
+        "translation": "Main and auxiliary ingredients",
+        "translation_lang": "en"
+      },
+      "ingredients": [
+        {
+          "item": { "original": "猪里脊肉", "original_lang": "zh", "translation": "pork loin", "translation_lang": "en" },
+          "amount": "250 克",
+          "note": {
+            "original": "切成 0.3 厘米厚的片",
+            "original_lang": "zh",
+            "translation": "cut into 0.3 cm thick slices",
+            "translation_lang": "en"
+          }
+        },
+        {
+          "item": { "original": "洋葱", "original_lang": "zh", "translation": "onion", "translation_lang": "en" },
+          "amount": "50 克",
+          "note": {
+            "original": "切成米粒状",
+            "original_lang": "zh",
+            "translation": "cut into fine dice",
+            "translation_lang": "en"
+          }
+        },
+        {
+          "item": { "original": "青椒", "original_lang": "zh", "translation": "green bell pepper", "translation_lang": "en" },
+          "amount": "50 克",
+          "note": {
+            "original": "切成米粒状",
+            "original_lang": "zh",
+            "translation": "cut into fine dice",
+            "translation_lang": "en"
+          }
+        },
+        {
+          "item": { "original": "红椒", "original_lang": "zh", "translation": "red bell pepper", "translation_lang": "en" },
+          "amount": "50 克",
+          "note": {
+            "original": "切成米粒状",
+            "original_lang": "zh",
+            "translation": "cut into fine dice",
+            "translation_lang": "en"
+          }
+        }
+      ]
+    },
+    {
+      "id": "seasoning",
+      "name": {
+        "original": "调味料",
+        "original_lang": "zh",
+        "translation": "Seasonings",
+        "translation_lang": "en"
+      },
+      "ingredients": [
+        { "item": { "original": "豆腐乳", "original_lang": "zh", "translation": "fermented tofu", "translation_lang": "en" }, "amount": "适量" },
+        { "item": { "original": "盐", "original_lang": "zh", "translation": "salt", "translation_lang": "en" }, "amount": "适量" },
+        { "item": { "original": "胡椒", "original_lang": "zh", "translation": "white pepper", "translation_lang": "en" }, "amount": "适量" },
+        { "item": { "original": "料酒", "original_lang": "zh", "translation": "Shaoxing wine", "translation_lang": "en" }, "amount": "适量" },
+        { "item": { "original": "白糖", "original_lang": "zh", "translation": "sugar", "translation_lang": "en" }, "amount": "适量" },
+        { "item": { "original": "鲜汤", "original_lang": "zh", "translation": "stock", "translation_lang": "en" }, "amount": "适量" },
+        { "item": { "original": "湿淀粉", "original_lang": "zh", "translation": "wet starch", "translation_lang": "en" }, "amount": "适量" },
+        { "item": { "original": "蛋清淀粉", "original_lang": "zh", "translation": "egg white starch", "translation_lang": "en" }, "amount": "适量" },
+        { "item": { "original": "色拉油", "original_lang": "zh", "translation": "vegetable oil", "translation_lang": "en" }, "amount": "1000 克（约耗 75 克）", "note": { "original": "用于滑肉片", "original_lang": "zh", "translation": "for velveting", "translation_lang": "en" } }
+      ]
+    }
+  ],
+
+  "method_steps": [
+    {
+      "step": 1,
+      "original": "猪里脊肉切成 0.3 厘米厚的片。",
+      "original_lang": "zh",
+      "translation": "Slice the pork loin into 0.3 cm thick slices.",
+      "translation_lang": "en"
+    },
+    {
+      "step": 2,
+      "original": "洋葱、青红椒分别切成米粒状。",
+      "original_lang": "zh",
+      "translation": "Dice the onion, green pepper, and red pepper into fine cubes.",
+      "translation_lang": "en"
+    },
+    {
+      "step": 3,
+      "original": "猪里脊肉放入碗中，加入盐、胡椒、料酒、蛋清淀粉拌匀，腌渍约 5 分钟。",
+      "original_lang": "zh",
+      "translation": "Place the pork in a bowl, add salt, pepper, wine, and egg-white starch; mix and marinate about 5 minutes.",
+      "translation_lang": "en"
+    },
+    {
+      "step": 4,
+      "original": "豆腐乳入碗，压制成细茸，加入盐、胡椒、料酒、白糖、鲜汤、湿淀粉调匀成汤汁。",
+      "original_lang": "zh",
+      "translation": "Mash the fermented tofu in a bowl, add salt, pepper, wine, sugar, stock, and wet starch; mix into a sauce.",
+      "translation_lang": "en"
+    },
+    {
+      "step": 5,
+      "original": "锅内烧油至四成热，倒入肉片滑散，至断生后倒入漏瓢中沥净油。",
+      "original_lang": "zh",
+      "translation": "Heat oil to 40%, slide in the pork slices, separate, and cook until just done; drain in a strainer.",
+      "translation_lang": "en"
+    },
+    {
+      "step": 6,
+      "original": "炒锅重置旺火上，烧油少许，待油热，下洋葱粒、青红椒粒爆香，随即倒入兑好的腐乳汁，待汁收浓，放入肉片簸匀起锅装盘即成。",
+      "original_lang": "zh",
+      "translation": "Return the wok to high heat with a little oil. Once hot, add the diced onion and peppers, stir-fry until fragrant, pour in the sauce, and when it thickens, add the pork and toss to coat; plate.",
+      "translation_lang": "en"
+    }
+  ],
+
+  "images": {
+    "hero": null,
+    "process": [],
+    "note": {
+      "original": "源 PDF 有分步图，暂未提取进 JSON。",
+      "original_lang": "zh",
+      "translation": "Source PDF contains step photos; not yet extracted.",
+      "translation_lang": "en"
+    }
+  },
+
+  "allergens": {
+    "original": ["大豆", "蛋"],
+    "original_lang": "zh",
+    "translation": ["soy", "egg"],
+    "translation_lang": "en",
+    "review_note": {
+      "original": "豆腐乳含大豆，蛋清淀粉含蛋。原文未标过敏原，此为推断。",
+      "original_lang": "zh",
+      "translation": "Fermented tofu contains soy; egg-white starch contains egg. Source does not list allergens; these are inferred.",
+      "translation_lang": "en"
+    }
+  },
+
+  "dietary_flags": {
+    "original": [],
+    "original_lang": "zh",
+    "translation": [],
+    "translation_lang": "en"
+  },
+
+  "tags": {
+    "original": ["川菜", "爆", "酱爆", "家常味", "快炒", "下饭"],
+    "original_lang": "zh",
+    "translation": ["Sichuan", "bao", "sauce-bao", "home-style flavor", "quick stir-fry", "rice companion"],
+    "translation_lang": "en"
+  },
+
+  "review_queue": [
+    {
+      "field": "name.translation",
+      "original": "腐乳爆肉片",
+      "translation": "Fermented Tofu Bao Pork Slices",
+      "issue": {
+        "original": "「腐乳」英文译法不统一；「爆」英文无精确对应，保留拼音 bao 并附注。",
+        "original_lang": "zh",
+        "translation": "'Fermented tofu' has multiple renderings; 'bao' has no exact English equivalent.",
+        "translation_lang": "en"
+      },
+      "status": "pending"
+    },
+    {
+      "field": "allergens",
+      "original": "大豆、蛋",
+      "translation": "soy, egg",
+      "issue": {
+        "original": "原文未标过敏原，此为根据食材推断，需人工确认。",
+        "original_lang": "zh",
+        "translation": "Allergens inferred from ingredients; source does not list them.",
+        "translation_lang": "en"
+      },
+      "status": "pending"
+    }
+  ]
+}
