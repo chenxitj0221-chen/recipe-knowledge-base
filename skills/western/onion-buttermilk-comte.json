@@ -1,0 +1,225 @@
+{
+  "id": "onion-buttermilk-comte",
+  "source_type": "single_dish",
+  "source_file": "EN_RECIPE-BOOK.pptx.pdf",
+  "source_author": "Eduardo García",
+
+  "cuisine_branch": "western",
+
+  "name": {
+    "original": "Onion Cooked in Buttermilk, Gratinated with Comté",
+    "original_lang": "en",
+    "translation": "白脱牛奶煮洋葱配孔泰芝士焗",
+    "translation_lang": "zh",
+    "review_status": "pending",
+    "review_note": {
+      "original": "'Buttermilk' in Chinese has multiple renderings: 白脱牛奶 / 酪乳 / 酪浆. 'Comté' is a French cheese with no standard Chinese name.",
+      "original_lang": "en",
+      "translation": "Buttermilk 中文译名不统一：白脱牛奶 / 酪乳 / 酪浆。Comté 是法国芝士，中文无标准译名。",
+      "translation_lang": "zh"
+    }
+  },
+
+  "classification": {
+    "cuisine": { "original": "Mexican", "original_lang": "en", "translation": "墨西哥菜", "translation_lang": "zh" },
+    "scenes": { "original": ["starter", "hot", "entertaining"], "original_lang": "en", "translation": ["前菜", "热菜", "宴客"], "translation_lang": "zh" },
+    "meal": { "original": "starter", "original_lang": "en", "translation": "前菜", "translation_lang": "zh" },
+    "role": { "original": "starter", "original_lang": "en", "translation": "前菜", "translation_lang": "zh" },
+    "temperature": "hot"
+  },
+
+  "technique": null,
+  "sub_technique": null,
+
+  "flavor_profile": {
+    "original": ["savory", "creamy", "sweet", "nutty"],
+    "original_lang": "en",
+    "translation": ["咸鲜", "奶香", "甜", "坚果香"],
+    "translation_lang": "zh",
+    "review_status": "pending"
+  },
+
+  "execution": {
+    "total_time_min": 285,
+    "active_time_min": 45,
+    "prep_ahead_required": true,
+    "prep_ahead_note": {
+      "original": "Caramelized onion base takes 1 hour 15 minutes. Onion cooked in buttermilk takes 4 hours 15 minutes.",
+      "original_lang": "en",
+      "translation": "焦糖洋葱底需 1 小时 15 分钟。白脱牛奶煮洋葱需 4 小时 15 分钟。",
+      "translation_lang": "zh"
+    },
+    "difficulty": 4,
+    "servings": 2,
+    "serving_note": {
+      "original": "Each component yields 2 pax.",
+      "original_lang": "en",
+      "translation": "各组件均为 2 人份。",
+      "translation_lang": "zh"
+    },
+    "heat_level": { "original": "medium-low for caramelizing, low for simmering", "original_lang": "en", "translation": "焦糖化中低火，慢煮小火", "translation_lang": "zh" },
+    "oil_temperature": null,
+    "critical_points": [
+      {
+        "original": "Sauté the sliced onion in butter without letting it brown.",
+        "original_lang": "en",
+        "translation": "洋葱片在黄油中炒，不能上色。",
+        "translation_lang": "zh"
+      },
+      {
+        "original": "Simmer the onion in buttermilk over low heat for about 4 hours; do not rush.",
+        "original_lang": "en",
+        "translation": "洋葱在白脱牛奶中小火慢煮约 4 小时，不能急。",
+        "translation_lang": "zh"
+      },
+      {
+        "original": "For the foam, charge the siphon with two gas cartridges, shaking vigorously after each charge.",
+        "original_lang": "en",
+        "translation": "芝士泡沫需加两个气弹，每次加完充分摇匀。",
+        "translation_lang": "zh"
+      },
+      {
+        "original": "Bake the assembled dish until golden brown on top.",
+        "original_lang": "en",
+        "translation": "组装后焗至表面金黄。",
+        "translation_lang": "zh"
+      }
+    ],
+    "common_mistakes": [
+      {
+        "original": "Browning the onions early; the final cream turns dark and bitter.",
+        "original_lang": "en",
+        "translation": "洋葱过早焦化，成品颜色深、发苦。",
+        "translation_lang": "zh"
+      },
+      {
+        "original": "Over-simmering the buttermilk; it can split.",
+        "original_lang": "en",
+        "translation": "白脱牛奶煮过头，容易分层。",
+        "translation_lang": "zh"
+      }
+    ]
+  },
+
+  "components": [
+    {
+      "id": "caramelized-onion-base",
+      "name": { "original": "Caramelized Onion Base", "original_lang": "en", "translation": "焦糖洋葱底", "translation_lang": "zh" },
+      "prep_ahead": "same day",
+      "reusable": true,
+      "ingredients": [
+        { "item": { "original": "yellow onion reduction", "original_lang": "en", "translation": "黄洋葱浓缩", "translation_lang": "zh" }, "amount": "200 g" },
+        { "item": { "original": "unsalted butter", "original_lang": "en", "translation": "无盐黄油", "translation_lang": "zh" }, "amount": "40 g" },
+        { "item": { "original": "water", "original_lang": "en", "translation": "水", "translation_lang": "zh" }, "amount": "250 ml" }
+      ],
+      "method_steps": [
+        { "original": "Melt the butter in a pot over a medium-low heat.", "original_lang": "en", "translation": "黄油中低火融化。", "translation_lang": "zh" },
+        { "original": "Add the yellow onion purée.", "original_lang": "en", "translation": "加黄洋葱泥。", "translation_lang": "zh" },
+        { "original": "Add the water.", "original_lang": "en", "translation": "加水。", "translation_lang": "zh" },
+        { "original": "Simmer until the liquid has evaporated and the onion is completely caramelized.", "original_lang": "en", "translation": "慢煮至水分蒸发、洋葱完全焦糖化。", "translation_lang": "zh" },
+        { "original": "Reduce until you have a concentrated mixture. Set aside.", "original_lang": "en", "translation": "收浓备用。", "translation_lang": "zh" }
+      ]
+    },
+    {
+      "id": "onion-buttermilk",
+      "name": { "original": "Onion Cooked in Buttermilk", "original_lang": "en", "translation": "白脱牛奶煮洋葱", "translation_lang": "zh" },
+      "prep_ahead": "same day",
+      "reusable": true,
+      "ingredients": [
+        { "item": { "original": "yellow onion, thinly sliced", "original_lang": "en", "translation": "黄洋葱，薄片", "translation_lang": "zh" }, "amount": "320 g" },
+        { "item": { "original": "unsalted butter", "original_lang": "en", "translation": "无盐黄油", "translation_lang": "zh" }, "amount": "30 g" },
+        { "item": { "original": "buttermilk", "original_lang": "en", "translation": "白脱牛奶", "translation_lang": "zh" }, "amount": "400–450 ml" },
+        { "item": { "original": "caramelized onion base", "original_lang": "en", "translation": "焦糖洋葱底", "translation_lang": "zh" }, "amount": "80 g" },
+        { "item": { "original": "salt", "original_lang": "en", "translation": "盐", "translation_lang": "zh" }, "amount": "to taste" },
+        { "item": { "original": "white pepper", "original_lang": "en", "translation": "白胡椒", "translation_lang": "zh" }, "amount": "to taste" }
+      ],
+      "method_steps": [
+        { "original": "Thinly slice the yellow onion. Sauté the onion in butter without letting it brown.", "original_lang": "en", "translation": "黄洋葱薄片，黄油炒，不能上色。", "translation_lang": "zh" },
+        { "original": "Add the buttermilk until the onion is covered. Simmer over low heat for about 4 hours.", "original_lang": "en", "translation": "加白脱牛奶没过洋葱，小火煮约 4 小时。", "translation_lang": "zh" },
+        { "original": "Blend the mixture until smooth. Stir in the caramelized onion base.", "original_lang": "en", "translation": "打至顺滑，拌入焦糖洋葱底。", "translation_lang": "zh" },
+        { "original": "Return the mixture to the heat. Cook until it reaches a thick, smooth consistency. Season with salt and white pepper. Keep warm.", "original_lang": "en", "translation": "回锅煮至浓稠顺滑，盐和白胡椒调味，保温。", "translation_lang": "zh" }
+      ]
+    },
+    {
+      "id": "cheese-foam",
+      "name": { "original": "Parmesan Cheese Foam", "original_lang": "en", "translation": "帕玛森芝士泡沫", "translation_lang": "zh" },
+      "prep_ahead": "same day",
+      "reusable": true,
+      "ingredients": [
+        { "item": { "original": "white wine and white wine vinegar reduction with chopped shallots and thyme", "original_lang": "en", "translation": "白葡萄酒与白葡萄酒醋浓缩，含红葱头和百里香", "translation_lang": "zh" }, "amount": "60 ml" },
+        { "item": { "original": "milk", "original_lang": "en", "translation": "牛奶", "translation_lang": "zh" }, "amount": "250 ml" },
+        { "item": { "original": "mountain cheese (Comté)", "original_lang": "en", "translation": "山地芝士（孔泰）", "translation_lang": "zh" }, "amount": "120 g" },
+        { "item": { "original": "xanthan gum", "original_lang": "en", "translation": "黄原胶", "translation_lang": "zh" }, "amount": "1 g" }
+      ],
+      "method_steps": [
+        { "original": "Heat the milk until warm.", "original_lang": "en", "translation": "牛奶加热至温热。", "translation_lang": "zh" },
+        { "original": "Place all the ingredients in a blender and blend until smooth.", "original_lang": "en", "translation": "所有材料入搅拌机打至顺滑。", "translation_lang": "zh" },
+        { "original": "Strain the mixture through a fine sieve.", "original_lang": "en", "translation": "细筛过滤。", "translation_lang": "zh" },
+        { "original": "Transfer the mixture into a siphon. Charge the siphon with two gas cartridges, shaking vigorously after each charge to aerate the mixture. Keep warm or chilled as needed.", "original_lang": "en", "translation": "装入虹吸瓶，加两个气弹，每次加完充分摇匀。按需保温或冷藏。", "translation_lang": "zh" }
+      ]
+    },
+    {
+      "id": "finishing",
+      "name": { "original": "Finishing", "original_lang": "en", "translation": "成品组装", "translation_lang": "zh" },
+      "prep_ahead": "at plating",
+      "reusable": false,
+      "ingredients": [
+        { "item": { "original": "onions in hot whey", "original_lang": "en", "translation": "热乳清中的洋葱", "translation_lang": "zh" }, "amount": "360–400 g" },
+        { "item": { "original": "Comté cheese foam", "original_lang": "en", "translation": "孔泰芝士泡沫", "translation_lang": "zh" }, "amount": "as needed" },
+        { "item": { "original": "grated Comté cheese", "original_lang": "en", "translation": "刨孔泰芝士", "translation_lang": "zh" }, "amount": "20 g" },
+        { "item": { "original": "chopped chives", "original_lang": "en", "translation": "细香葱", "translation_lang": "zh" }, "amount": "to taste" },
+        { "item": { "original": "chopped parsley", "original_lang": "en", "translation": "欧芹", "translation_lang": "zh" }, "amount": "to taste" },
+        { "item": { "original": "freshly ground black pepper", "original_lang": "en", "translation": "现磨黑胡椒", "translation_lang": "zh" }, "amount": "to taste" }
+      ],
+      "method_steps": [
+        { "original": "Heat the onion cream made with buttermilk until warm. Add the parsley and stir to combine.", "original_lang": "en", "translation": "白脱牛奶洋葱奶油加热，拌入欧芹。", "translation_lang": "zh" },
+        { "original": "Pour the mixture into an oven-safe skillet. Pipe the parmesan foam evenly onto the surface.", "original_lang": "en", "translation": "倒入耐烤锅，表面均匀挤帕玛森泡沫。", "translation_lang": "zh" },
+        { "original": "Top with grated Comté cheese. Bake until golden brown on top.", "original_lang": "en", "translation": "撒孔泰芝士，焗至表面金黄。", "translation_lang": "zh" },
+        { "original": "Garnish with finely chopped chives. Finish with freshly ground black pepper. Serve immediately.", "original_lang": "en", "translation": "撒细香葱、现磨黑胡椒，立即上桌。", "translation_lang": "zh" }
+      ]
+    }
+  ],
+
+  "assembly": {
+    "name": { "original": "Plating: Onion Cooked in Buttermilk, Gratinated with Comté", "original_lang": "en", "translation": "装盘：白脱牛奶煮洋葱配孔泰芝士焗", "translation_lang": "zh" },
+    "steps": [
+      { "original": "Heat the onion cream made with buttermilk until warm. Add the parsley and stir to combine.", "original_lang": "en", "translation": "白脱牛奶洋葱奶油加热，拌入欧芹。", "translation_lang": "zh" },
+      { "original": "Pour the mixture into an oven-safe skillet. Pipe the parmesan foam evenly onto the surface.", "original_lang": "en", "translation": "倒入耐烤锅，表面均匀挤帕玛森泡沫。", "translation_lang": "zh" },
+      { "original": "Top with grated Comté cheese. Bake until golden brown on top.", "original_lang": "en", "translation": "撒孔泰芝士，焗至表面金黄。", "translation_lang": "zh" },
+      { "original": "Garnish with finely chopped chives. Finish with freshly ground black pepper. Serve immediately.", "original_lang": "en", "translation": "撒细香葱、现磨黑胡椒，立即上桌。", "translation_lang": "zh" }
+    ]
+  },
+
+  "images": { "hero": null, "components": [], "process": [], "note": { "original": "Source PDF contains page images; not extracted.", "original_lang": "en", "translation": "源 PDF 有页面图片，暂未提取。", "translation_lang": "zh" } },
+
+  "allergens": {
+    "original": ["dairy", "sulphites"],
+    "original_lang": "en",
+    "translation": ["奶", "亚硫酸盐"],
+    "translation_lang": "zh"
+  },
+
+  "dietary_flags": { "original": ["vegetarian"], "original_lang": "en", "translation": ["素食"], "translation_lang": "zh" },
+
+  "tags": {
+    "original": ["starter", "hot", "entertaining", "Mexican", "vegetarian", "slow-cook"],
+    "original_lang": "en",
+    "translation": ["前菜", "热菜", "宴客", "墨西哥菜", "素食", "慢煮"],
+    "translation_lang": "zh"
+  },
+
+  "review_queue": [
+    {
+      "field": "name",
+      "original": "Onion Cooked in Buttermilk, Gratinated with Comté",
+      "translation": "白脱牛奶煮洋葱配孔泰芝士焗",
+      "issue": {
+        "original": "Buttermilk has multiple Chinese renderings (白脱牛奶/酪乳/酪浆). Comté has no standard Chinese name.",
+        "original_lang": "en",
+        "translation": "Buttermilk 中文译名不统一，Comté 无标准中文名。",
+        "translation_lang": "zh"
+      },
+      "status": "pending"
+    }
+  ]
+}

@@ -1,0 +1,346 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-09-20",
+  "purpose": "为搜索提供食材分类。系统拿分类关键词匹配菜例的食材清单，判断主材属于哪一类。中英双语，中西餐通用。",
+
+  "usage_note": {
+    "original": "系统匹配时，先查菜例的食材，再查本表，判断属于哪一类。分类用于检索过滤，不用于过敏原判断（过敏原走 allergen-keywords.json）。",
+    "original_lang": "zh",
+    "translation": "The system matches dish ingredients against this table to determine category. Used for search filtering, not for allergen checks (those use allergen-keywords.json).",
+    "translation_lang": "en"
+  },
+
+  "categories": {
+
+    "seafood": {
+      "name": { "original": "海鲜", "original_lang": "zh", "translation": "Seafood", "translation_lang": "en" },
+      "subcategories": {
+
+        "marine_fish": {
+          "name": { "original": "海鱼", "original_lang": "zh", "translation": "Marine fish", "translation_lang": "en" },
+          "keywords_zh": ["海鱼", "鲈鱼", "海鲈", "石斑", "三文鱼", "鳕鱼", "银鳕鱼", "红鲷鱼", "金枪鱼", "鲷鱼", "比目鱼", "黄花鱼", "带鱼", "鲳鱼", "鲅鱼", "马鲛鱼", "沙丁鱼", "鲭鱼", "鳗鱼", "多宝鱼", "龙利鱼", "海鳗", "牙鲆", "偏口鱼", "鲽鱼", "鳎目鱼", "安康鱼", "海鲈鱼"],
+          "keywords_en": ["sea bass", "seabass", "grouper", "salmon", "cod", "silver cod", "red snapper", "snapper", "tuna", "sea bream", "bream", "halibut", "turbot", "sole", "plaice", "yellow croaker", "hairtail", "beltfish", "mackerel", "sardine", "eel", "monkfish", "flounder", "hake", "pollock", "anchovy", "anchovies", "sea trout", "swordfish", "mahi mahi", "dorado"],
+          "note": {
+            "original": "海鱼包括咸水鱼。部分鱼种如三文鱼、鳕鱼可同时出现在海鱼和养殖鱼中，此处按物种分类。",
+            "original_lang": "zh",
+            "translation": "Marine fish are saltwater species. Some (salmon, cod) can be wild or farmed; this table classifies by species.",
+            "translation_lang": "en"
+          }
+        },
+
+        "freshwater_fish": {
+          "name": { "original": "淡水鱼", "original_lang": "zh", "translation": "Freshwater fish", "translation_lang": "en" },
+          "keywords_zh": ["草鱼", "鲫鱼", "鲤鱼", "鲢鱼", "鳙鱼", "胖头鱼", "武昌鱼", "鳜鱼", "桂鱼", "黑鱼", "乌鱼", "乌鳢", "罗非鱼", "鲶鱼", "黄颡鱼", "黄辣丁", "翘嘴", "鳊鱼", "鲂鱼", "泥鳅", "黄鳝", "鳝鱼", "虹鳟", "白鱼", "银鱼", "鲮鱼", "青鱼"],
+          "keywords_en": ["grass carp", "crucian carp", "carp", "silver carp", "bighead carp", "wuchang bream", "mandarin fish", "snakehead", "tilapia", "catfish", "yellow catfish", "bream", "loach", "eel", "river eel", "rainbow trout", "whitefish", "whitebait", "mud carp", "black carp"],
+          "note": {
+            "original": "淡水鱼指生活在江河湖泊的鱼种。中餐川菜常用草鱼、鲫鱼、鳜鱼。",
+            "original_lang": "zh",
+            "translation": "Freshwater fish live in rivers and lakes. Sichuan cuisine commonly uses grass carp, crucian carp, and mandarin fish.",
+            "translation_lang": "en"
+          }
+        },
+
+        "crustacean": {
+          "name": { "original": "甲壳类", "original_lang": "zh", "translation": "Crustacean", "translation_lang": "en" },
+          "keywords_zh": ["虾", "虾仁", "明虾", "基围虾", "对虾", "小龙虾", "龙虾", "蟹", "螃蟹", "大闸蟹", "花蟹", "青蟹", "帝王蟹", "皮皮虾", "虾蛄"],
+          "keywords_en": ["shrimp", "prawn", "prawns", "lobster", "crab", "crayfish", "langoustine", "scampi", "mantis shrimp"],
+          "note": {
+            "original": "甲壳类含虾青素，部分客人过敏。",
+            "original_lang": "zh",
+            "translation": "Crustaceans contain astaxanthin; some guests are allergic.",
+            "translation_lang": "en"
+          }
+        },
+
+        "mollusc": {
+          "name": { "original": "软体动物", "original_lang": "zh", "translation": "Mollusc", "translation_lang": "en" },
+          "keywords_zh": ["鲍鱼", "章鱼", "鱿鱼", "墨鱼", "乌贼", "蛤蜊", "蛤", "花蛤", "文蛤", "蛏子", "青口", "淡菜", "贻贝", "扇贝", "生蚝", "蚝", "牡蛎", "蜗牛", "海螺", "螺"],
+          "keywords_en": ["abalone", "octopus", "squid", "cuttlefish", "clam", "clams", "razor clam", "mussel", "mussels", "scallop", "scallops", "oyster", "oysters", "snail", "whelk", "conch"],
+          "note": {
+            "original": "软体动物在部分国家标准中与甲壳类分开标注。",
+            "original_lang": "zh",
+            "translation": "Molluscs are listed separately from crustaceans in some national standards.",
+            "translation_lang": "en"
+          }
+        },
+
+        "other_seafood": {
+          "name": { "original": "其他海鲜", "original_lang": "zh", "translation": "Other seafood", "translation_lang": "en" },
+          "keywords_zh": ["海参", "海胆", "鱼子酱", "鱼籽", "海蜇", "海藻", "海带", "紫菜", "裙带菜", "海苔"],
+          "keywords_en": ["sea cucumber", "sea urchin", "uni", "caviar", "fish roe", "jellyfish", "seaweed", "kelp", "nori", "wakame", "dulse"],
+          "note": {
+            "original": "海藻类通常不属于严格意义的过敏原，但部分客人敏感。",
+            "original_lang": "zh",
+            "translation": "Seaweeds are not strict allergens but some guests are sensitive.",
+            "translation_lang": "en"
+          }
+        }
+      }
+    },
+
+    "meat": {
+      "name": { "original": "肉类", "original_lang": "zh", "translation": "Meat", "translation_lang": "en" },
+      "subcategories": {
+
+        "pork": {
+          "name": { "original": "猪肉", "original_lang": "zh", "translation": "Pork", "translation_lang": "en" },
+          "keywords_zh": ["猪", "猪肉", "猪里脊", "里脊肉", "五花肉", "硬五花", "保肋肉", "排骨", "猪小排", "肋排", "猪蹄", "猪肘", "肘子", "猪肝", "猪腰", "猪肚", "猪肠", "大肠", "猪耳", "猪舌", "猪心", "猪血", "猪皮", "猪油", "腊肉", "火腿", "培根", "香肠", "绞肉", "肉馅"],
+          "keywords_en": ["pork", "pork loin", "pork belly", "pork ribs", "spare ribs", "pork trotter", "pork knuckle", "pork liver", "pork kidney", "pork tripe", "pork intestine", "pork ear", "pork tongue", "pork heart", "pork blood", "pork skin", "lard", "bacon", "ham", "sausage", "chorizo", "ground pork", "minced pork", "guanciale", "pancetta", "prosciutto"],
+          "note": null
+        },
+
+        "beef": {
+          "name": { "original": "牛肉", "original_lang": "zh", "translation": "Beef", "translation_lang": "en" },
+          "keywords_zh": ["牛", "牛肉", "牛里脊", "牛柳", "牛腩", "牛腱", "牛舌", "牛尾", "牛骨", "牛筋", "牛肚", "毛肚", "牛百叶", "牛心", "牛肝", "肥牛", "雪花牛", "西冷", "菲力", "肋眼", "和牛"],
+          "keywords_en": ["beef", "beef loin", "beef tenderloin", "beef brisket", "beef shank", "beef tongue", "oxtail", "beef bone", "beef tendon", "beef tripe", "beef heart", "beef liver", "wagyu", "sirloin", "fillet", "ribeye", "short rib", "chuck"],
+          "note": null
+        },
+
+        "lamb": {
+          "name": { "original": "羊肉", "original_lang": "zh", "translation": "Lamb", "translation_lang": "en" },
+          "keywords_zh": ["羊", "羊肉", "羊里脊", "羊排", "羊腿", "羊肩", "羊蝎子", "羊杂", "羊肚", "羊肝"],
+          "keywords_en": ["lamb", "lamb loin", "lamb rack", "lamb leg", "lamb shoulder", "mutton", "lamb chop", "lamb shank"],
+          "note": null
+        },
+
+        "poultry": {
+          "name": { "original": "禽类", "original_lang": "zh", "translation": "Poultry", "translation_lang": "en" },
+          "keywords_zh": ["鸡", "鸡肉", "鸡胸", "鸡腿", "鸡翅", "鸡爪", "凤爪", "鸡胗", "鸡肝", "鸡心", "整鸡", "仔鸡", "老母鸡", "鸭", "鸭肉", "鸭胸", "鸭腿", "鸭舌", "鸭掌", "鸭肝", "整鸭", "仔鸭", "鹅", "鹅肉", "鹅肝", "鸽", "乳鸽", "鹌鹑", "火鸡"],
+          "keywords_en": ["chicken", "chicken breast", "chicken thigh", "chicken wing", "chicken feet", "chicken gizzard", "chicken liver", "chicken heart", "whole chicken", "duck", "duck breast", "duck leg", "duck tongue", "duck web", "duck liver", "whole duck", "goose", "goose liver", "foie gras", "pigeon", "squab", "quail", "turkey"],
+          "note": null
+        },
+
+        "game": {
+          "name": { "original": "野味", "original_lang": "zh", "translation": "Game", "translation_lang": "en" },
+          "keywords_zh": ["鹿肉", "麂子肉", "野猪肉", "兔肉", "野兔", "鹧鸪", "野鸭", "麻雀", "竹鼠", "蛇肉"],
+          "keywords_en": ["venison", "deer", "boar", "rabbit", "hare", "partridge", "wild duck", "quail", "snake"],
+          "note": null
+        }
+      }
+    },
+
+    "vegetable": {
+      "name": { "original": "蔬菜", "original_lang": "zh", "translation": "Vegetable", "translation_lang": "en" },
+      "subcategories": {
+
+        "leafy_green": {
+          "name": { "original": "叶菜", "original_lang": "zh", "translation": "Leafy green", "translation_lang": "en" },
+          "keywords_zh": ["白菜", "小白菜", "上海青", "青菜", "菠菜", "生菜", "罗马生菜", "球生菜", "莴笋", "莴笋叶", "油麦菜", "芥蓝", "菜心", "油菜", "空心菜", "苋菜", "茼蒿", "芹菜", "西芹", "韭菜", "韭黄", "蒜苗", "葱", "大葱", "小葱", "香葱", "卷心菜", "包菜", "紫甘蓝", "羽衣甘蓝", "芝麻菜", "苦菊", "蒲公英", "香菜", "芫荽", "薄荷", "罗勒", "九层塔", "迷迭香", "百里香", "欧芹", "莳萝", "龙蒿"],
+          "keywords_en": ["napa cabbage", "bok choy", "spinach", "lettuce", "romaine", "iceberg", "celtuce", "water spinach", "amaranth", "chrysanthemum greens", "celery", "chinese celery", "chive", "garlic chive", "scallion", "spring onion", "cabbage", "red cabbage", "kale", "arugula", "radicchio", "endive", "cilantro", "coriander", "mint", "basil", "rosemary", "thyme", "parsley", "dill", "tarragon", "sorrel", "watercress"],
+          "note": null
+        },
+
+        "root_vegetable": {
+          "name": { "original": "根茎类", "original_lang": "zh", "translation": "Root vegetable", "translation_lang": "en" },
+          "keywords_zh": ["萝卜", "白萝卜", "胡萝卜", "红萝卜", "青萝卜", "土豆", "马铃薯", "红薯", "地瓜", "紫薯", "山药", "芋头", "莲藕", "藕", "荸荠", "马蹄", "慈姑", "甜菜", "芜菁", "大头菜", "苤蓝", "牛蒡", "葛根", "百合", "洋葱", "红洋葱", "白洋葱", "黄洋葱", "大蒜", "姜", "老姜", "仔姜", "南姜"],
+          "keywords_en": ["daikon", "radish", "carrot", "potato", "sweet potato", "yam", "taro", "lotus root", "water chestnut", "beet", "turnip", "rutabaga", "kohlrabi", "burdock", "arrowroot", "lily bulb", "onion", "red onion", "white onion", "yellow onion", "garlic", "ginger", "galangal"],
+          "note": null
+        },
+
+        "fruit_vegetable": {
+          "name": { "original": "果菜", "original_lang": "zh", "translation": "Fruit vegetable", "translation_lang": "en" },
+          "keywords_zh": ["番茄", "西红柿", "小番茄", "圣女果", "青番茄", "茄子", "紫茄", "白茄", "辣椒", "青椒", "红椒", "尖椒", "杭椒", "小米辣", "泡椒", "甜椒", "彩椒", "黄瓜", "青瓜", "冬瓜", "南瓜", "丝瓜", "苦瓜", "佛手瓜", "西葫芦", "瓠瓜", "葫芦", "秋葵", "玉米", "玉米粒", "玉米笋"],
+          "keywords_en": ["tomato", "cherry tomato", "green tomato", "eggplant", "aubergine", "pepper", "bell pepper", "chili", "jalapeño", "serrano", "poblano", "guajillo", "pasilla", "morita", "chiltepin", "cucumber", "winter melon", "pumpkin", "loofah", "bitter melon", "chayote", "zucchini", "courgette", "okra", "corn", "sweetcorn", "baby corn"],
+          "note": null
+        },
+
+        "mushroom": {
+          "name": { "original": "菌菇", "original_lang": "zh", "translation": "Mushroom", "translation_lang": "en" },
+          "keywords_zh": ["香菇", "干香菇", "花菇", "冬菇", "口蘑", "蘑菇", "平菇", "杏鲍菇", "金针菇", "白玉菇", "蟹味菇", "海鲜菇", "茶树菇", "鸡腿菇", "牛肝菌", "松茸", "鸡枞", "竹荪", "羊肚菌", "木耳", "黑木耳", "白木耳", "银耳", "云耳"],
+          "keywords_en": ["shiitake", "dried shiitake", "button mushroom", "oyster mushroom", "king oyster", "enoki", "shimeji", "maitake", "porcini", "morel", "chanterelle", "truffle", "wood ear", "black fungus", "white fungus", "cloud ear"],
+          "note": null
+        },
+
+        "legume_vegetable": {
+          "name": { "original": "豆类蔬菜", "original_lang": "zh", "translation": "Legume vegetable", "translation_lang": "en" },
+          "keywords_zh": ["豆芽", "黄豆芽", "绿豆芽", "豌豆", "青豆", "蚕豆", "毛豆", "四季豆", "豇豆", "扁豆", "荷兰豆", "甜豆", "刀豆", "秋葵", "豆角"],
+          "keywords_en": ["bean sprout", "soybean sprout", "mung bean sprout", "pea", "green pea", "fava bean", "broad bean", "edamame", "green bean", "yardlong bean", "hyacinth bean", "snow pea", "sugar snap pea", "runner bean"],
+          "note": null
+        },
+
+        "asparagus_bamboo": {
+          "name": { "original": "笋类", "original_lang": "zh", "translation": "Bamboo and asparagus", "translation_lang": "en" },
+          "keywords_zh": ["竹笋", "春笋", "冬笋", "笋干", "烟笋", "芦笋", "茭白", "蒲菜"],
+          "keywords_en": ["bamboo shoot", "spring bamboo", "winter bamboo", "dried bamboo", "smoked bamboo", "asparagus", "water bamboo", "cattail"],
+          "note": null
+        }
+      }
+    },
+
+    "staple": {
+      "name": { "original": "主食", "original_lang": "zh", "translation": "Staple", "translation_lang": "en" },
+      "subcategories": {
+
+        "rice": {
+          "name": { "original": "米类", "original_lang": "zh", "translation": "Rice", "translation_lang": "en" },
+          "keywords_zh": ["米", "大米", "糯米", "粳米", "籼米", "香米", "Bomba 米", "意大利米", "米饭", "粥", "米粉", "米线", "河粉"],
+          "keywords_en": ["rice", "glutinous rice", "sticky rice", "jasmine rice", "basmati", "bomba rice", "arborio", "carnaroli", "rice noodle", "vermicelli"],
+          "note": null
+        },
+
+        "wheat": {
+          "name": { "original": "面类", "original_lang": "zh", "translation": "Wheat", "translation_lang": "en" },
+          "keywords_zh": ["面粉", "面条", "拉面", "挂面", "刀削面", "意面", "通心粉", "千层面", "面包", "吐司", "布里欧修", "馒头", "花卷", "包子", "饺子皮", "馄饨皮", "春卷皮", "烧饼", "油条", "面筋", "烤麸", "油面筋", "玉米饼", "tortilla", "pita"],
+          "keywords_en": ["flour", "noodle", "ramen", "pasta", "spaghetti", "macaroni", "lasagna", "bread", "toast", "brioche", "baguette", "bun", "dumpling wrapper", "wonton wrapper", "spring roll wrapper", "pita", "tortilla", "seitan"],
+          "note": null
+        },
+
+        "other_grains": {
+          "name": { "original": "其他谷物", "original_lang": "zh", "translation": "Other grains", "translation_lang": "en" },
+          "keywords_zh": ["小米", "黄米", "燕麦", "大麦", "黑麦", "荞麦", "藜麦", "玉米面", "玉米糁", "薏仁", "薏米", "高粱", "黍米"],
+          "keywords_en": ["millet", "oat", "oats", "barley", "rye", "buckwheat", "quinoa", "cornmeal", "polenta", "job's tears", "sorghum"],
+          "note": null
+        }
+      }
+    },
+
+    "dairy": {
+      "name": { "original": "乳制品", "original_lang": "zh", "translation": "Dairy", "translation_lang": "en" },
+      "keywords_zh": ["牛奶", "鲜奶", "奶油", "淡奶油", "黄油", "芝士", "奶酪", "帕玛森", "帕达诺", "马苏里拉", "马斯卡彭", "孔泰", "切达", "炼乳", "酸奶", "酸奶油", "乳清", "奶皮", "奶豆腐", "酥油", "起司"],
+      "keywords_en": ["milk", "cream", "butter", "cheese", "parmesan", "grana padano", "mozzarella", "mascarpone", "comté", "comte", "cheddar", "yoghurt", "yogurt", "whey", "ghee", "crème fraîche", "creme fraiche"],
+      "note": {
+        "original": "乳制品既是一类食材，也是常见过敏原。过敏原判断走 allergen-keywords.json。",
+        "original_lang": "zh",
+        "translation": "Dairy is both an ingredient category and a common allergen. Allergen checks use allergen-keywords.json.",
+        "translation_lang": "en"
+      }
+    },
+
+    "egg": {
+      "name": { "original": "蛋类", "original_lang": "zh", "translation": "Egg", "translation_lang": "en" },
+      "keywords_zh": ["鸡蛋", "蛋清", "蛋黄", "蛋液", "全蛋", "鸭蛋", "鹌鹑蛋", "皮蛋", "咸蛋", "蛋皮"],
+      "keywords_en": ["egg", "egg white", "egg yolk", "egg wash", "duck egg", "quail egg", "century egg", "salted egg"],
+      "note": null
+    },
+
+    "fruit": {
+      "name": { "original": "水果", "original_lang": "zh", "translation": "Fruit", "translation_lang": "en" },
+      "keywords_zh": ["苹果", "梨", "香蕉", "大蕉", "橙", "橙子", "柠檬", "青柠", "柚子", "橘子", "柑", "葡萄", "葡萄干", "草莓", "蓝莓", "树莓", "黑莓", "樱桃", "桃", "油桃", "杏", "李子", "梅子", "芒果", "菠萝", "木瓜", "火龙果", "奇异果", "猕猴桃", "西瓜", "哈密瓜", "香瓜", "甜瓜", "石榴", "柿子", "无花果", "椰", "椰子", "牛油果", "百香果", "荔枝", "龙眼", "桂圆", "杨梅", "山楂", "枣", "红枣"],
+      "keywords_en": ["apple", "pear", "banana", "plantain", "orange", "lemon", "lime", "yuzu", "grapefruit", "mandarin", "grape", "raisin", "strawberry", "blueberry", "raspberry", "blackberry", "cherry", "peach", "nectarine", "apricot", "plum", "mango", "pineapple", "papaya", "dragon fruit", "kiwi", "watermelon", "cantaloupe", "melon", "pomegranate", "persimmon", "fig", "coconut", "avocado", "passion fruit", "lychee", "longan", "bayberry", "hawthorn", "jujube", "date"],
+      "note": null
+    },
+
+    "condiment": {
+      "name": { "original": "调味品", "original_lang": "zh", "translation": "Condiment", "translation_lang": "en" },
+      "subcategories": {
+
+        "soy_based": {
+          "name": { "original": "大豆制品", "original_lang": "zh", "translation": "Soy-based", "translation_lang": "en" },
+          "keywords_zh": ["酱油", "老抽", "生抽", "淡酱油", "豆腐", "嫩豆腐", "老豆腐", "内脂豆腐", "豆腐干", "豆皮", "腐竹", "豆腐乳", "腐乳", "豆豉", "味噌", "黄豆酱", "豆瓣酱", "郫县豆瓣", "豆浆", "豆奶"],
+          "keywords_en": ["soy sauce", "light soy sauce", "dark soy sauce", "tamari", "tofu", "silken tofu", "firm tofu", "dried tofu", "tofu skin", "yuba", "fermented tofu", "douchi", "miso", "soybean paste", "doubanjiang", "soy milk"],
+          "note": null
+        },
+
+        "vinegar": {
+          "name": { "original": "醋类", "original_lang": "zh", "translation": "Vinegar", "translation_lang": "en" },
+          "keywords_zh": ["醋", "米醋", "陈醋", "香醋", "白醋", "黑醋", "巴萨米克醋", "白葡萄酒醋", "红葡萄酒醋", "苹果醋", "寿司醋"],
+          "keywords_en": ["vinegar", "rice vinegar", "black vinegar", "chinkiang vinegar", "white vinegar", "balsamic", "white wine vinegar", "red wine vinegar", "apple cider vinegar", "sushi vinegar"],
+          "note": null
+        },
+
+        "oil": {
+          "name": { "original": "油类", "original_lang": "zh", "translation": "Oil", "translation_lang": "en" },
+          "keywords_zh": ["油", "菜油", "花生油", "大豆油", "玉米油", "葵花籽油", "橄榄油", "特级初榨橄榄油", "芥花油", "葡萄籽油", "芝麻油", "香油", "猪油", "鸡油", "牛油", "椰子油", "棕榈油", "核桃油", "牛油果油"],
+          "keywords_en": ["oil", "vegetable oil", "peanut oil", "soybean oil", "corn oil", "sunflower oil", "olive oil", "extra virgin olive oil", "canola oil", "grapeseed oil", "sesame oil", "lard", "chicken fat", "beef fat", "coconut oil", "palm oil", "walnut oil", "avocado oil"],
+          "note": null
+        },
+
+        "spice": {
+          "name": { "original": "香料", "original_lang": "zh", "translation": "Spice", "translation_lang": "en" },
+          "keywords_zh": ["盐", "糖", "白糖", "红糖", "冰糖", "蜂蜜", "胡椒", "白胡椒", "黑胡椒", "花椒", "青花椒", "藤椒", "八角", "桂皮", "肉桂", "香叶", "丁香", "草果", "山奈", "砂仁", "白芷", "豆蔻", "肉豆蔻", "孜然", "葛缕子", "小茴香", "茴香籽", "芫荽籽", "芥末", "黄芥末", "第戎芥末", "姜黄", "咖喱粉", "辣椒粉", "辣椒面", "花椒面", "五香粉", "十三香", "陈皮", "甘草", "紫草", "藏红花", "香草精", "香草荚"],
+          "keywords_en": ["salt", "sugar", "white sugar", "brown sugar", "rock sugar", "honey", "pepper", "white pepper", "black pepper", "sichuan peppercorn", "green peppercorn", "star anise", "cinnamon", "bay leaf", "clove", "cloves", "black cardamom", "green cardamom", "nutmeg", "cumin", "caraway", "fennel seed", "coriander seed", "mustard", "dijon", "turmeric", "curry powder", "chili powder", "five-spice", "chenpi", "licorice", "saffron", "vanilla extract", "vanilla pod"],
+          "note": null
+        },
+
+        "sauce": {
+          "name": { "original": "酱料", "original_lang": "zh", "translation": "Sauce", "translation_lang": "en" },
+          "keywords_zh": ["番茄酱", "番茄沙司", "蛋黄酱", "卡夫奇妙酱", "是拉差", "蚝油", "鱼露", "虾酱", "叉烧酱", "海鲜酱", "柱侯酱", "XO 酱", "沙茶酱", "芝麻酱", "花生酱", "甜面酱", "黄酱", "果酱", "什锦果酱", "mole 酱", "mole paste", "咖喱酱"],
+          "keywords_en": ["ketchup", "tomato sauce", "mayonnaise", "miracle whip", "sriracha", "oyster sauce", "fish sauce", "shrimp paste", "char siu sauce", "hoisin", "chu hou", "XO sauce", "shacha", "tahini", "sesame paste", "peanut butter", "sweet bean sauce", "yellow bean sauce", "jam", "mixed fruit jam", "mole paste", "curry paste"],
+          "note": null
+        }
+      }
+    },
+
+    "alcohol": {
+      "name": { "original": "酒类", "original_lang": "zh", "translation": "Alcohol", "translation_lang": "en" },
+      "keywords_zh": ["料酒", "绍酒", "黄酒", "米酒", "白酒", "高粱酒", "玫瑰露酒", "葡萄酒", "白葡萄酒", "红葡萄酒", "啤酒", "黑啤酒", "清酒", "味醂", "mirin", "sake", "白兰地", "威士忌", "朗姆酒", "伏特加", "大曲酒", "醪糟"],
+      "keywords_en": ["cooking wine", "shaoxing wine", "huangjiu", "rice wine", "baijiu", "sorghum liquor", "rose wine liquor", "wine", "white wine", "red wine", "beer", "dark beer", "sake", "mirin", "brandy", "whisky", "whiskey", "rum", "vodka", "fermented glutinous rice"],
+      "note": {
+        "original": "酒类通常含亚硫酸盐。过敏原判断走 allergen-keywords.json。",
+        "original_lang": "zh",
+        "translation": "Alcohol generally contains sulphites. Allergen checks use allergen-keywords.json.",
+        "translation_lang": "en"
+      }
+    },
+
+    "other": {
+      "name": { "original": "其他", "original_lang": "zh", "translation": "Other", "translation_lang": "en" },
+      "keywords_zh": ["水", "纯净水", "矿泉水", "高汤", "鸡高汤", "牛高汤", "蔬菜高汤", "清汤", "奶汤", "吉利丁", "明胶", "琼脂", "agar", "黄原胶", "泡打粉", "小苏打", "食用碱", "酵母", "松肉粉", "嫩肉粉", "食粉"],
+      "keywords_en": ["water", "purified water", "mineral water", "stock", "chicken stock", "beef stock", "vegetable stock", "clear broth", "milky broth", "gelatin", "gelatine", "agar", "xanthan gum", "baking powder", "baking soda", "alkaline water", "yeast", "meat tenderizer", "baking soda"],
+      "note": null
+    }
+  },
+
+  "usage_examples": [
+    {
+      "query": "中餐川菜，海鱼，不辣",
+      "filter": {
+        "cuisine_branch": "chinese",
+        "cuisine": "川菜",
+        "main_ingredient_category": "seafood.marine_fish",
+        "spice_level_max": 2
+      }
+    },
+    {
+      "query": "西餐主菜，牛肉，DF",
+      "filter": {
+        "cuisine_branch": "western",
+        "role": "main",
+        "main_ingredient_category": "meat.beef"
+      }
+    },
+    {
+      "query": "任何菜，不含 shellfish 和 molluscs",
+      "exclude": ["seafood.crustacean", "seafood.mollusc"]
+    }
+  ],
+
+  "review_queue": [
+    {
+      "field": "categories.seafood.subcategories.marine_fish",
+      "original": "三文鱼",
+      "translation": "salmon",
+      "issue": {
+        "original": "三文鱼既有野生也有养殖，养殖三文鱼生活在海水网箱中，仍属海鱼。但如果将来收录淡水虹鳟，需注意区分。",
+        "original_lang": "zh",
+        "translation": "Salmon can be wild or farmed; farmed salmon in sea pens is still marine. If freshwater rainbow trout is added later, distinguish it.",
+        "translation_lang": "en"
+      },
+      "status": "pending"
+    },
+    {
+      "field": "categories.vegetable.subcategories.legume_vegetable",
+      "original": "秋葵",
+      "translation": "okra",
+      "issue": {
+        "original": "秋葵在果菜和豆菜之间归类模糊。本表暂放豆菜，需人工确认。",
+        "original_lang": "zh",
+        "translation": "Okra sits ambiguously between fruit vegetable and legume vegetable. Placed under legume here; manual confirmation needed.",
+        "translation_lang": "en"
+      },
+      "status": "pending"
+    },
+    {
+      "field": "categories.condiment.subcategories.spice",
+      "original": "盐、糖",
+      "translation": "salt, sugar",
+      "issue": {
+        "original": "盐和糖严格说不是「香料」，是基础调味品。放在 spice 下是为了简化结构，如需更精确，可单列 basic_seasoning。",
+        "original_lang": "zh",
+        "translation": "Salt and sugar are not strictly spices. Placed under spice for simplicity; can be split into basic_seasoning if needed.",
+        "translation_lang": "en"
+      },
+      "status": "pending"
+    }
+  ]
+}

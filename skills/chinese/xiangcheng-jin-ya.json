@@ -1,0 +1,116 @@
+{
+  "id": "xiangcheng-jin-ya",
+  "source_type": "single_dish",
+  "source_file": "川菜烹饪技法解密.爆、炒、熘、煎、浸、炸.李凯.扫描版.pdf",
+  "source_author": "李凯、普天红",
+
+  "cuisine_branch": "chinese",
+
+  "name": {
+    "original": "香橙浸仔鸭",
+    "original_lang": "zh",
+    "translation": "Orange-Immersed Duckling",
+    "translation_lang": "en",
+    "review_status": "pending",
+    "review_note": {
+      "original": "「浸」是本菜核心技法，英文 immersion 无法体现油浸的温度控制。建议保留 jin 并附注。",
+      "original_lang": "zh",
+      "translation": "'Jin' is the core technique; 'immersion' misses the temperature control of oil-jin.",
+      "translation_lang": "en"
+    }
+  },
+
+  "classification": {
+    "cuisine": { "original": "川菜", "original_lang": "zh", "translation": "Sichuan Cuisine", "translation_lang": "en" },
+    "scenes": { "original": ["宴客", "果香", "凉菜"], "original_lang": "zh", "translation": ["entertaining", "fruity", "cold dish"], "translation_lang": "en" },
+    "meal": { "original": "午餐 / 晚餐", "original_lang": "zh", "translation": "lunch / dinner", "translation_lang": "en" },
+    "role": { "original": "热菜 / 主菜", "original_lang": "zh", "translation": "hot dish / main", "translation_lang": "en" },
+    "temperature": "hot"
+  },
+
+  "technique": { "original": "浸", "original_lang": "zh", "translation": "Jin (gentle immersion)", "translation_lang": "en", "technique_ref": "technique-jin" },
+  "sub_technique": { "original": "油浸", "original_lang": "zh", "translation": "oil-jin", "translation_lang": "en" },
+
+  "flavor_profile": {
+    "original": ["果香味"],
+    "original_lang": "zh",
+    "translation": ["fruity"],
+    "translation_lang": "en",
+    "review_status": "pending",
+    "review_note": {
+      "original": "以浓缩橙汁和新鲜橙肉为主要风味来源，形成果香与鸭肉鲜味的融合。",
+      "original_lang": "zh",
+      "translation": "Orange juice and fresh orange flesh create a fruity flavor that blends with the duck's savoriness.",
+      "translation_lang": "en"
+    }
+  },
+
+  "execution": {
+    "total_time_min": 60,
+    "active_time_min": 20,
+    "prep_ahead_required": true,
+    "prep_ahead_note": { "original": "仔鸭码味 30 分钟。", "original_lang": "zh", "translation": "Marinate duckling 30 minutes.", "translation_lang": "en" },
+    "difficulty": 4,
+    "servings": 3,
+    "serving_note": { "original": "原书为 750 克仔鸭 1 只，约 3 人份。", "original_lang": "zh", "translation": "One 750 g duckling serves about 3.", "translation_lang": "en" },
+    "heat_level": { "original": "先旺火后小火", "original_lang": "zh", "translation": "high heat then low", "translation_lang": "en" },
+    "oil_temperature": { "original": "四成，约 120°C", "original_lang": "zh", "translation": "40%, approx. 120°C", "translation_lang": "en" },
+    "critical_points": [
+      { "original": "鸭不宜选择过大的，以选择 750 克左右的为宜，这样的鸭子易于入味，浸炸时也容易成熟。", "original_lang": "zh", "translation": "Choose a 750 g duckling — it marinates and cooks evenly.", "translation_lang": "en" },
+      { "original": "仔鸭码味时间要足，注意控制好糖色的用量，太少色浅、不红亮；过多，色深、易炸焦。", "original_lang": "zh", "translation": "Marinate fully; control the caramel coloring — too little is pale, too much darkens and burns.", "translation_lang": "en" },
+      { "original": "炸仔鸭时，油温不宜太高，以免炸焦或色黑。", "original_lang": "zh", "translation": "Keep oil temperature low during oil-jin to avoid burning or darkening.", "translation_lang": "en" }
+    ],
+    "common_mistakes": [
+      { "original": "鸭子过大，外熟内生。", "original_lang": "zh", "translation": "Duck too large — cooked outside, raw inside.", "translation_lang": "en" },
+      { "original": "糖色用多，色泽发黑。", "original_lang": "zh", "translation": "Too much caramel coloring darkens the skin.", "translation_lang": "en" },
+      { "original": "油温过高，鸭皮炸焦而肉未熟。", "original_lang": "zh", "translation": "Oil too hot burns the skin before the meat cooks.", "translation_lang": "en" }
+    ]
+  },
+
+  "components": [
+    {
+      "id": "main",
+      "name": { "original": "主料与配料", "original_lang": "zh", "translation": "Main and auxiliary", "translation_lang": "en" },
+      "ingredients": [
+        { "item": { "original": "仔鸭", "original_lang": "zh", "translation": "duckling", "translation_lang": "en" }, "amount": "1 只，约 750 克" },
+        { "item": { "original": "橙", "original_lang": "zh", "translation": "orange", "translation_lang": "en" }, "amount": "3 个", "note": { "original": "1 个切片围边，2 个取汁", "original_lang": "zh", "translation": "1 sliced for garnish, 2 juiced", "translation_lang": "en" } }
+      ]
+    },
+    {
+      "id": "seasoning",
+      "name": { "original": "调味料", "original_lang": "zh", "translation": "Seasonings", "translation_lang": "en" },
+      "ingredients": [
+        { "item": { "original": "浓缩橙汁", "original_lang": "zh", "translation": "concentrated orange juice", "translation_lang": "en" }, "amount": "适量" },
+        { "item": { "original": "姜、葱、盐、胡椒、料酒、糖色、白糖、白醋、湿淀粉", "original_lang": "zh", "translation": "ginger, scallion, salt, pepper, wine, caramel, sugar, white vinegar, wet starch", "translation_lang": "en" }, "amount": "适量" },
+        { "item": { "original": "色拉油", "original_lang": "zh", "translation": "vegetable oil", "translation_lang": "en" }, "amount": "1000 克（约耗 75 克）" }
+      ]
+    }
+  ],
+
+  "method_steps": [
+    { "step": 1, "original": "仔鸭洗净，剁去脚爪，加盐、胡椒、料酒、姜、葱、糖色码味 30 分钟。", "original_lang": "zh", "translation": "Clean the duckling, remove feet, marinate with salt, pepper, wine, ginger, scallion, and caramel for 30 minutes.", "translation_lang": "en" },
+    { "step": 2, "original": "炒锅上火，烧油至四成热，放入仔鸭浸炸至熟，打起沥净油。", "original_lang": "zh", "translation": "Heat oil to 40% in a wok, immerse the duckling until cooked, remove, and drain.", "translation_lang": "en" },
+    { "step": 3, "original": "仔鸭剁成条，摆于圆盘中间。", "original_lang": "zh", "translation": "Chop the duckling into strips and arrange in the center of a round plate.", "translation_lang": "en" },
+    { "step": 4, "original": "橙洗净，1 个切八瓣，用刀片去皮，用于仔鸭周围。", "original_lang": "zh", "translation": "Wash the orange, cut one into eight wedges, peel, and arrange around the duck.", "translation_lang": "en" },
+    { "step": 5, "original": "浓缩橙汁、盐、白糖、白醋、清水、湿淀粉入锅兑成汁，淋于盘内橙汁上即可。", "original_lang": "zh", "translation": "Combine orange juice, salt, sugar, white vinegar, water, and wet starch into a sauce; pour over the orange wedges.", "translation_lang": "en" }
+  ],
+
+  "images": { "hero": null, "process": [], "note": { "original": "源 PDF 有分步图，暂未提取。", "original_lang": "zh", "translation": "Source has step photos; not yet extracted.", "translation_lang": "en" } },
+
+  "allergens": {
+    "original": [],
+    "original_lang": "zh",
+    "translation": [],
+    "translation_lang": "en",
+    "review_note": { "original": "原文未标过敏原，按食材推断无常见过敏原。", "original_lang": "zh", "translation": "No common allergens inferred from ingredients.", "translation_lang": "en" }
+  },
+
+  "dietary_flags": { "original": [], "original_lang": "zh", "translation": [], "translation_lang": "en" },
+
+  "tags": {
+    "original": ["川菜", "浸", "油浸", "果香味", "宴客菜"],
+    "original_lang": "zh",
+    "translation": ["Sichuan", "jin", "oil-jin", "fruity", "entertaining"],
+    "translation_lang": "en"
+  }
+}

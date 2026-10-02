@@ -1,0 +1,168 @@
+{
+  "id": "salmon-saffron",
+  "source_type": "single_dish",
+  "source_file": "EN-_Recipe-Book_Amazing-Menus-To-Go-1.pdf",
+  "source_author": null,
+
+  "cuisine_branch": "western",
+
+  "name": {
+    "original": "Salmon with Saffron Sauce and Sauteed Vegetables",
+    "original_lang": "en",
+    "translation": "藏红花酱三文鱼配炒蔬菜",
+    "translation_lang": "zh",
+    "review_status": "pending"
+  },
+
+  "classification": {
+    "cuisine": { "original": "Modern European", "original_lang": "en", "translation": "现代欧式", "translation_lang": "zh" },
+    "scenes": { "original": ["main course", "entertaining"], "original_lang": "en", "translation": ["主菜", "宴客"], "translation_lang": "zh" },
+    "meal": { "original": "main course", "original_lang": "en", "translation": "主菜", "translation_lang": "zh" },
+    "role": { "original": "main", "original_lang": "en", "translation": "主菜", "translation_lang": "zh" },
+    "temperature": "hot"
+  },
+
+  "technique": null,
+  "sub_technique": null,
+
+  "flavor_profile": {
+    "original": ["savory", "saffron", "fresh", "herbal"],
+    "original_lang": "en",
+    "translation": ["咸鲜", "藏红花", "清爽", "香草"],
+    "translation_lang": "zh",
+    "review_status": "pending"
+  },
+
+  "execution": {
+    "total_time_min": 60,
+    "active_time_min": 40,
+    "prep_ahead_required": true,
+    "prep_ahead_note": {
+      "original": "Saffron sauce and sauteed vegetables can be made ahead. Vegetables need minimum 2 hours marinating.",
+      "original_lang": "en",
+      "translation": "藏红花酱和炒蔬菜可提前做。蔬菜需至少腌制 2 小时。",
+      "translation_lang": "zh"
+    },
+    "difficulty": 3,
+    "servings": 1,
+    "serving_note": {
+      "original": "Final dish is 1 pax. Saffron sauce yields 6 pax, sauteed vegetables yield 2 pax.",
+      "original_lang": "en",
+      "translation": "最终出品为 1 人份。藏红花酱为 6 人份，炒蔬菜为 2 人份。",
+      "translation_lang": "zh"
+    },
+    "heat_level": { "original": "high heat for searing salmon", "original_lang": "en", "translation": "煎三文鱼用大火", "translation_lang": "zh" },
+    "oil_temperature": null,
+    "critical_points": [
+      {
+        "original": "Saute the vegetables in a very hot pan for only 2 minutes; serve al dente.",
+        "original_lang": "en",
+        "translation": "蔬菜大火快炒 2 分钟，保持脆度上桌。",
+        "translation_lang": "zh"
+      },
+      {
+        "original": "Seal the salmon flesh side first over high heat, then cook the skin side.",
+        "original_lang": "en",
+        "translation": "大火先封鱼肉面，再煎鱼皮面。",
+        "translation_lang": "zh"
+      }
+    ],
+    "common_mistakes": [
+      {
+        "original": "Overcooking the vegetables; they should stay al dente.",
+        "original_lang": "en",
+        "translation": "蔬菜炒过头，失去脆度。",
+        "translation_lang": "zh"
+      }
+    ]
+  },
+
+  "components": [
+    {
+      "id": "saffron-sauce",
+      "name": { "original": "Saffron Sauce", "original_lang": "en", "translation": "藏红花酱", "translation_lang": "zh" },
+      "prep_ahead": "same day",
+      "reusable": true,
+      "ingredients": [
+        { "item": { "original": "onion", "original_lang": "en", "translation": "洋葱", "translation_lang": "zh" }, "amount": "50 g" },
+        { "item": { "original": "butter", "original_lang": "en", "translation": "黄油", "translation_lang": "zh" }, "amount": "75 g" },
+        { "item": { "original": "white wine", "original_lang": "en", "translation": "白葡萄酒", "translation_lang": "zh" }, "amount": "100 g" },
+        { "item": { "original": "bomba paella rice", "original_lang": "en", "translation": "Bomba 海鲜饭米", "translation_lang": "zh" }, "amount": "75 g" },
+        { "item": { "original": "saffron", "original_lang": "en", "translation": "藏红花", "translation_lang": "zh" }, "amount": "0.5 g" },
+        { "item": { "original": "stock", "original_lang": "en", "translation": "高汤", "translation_lang": "zh" }, "amount": "350 g" },
+        { "item": { "original": "salt and white pepper", "original_lang": "en", "translation": "盐和白胡椒", "translation_lang": "zh" }, "amount": "to taste" }
+      ],
+      "method_steps": [
+        { "original": "Put the finely chopped onion with the wine in a small saucepan, heat until the wine is completely reduced.", "original_lang": "en", "translation": "洋葱切碎，与白葡萄酒入小锅，加热至酒完全收干。", "translation_lang": "zh" },
+        { "original": "Add the butter and when it melts add the saffron, cook for a few seconds over high heat.", "original_lang": "en", "translation": "加黄油，融化后加藏红花，大火炒几秒。", "translation_lang": "zh" },
+        { "original": "Add the bomba rice. Continue cooking for a few more minutes and add the stock.", "original_lang": "en", "translation": "加 Bomba 米，继续炒几分钟，加高汤。", "translation_lang": "zh" },
+        { "original": "Cook for 18 minutes, or until it starts to cook through.", "original_lang": "en", "translation": "煮 18 分钟，或至米开始熟透。", "translation_lang": "zh" },
+        { "original": "Season with salt and pepper. Blend. Leave to cool and reserve.", "original_lang": "en", "translation": "盐和胡椒调味。搅打均匀。冷却备用。", "translation_lang": "zh" }
+      ]
+    },
+    {
+      "id": "sauteed-vegetables",
+      "name": { "original": "Sauteed Vegetables", "original_lang": "en", "translation": "炒蔬菜", "translation_lang": "zh" },
+      "prep_ahead": "same day, marinate min 2 hours",
+      "reusable": true,
+      "ingredients": [
+        { "item": { "original": "courgette", "original_lang": "en", "translation": "西葫芦", "translation_lang": "zh" }, "amount": "50 g" },
+        { "item": { "original": "carrot", "original_lang": "en", "translation": "胡萝卜", "translation_lang": "zh" }, "amount": "50 g" },
+        { "item": { "original": "white cabbage", "original_lang": "en", "translation": "白卷心菜", "translation_lang": "zh" }, "amount": "50 g" },
+        { "item": { "original": "celery", "original_lang": "en", "translation": "芹菜", "translation_lang": "zh" }, "amount": "50 g" },
+        { "item": { "original": "spring onion", "original_lang": "en", "translation": "小葱", "translation_lang": "zh" }, "amount": "50 g" },
+        { "item": { "original": "ginger", "original_lang": "en", "translation": "姜", "translation_lang": "zh" }, "amount": "10 g" },
+        { "item": { "original": "salt and pepper", "original_lang": "en", "translation": "盐和胡椒", "translation_lang": "zh" }, "amount": "to taste" },
+        { "item": { "original": "olive oil", "original_lang": "en", "translation": "橄榄油", "translation_lang": "zh" }, "amount": "as needed" }
+      ],
+      "method_steps": [
+        { "original": "Slice the vegetables very thinly. Add the grated ginger, salt, pepper and oil.", "original_lang": "en", "translation": "蔬菜切薄片，加姜末、盐、胡椒、油。", "translation_lang": "zh" },
+        { "original": "Leave the mixture to marinate for a minimum of 2 hours.", "original_lang": "en", "translation": "腌制至少 2 小时。", "translation_lang": "zh" },
+        { "original": "Saute in a very hot pan with oil for 2 minutes.", "original_lang": "en", "translation": "大火热锅，油炒 2 分钟。", "translation_lang": "zh" },
+        { "original": "Reserve. Serve al dente.", "original_lang": "en", "translation": "备用，保持脆度上桌。", "translation_lang": "zh" }
+      ]
+    }
+  ],
+
+  "assembly": {
+    "name": { "original": "Plating: Salmon with Saffron Sauce and Sauteed Vegetables", "original_lang": "en", "translation": "装盘：藏红花酱三文鱼配炒蔬菜", "translation_lang": "zh" },
+    "steps": [
+      { "original": "Season the salmon and brush with oil.", "original_lang": "en", "translation": "三文鱼调味，刷油。", "translation_lang": "zh" },
+      { "original": "Seal the top part of the fish over a high heat, then cook the skin side.", "original_lang": "en", "translation": "大火先封鱼皮对面，再煎鱼皮面。", "translation_lang": "zh" },
+      { "original": "Plate the vegetables, followed by the salmon, cover with sauce and finish with sprouts.", "original_lang": "en", "translation": "先摆蔬菜，再放三文鱼，淋酱，最后点缀芽苗。", "translation_lang": "zh" }
+    ]
+  },
+
+  "images": { "hero": null, "components": [], "process": [], "note": { "original": "Source PDF contains page images; not extracted.", "original_lang": "en", "translation": "源 PDF 有页面图片，暂未提取。", "translation_lang": "zh" } },
+
+  "allergens": {
+    "original": ["sulphites", "cereals", "fish", "dairy", "celery"],
+    "original_lang": "en",
+    "translation": ["亚硫酸盐", "谷物", "鱼", "奶", "芹菜"],
+    "translation_lang": "zh"
+  },
+
+  "dietary_flags": { "original": [], "original_lang": "en", "translation": [], "translation_lang": "zh" },
+
+  "tags": {
+    "original": ["make-ahead", "component-reuse", "main", "entertaining", "seafood"],
+    "original_lang": "en",
+    "translation": ["可预制", "组件复用", "主菜", "宴客", "海鲜"],
+    "translation_lang": "zh"
+  },
+
+  "review_queue": [
+    {
+      "field": "ingredient",
+      "original": "bomba paella rice",
+      "translation": "Bomba 海鲜饭米",
+      "issue": {
+        "original": "Bomba is a specific Spanish short-grain rice. Chinese translations vary: 海鲜饭米 / 西班牙短粒米 / Bomba 米.",
+        "original_lang": "en",
+        "translation": "Bomba 是西班牙短粒米品种，中文译名不统一。",
+        "translation_lang": "zh"
+      },
+      "status": "pending"
+    }
+  ]
+}

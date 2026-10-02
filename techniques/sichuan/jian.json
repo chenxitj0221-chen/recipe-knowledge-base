@@ -1,0 +1,218 @@
+{
+  "id": "technique-jian",
+  "source_type": "technique",
+  "source_file": "川菜烹饪技法解密.爆、炒、熘、煎、浸、炸.李凯.扫描版.pdf",
+  "source_author": "李凯、普天红",
+
+  "cuisine_branch": "chinese",
+  "cuisine": {
+    "original": "川菜",
+    "original_lang": "zh",
+    "translation": "Sichuan Cuisine",
+    "translation_lang": "en"
+  },
+
+  "name": {
+    "original": "煎",
+    "original_lang": "zh",
+    "translation": "Jian (pan-frying)",
+    "translation_lang": "en",
+    "review_status": "pending",
+    "review_note": {
+      "original": "「煎」英文常译 pan-fry，但 pan-fry 无法区分中餐煎与西餐 pan-fry 在油量和火力上的差异。建议保留拼音 jian 并附注。",
+      "original_lang": "zh",
+      "translation": "'Jian' is usually 'pan-fry', but the Chinese method uses less oil and lower heat than Western pan-fry. Keep pinyin with a gloss.",
+      "translation_lang": "en"
+    }
+  },
+
+  "category": "热菜技法",
+
+  "subtypes": {
+    "original": ["干煎", "酥煎", "软煎", "煎烧（煎后调味）"],
+    "original_lang": "zh",
+    "translation": ["dry jian", "crisp jian", "soft jian", "jian then braise"],
+    "translation_lang": "en",
+    "review_status": "pending",
+    "review_note": {
+      "original": "原文未明确列出小类，此为依据烹调程序归纳，需人工确认。",
+      "original_lang": "zh",
+      "translation": "Source does not name subtypes; these are inferred from the procedure.",
+      "translation_lang": "en"
+    }
+  },
+
+  "definition": {
+    "original": "煎，是将经过加工处理的小型原料，放入锅中以中小火用少量油加热，使之成熟并两面金黄成菜的烹调方法。煎制过程中，原料与锅底直接接触，一面煎黄后再翻面煎另一面，成菜具有外酥脆、内鲜嫩的特点。",
+    "original_lang": "zh",
+    "translation": "Jian is cooking small, prepped ingredients in a pan with a little oil over medium-low heat until cooked through and golden on both sides. The ingredient contacts the pan directly; one side browns before flipping. The finished dish is crisp outside, tender inside.",
+    "translation_lang": "en"
+  },
+
+  "procedure": [
+    {
+      "step": 1,
+      "name": { "original": "选料切配", "original_lang": "zh", "translation": "Select and cut", "translation_lang": "en" },
+      "detail": {
+        "original": "主料宜选用新鲜无异味、滋味鲜香、质地细嫩的原料；辅料选用富有色、香、味、质感特色的原料，如鲜豌豆、火腿、荸荠、冬笋等。切配以颗粒、肉泥及片、饼等规格为主。",
+        "original_lang": "zh",
+        "translation": "Choose fresh, fragrant, tender main ingredients; auxiliaries with color, aroma, flavor, and texture (peas, ham, water chestnut, winter bamboo). Cut into dice, mince, slices, or patties.",
+        "translation_lang": "en"
+      }
+    },
+    {
+      "step": 2,
+      "name": { "original": "调制挂糊", "original_lang": "zh", "translation": "Mix or coat", "translation_lang": "en" },
+      "detail": {
+        "original": "主料是颗粒、肉泥规格的原料，都要与鸡蛋、湿淀粉、味精、精盐等调味品一起搅拌均匀成半成品；主料是饼、片规格的原料，在全蛋淀粉中拌匀或先拖蛋液后，再沾一层面包粉。",
+        "original_lang": "zh",
+        "translation": "Dice/mince ingredients are mixed with egg, wet starch, MSG, and salt into a semi-finished mixture. Slice/patty ingredients are coated with whole-egg starch, or dipped in egg then breadcrumbs.",
+        "translation_lang": "en"
+      }
+    },
+    {
+      "step": 3,
+      "name": { "original": "煎制", "original_lang": "zh", "translation": "Pan-fry", "translation_lang": "en" },
+      "detail": {
+        "original": "先将煎锅洗净放入大火上，放入植物油脂适量炙锅，然后逐一将半成品做成大小相等的饼，或将拖好蛋液、拌好全蛋糊的片、饼，逐一放入锅中，用小火煎至金黄酥脆。",
+        "original_lang": "zh",
+        "translation": "Heat and season a clean pan over high heat with a little oil. Form equal-sized patties, or lay in coated slices/patties, and pan-fry over low heat until golden and crisp.",
+        "translation_lang": "en"
+      }
+    },
+    {
+      "step": 4,
+      "name": { "original": "调味装盘", "original_lang": "zh", "translation": "Season and plate", "translation_lang": "en" },
+      "detail": {
+        "original": "调味的方式有四种：第一种是将原料煎好去余油，淋香油簸匀装盘，配椒盐、生菜上桌。第二种是将原料煎好后装盘，浇上复合味汁，如鱼香味汁、茄汁味汁等。第三种是将原料煎好后，锅内留油适量，烹入兑好的复合味汁。第四种是将原料煎好，锅内留油适量，放入调味品，渗入鲜汤，加入辅料迅速烧沸入味，勾芡淋明油起锅装盘。",
+        "original_lang": "zh",
+        "translation": "Four ways to season: (1) drain oil, drizzle sesame oil, plate with salt-pepper dip and lettuce; (2) plate and pour over a composite sauce such as fish-fragrant or tomato; (3) leave oil in the pan and pour in a pre-mixed composite sauce; (4) leave oil, add seasonings and stock, add auxiliaries, bring to a boil, thicken, drizzle oil, and plate.",
+        "translation_lang": "en"
+      }
+    }
+  ],
+
+  "workflow": {
+    "original": "原料选择 → 加工 → 调制（或挂糊）→ 煎制 → 调味 → 装盘成菜",
+    "original_lang": "zh",
+    "translation": "Select → prep → mix/coat → pan-fry → season → plate",
+    "translation_lang": "en"
+  },
+
+  "execution": {
+    "heat_level": {
+      "original": "中小火",
+      "original_lang": "zh",
+      "translation": "medium-low heat",
+      "translation_lang": "en"
+    },
+    "oil_temperature": {
+      "original": "五成左右",
+      "original_lang": "zh",
+      "translation": "around 50%",
+      "translation_lang": "en"
+    },
+    "time": {
+      "original": "视原料厚薄而定，通常每面几分钟",
+      "original_lang": "zh",
+      "translation": "depends on thickness; usually a few minutes per side",
+      "translation_lang": "en"
+    },
+    "critical_points": [
+      {
+        "original": "切配颗粒的原料要大小一致，在豌豆粒与绿豆粒之间般大小即可。片要厚薄均匀、大小一致。肉泥要粗细相宜，调去筋缠。",
+        "original_lang": "zh",
+        "translation": "Cut dice evenly (between pea and mung-bean size). Slices should be uniform. Mince should be neither too coarse nor too fine, with sinew removed.",
+        "translation_lang": "en"
+      },
+      {
+        "original": "颗粒原料拌制的半成品，要加入适量的熟肥膘粒，以增加滋润醇香的口感，还要控制好半成品的干稀度，以做成饼后不易变形为宜。",
+        "original_lang": "zh",
+        "translation": "Dice-based mixtures benefit from a little cooked fat for richness; control moisture so patties hold shape.",
+        "translation_lang": "en"
+      },
+      {
+        "original": "饼、片所挂的糊，要控制干稀厚薄，其干稀程度以糊在原料上不流不掉为好。厚薄程度以使菜肴煎制后有酥脆的质感，又不影响菜肴本身的风味为准。",
+        "original_lang": "zh",
+        "translation": "Coating should neither run nor fall off. Thickness should give crispness without masking the ingredient.",
+        "translation_lang": "en"
+      },
+      {
+        "original": "煎制前一定将锅洗净并炙好锅，以免煎制时沾锅。",
+        "original_lang": "zh",
+        "translation": "Clean and season the pan before frying to prevent sticking.",
+        "translation_lang": "en"
+      },
+      {
+        "original": "忌勤翻锅。在锅里煎制时，最忌还没煎好就翻动，这样容易翻碎原料，要等煎好后，再翻过来煎另一面。",
+        "original_lang": "zh",
+        "translation": "Don't flip too early — the ingredient will break apart. Wait until one side is done.",
+        "translation_lang": "en"
+      },
+      {
+        "original": "煎制时，注意随时加油。煎制的菜肴用油量不可淹没主料，油少时还可随时点入，并随时晃动锅，使所煎制的原料不断转动，一防巴锅，二防上色不匀。",
+        "original_lang": "zh",
+        "translation": "Add oil as needed; never submerge the ingredient. Swirl the pan to prevent sticking and ensure even browning.",
+        "translation_lang": "en"
+      }
+    ],
+    "common_mistakes": [
+      {
+        "original": "翻锅过早，原料碎裂。",
+        "original_lang": "zh",
+        "translation": "Flipping too early breaks the ingredient apart.",
+        "translation_lang": "en"
+      },
+      {
+        "original": "火太大，外焦内生。",
+        "original_lang": "zh",
+        "translation": "Heat too high burns the outside while the inside stays raw.",
+        "translation_lang": "en"
+      },
+      {
+        "original": "锅未炙好，煎制时沾锅。",
+        "original_lang": "zh",
+        "translation": "Unseasoned pan causes sticking.",
+        "translation_lang": "en"
+      }
+    ]
+  },
+
+  "finished_dish_traits": {
+    "original": ["外酥脆", "内鲜嫩", "色泽金黄", "大部分菜肴无芡无汁"],
+    "original_lang": "zh",
+    "translation": ["crisp outside", "tender inside", "golden color", "mostly no sauce"],
+    "translation_lang": "en"
+  },
+
+  "flavor_profile": {
+    "original": ["咸鲜味", "鱼香味", "茄汁味等（视具体菜品而定）"],
+    "original_lang": "zh",
+    "translation": ["savory-fresh", "fish-fragrant", "tomato, depending on the dish"],
+    "translation_lang": "en"
+  },
+
+  "related_dishes": {
+    "original": ["口蘑煎猪扒", "香橙软煎鸡", "香菱煎肉饼", "生煎鸭粒饼", "蒜香银鳕鱼", "三鲜煎蛋"],
+    "original_lang": "zh",
+    "translation": ["mushroom pan-fried pork chop", "orange soft-fried chicken", "coriander pan-fried meat patty", "pan-fried duck patty", "garlic silver cod", "three-delicacy omelette"],
+    "translation_lang": "en"
+  },
+
+  "images": {
+    "hero": null,
+    "note": {
+      "original": "技法类无成品图。",
+      "original_lang": "zh",
+      "translation": "Technique entries have no finished-dish photo.",
+      "translation_lang": "en"
+    }
+  },
+
+  "tags": {
+    "original": ["川菜技法", "煎", "热菜", "中小火"],
+    "original_lang": "zh",
+    "translation": ["Sichuan technique", "jian", "hot dish", "medium-low heat"],
+    "translation_lang": "en"
+  }
+}

@@ -1,0 +1,223 @@
+{
+  "id": "octopus-ceviche",
+  "source_type": "single_dish",
+  "source_file": "EN_RECIPE-BOOK.pptx.pdf",
+  "source_author": "Eduardo García",
+
+  "cuisine_branch": "western",
+
+  "name": {
+    "original": "Mexican-Style Octopus Ceviche",
+    "original_lang": "en",
+    "translation": "墨西哥风味章鱼 Ceviche",
+    "translation_lang": "zh",
+    "review_status": "pending",
+    "review_note": {
+      "original": "Ceviche is a Latin American dish of raw fish cured in citrus. Chinese has no standard name; keep 'ceviche' with a gloss.",
+      "original_lang": "en",
+      "translation": "Ceviche 是拉美生腌海鲜，中文无标准译名。建议保留 ceviche 并附注。",
+      "translation_lang": "zh"
+    }
+  },
+
+  "classification": {
+    "cuisine": { "original": "Mexican", "original_lang": "en", "translation": "墨西哥菜", "translation_lang": "zh" },
+    "scenes": { "original": ["starter", "cold", "entertaining"], "original_lang": "en", "translation": ["前菜", "冷菜", "宴客"], "translation_lang": "zh" },
+    "meal": { "original": "starter", "original_lang": "en", "translation": "前菜", "translation_lang": "zh" },
+    "role": { "original": "starter", "original_lang": "en", "translation": "前菜", "translation_lang": "zh" },
+    "temperature": "cold"
+  },
+
+  "technique": null,
+  "sub_technique": null,
+
+  "flavor_profile": {
+    "original": ["citrusy", "spicy", "savory", "fresh"],
+    "original_lang": "en",
+    "translation": ["柑橘", "辣", "咸鲜", "清爽"],
+    "translation_lang": "zh",
+    "review_status": "pending"
+  },
+
+  "execution": {
+    "total_time_min": 130,
+    "active_time_min": 40,
+    "prep_ahead_required": true,
+    "prep_ahead_note": {
+      "original": "Octopus cooks 50 minutes, then rests in its cooking liquid 40 minutes.",
+      "original_lang": "en",
+      "translation": "章鱼煮 50 分钟，再在原汤中静置 40 分钟。",
+      "translation_lang": "zh"
+    },
+    "difficulty": 3,
+    "servings": 4,
+    "serving_note": {
+      "original": "Cooking octopus and ceviche base yield 4 pax. Final dish is 1 pax per serving.",
+      "original_lang": "en",
+      "translation": "煮章鱼和 ceviche 底均为 4 人份。最终出品每份 1 人份。",
+      "translation_lang": "zh"
+    },
+    "heat_level": { "original": "low for cooking octopus", "original_lang": "en", "translation": "煮章鱼用小火", "translation_lang": "zh" },
+    "oil_temperature": null,
+    "critical_points": [
+      {
+        "original": "Cook the octopus over low heat for 50 minutes, then let it rest in the cooking liquid for 40 minutes.",
+        "original_lang": "en",
+        "translation": "章鱼小火煮 50 分钟，原汤静置 40 分钟。",
+        "translation_lang": "zh"
+      },
+      {
+        "original": "Slice the cooked octopus into 5 mm pieces.",
+        "original_lang": "en",
+        "translation": "煮好的章鱼切 5 mm 片。",
+        "translation_lang": "zh"
+      },
+      {
+        "original": "Grind the onion, garlic, salt, serrano, and chiltepin in a mortar before blending.",
+        "original_lang": "en",
+        "translation": "洋葱、蒜、盐、Serrano、Chiltepin 先在研钵中捣成泥，再打。",
+        "translation_lang": "zh"
+      }
+    ],
+    "common_mistakes": [
+      {
+        "original": "Boiling the octopus rapidly; it becomes tough.",
+        "original_lang": "en",
+        "translation": "章鱼大火滚煮，肉质变硬。",
+        "translation_lang": "zh"
+      },
+      {
+        "original": "Skipping the rest period; the octopus stays chewy.",
+        "original_lang": "en",
+        "translation": "省略静置，章鱼嚼不烂。",
+        "translation_lang": "zh"
+      }
+    ]
+  },
+
+  "components": [
+    {
+      "id": "cooking-octopus",
+      "name": { "original": "Cooking the Octopus", "original_lang": "en", "translation": "煮章鱼", "translation_lang": "zh" },
+      "prep_ahead": "same day",
+      "reusable": true,
+      "ingredients": [
+        { "item": { "original": "raw octopus", "original_lang": "en", "translation": "生章鱼", "translation_lang": "zh" }, "amount": "1" },
+        { "item": { "original": "carrot, celery, and onion mirepoix", "original_lang": "en", "translation": "胡萝卜、芹菜、洋葱 mirepoix", "translation_lang": "zh" }, "amount": "120 g" },
+        { "item": { "original": "yellow lemon", "original_lang": "en", "translation": "黄柠檬", "translation_lang": "zh" }, "amount": "1" },
+        { "item": { "original": "coarse salt", "original_lang": "en", "translation": "粗盐", "translation_lang": "zh" }, "amount": "20 g" },
+        { "item": { "original": "water", "original_lang": "en", "translation": "水", "translation_lang": "zh" }, "amount": "as needed to cover" }
+      ],
+      "method_steps": [
+        { "original": "Bring a large pot of water to a boil. Add the coarse salt, carrot, celery, onion, and lemon. Maintain a steady simmer.", "original_lang": "en", "translation": "大锅水烧开，加粗盐、胡萝卜、芹菜、洋葱、柠檬，保持微沸。", "translation_lang": "zh" },
+        { "original": "Add the octopus. Cook over low heat for 50 minutes.", "original_lang": "en", "translation": "加章鱼，小火煮 50 分钟。", "translation_lang": "zh" },
+        { "original": "Remove from the heat and let the octopus rest in its cooking liquid for 40 minutes, adjusting the time depending on size and variety.", "original_lang": "en", "translation": "离火，原汤静置 40 分钟，视大小调整。", "translation_lang": "zh" },
+        { "original": "Drain the octopus. Slice into 5 mm pieces. Set aside.", "original_lang": "en", "translation": "沥出章鱼，切 5 mm 片，备用。", "translation_lang": "zh" }
+      ]
+    },
+    {
+      "id": "ceviche-base",
+      "name": { "original": "Ceviche Base", "original_lang": "en", "translation": "Ceviche 底", "translation_lang": "zh" },
+      "prep_ahead": "same day",
+      "reusable": true,
+      "ingredients": [
+        { "item": { "original": "onion", "original_lang": "en", "translation": "洋葱", "translation_lang": "zh" }, "amount": "20 g" },
+        { "item": { "original": "garlic", "original_lang": "en", "translation": "大蒜", "translation_lang": "zh" }, "amount": "1 small clove" },
+        { "item": { "original": "guajillo chilies, soaked in hot water", "original_lang": "en", "translation": "Guajillo 辣椒，热水泡发", "translation_lang": "zh" }, "amount": "3" },
+        { "item": { "original": "coarse salt", "original_lang": "en", "translation": "粗盐", "translation_lang": "zh" }, "amount": "3 g" },
+        { "item": { "original": "chiltepin", "original_lang": "en", "translation": "Chiltepin 辣椒", "translation_lang": "zh" }, "amount": "to taste" },
+        { "item": { "original": "serrano chili", "original_lang": "en", "translation": "Serrano 辣椒", "translation_lang": "zh" }, "amount": "1/2" },
+        { "item": { "original": "tomato juice", "original_lang": "en", "translation": "番茄汁", "translation_lang": "zh" }, "amount": "40 ml" },
+        { "item": { "original": "lime juice", "original_lang": "en", "translation": "青柠汁", "translation_lang": "zh" }, "amount": "30 ml" },
+        { "item": { "original": "cucumber", "original_lang": "en", "translation": "黄瓜", "translation_lang": "zh" }, "amount": "60 g" }
+      ],
+      "method_steps": [
+        { "original": "In a mortar, grind the onion, garlic, coarse salt, serrano chili, and chiltepin chili until a smooth paste forms.", "original_lang": "en", "translation": "研钵中捣洋葱、蒜、盐、Serrano、Chiltepin 至顺滑糊状。", "translation_lang": "zh" },
+        { "original": "Place the cucumber, guajillo chilies, Clamato, and lime juice in a blender. Blend until smooth.", "original_lang": "en", "translation": "黄瓜、Guajillo、Clamato、青柠汁入搅拌机打匀。", "translation_lang": "zh" },
+        { "original": "Add the paste from the mortar. Blend again until all ingredients are well combined.", "original_lang": "en", "translation": "加研钵中的糊，再打匀。", "translation_lang": "zh" },
+        { "original": "Taste and adjust the seasoning as needed. Set aside.", "original_lang": "en", "translation": "尝味调整，备用。", "translation_lang": "zh" }
+      ]
+    },
+    {
+      "id": "finishing",
+      "name": { "original": "Finishing", "original_lang": "en", "translation": "成品组装", "translation_lang": "zh" },
+      "prep_ahead": "at plating",
+      "reusable": false,
+      "ingredients": [
+        { "item": { "original": "cooked octopus, sliced 5 mm", "original_lang": "en", "translation": "熟章鱼，5 mm 片", "translation_lang": "zh" }, "amount": "150 g" },
+        { "item": { "original": "ceviche", "original_lang": "en", "translation": "ceviche 底", "translation_lang": "zh" }, "amount": "80–100 g" },
+        { "item": { "original": "finely chopped onion", "original_lang": "en", "translation": "细切洋葱", "translation_lang": "zh" }, "amount": "15 g" },
+        { "item": { "original": "finely chopped cucumber", "original_lang": "en", "translation": "细切黄瓜", "translation_lang": "zh" }, "amount": "20 g" },
+        { "item": { "original": "finely chopped tomato", "original_lang": "en", "translation": "细切番茄", "translation_lang": "zh" }, "amount": "20 g" },
+        { "item": { "original": "cilantro, finely shredded", "original_lang": "en", "translation": "芫荽，细切", "translation_lang": "zh" }, "amount": "5 g" },
+        { "item": { "original": "lemon juice", "original_lang": "en", "translation": "柠檬汁", "translation_lang": "zh" }, "amount": "to taste" },
+        { "item": { "original": "chili", "original_lang": "en", "translation": "辣椒", "translation_lang": "zh" }, "amount": "to taste" },
+        { "item": { "original": "salt", "original_lang": "en", "translation": "盐", "translation_lang": "zh" }, "amount": "to taste" },
+        { "item": { "original": "olive oil", "original_lang": "en", "translation": "橄榄油", "translation_lang": "zh" }, "amount": "to taste" },
+        { "item": { "original": "sliced radish", "original_lang": "en", "translation": "樱桃萝卜片", "translation_lang": "zh" }, "amount": "10 g" },
+        { "item": { "original": "cilantro", "original_lang": "en", "translation": "芫荽", "translation_lang": "zh" }, "amount": "to taste" }
+      ],
+      "method_steps": [
+        { "original": "In a bowl, mix together the chopped onion, cucumber, and tomato. Add the octopus. Add the ceviche.", "original_lang": "en", "translation": "碗中拌洋葱、黄瓜、番茄，加章鱼、ceviche 底。", "translation_lang": "zh" },
+        { "original": "Add the cilantro, finely sliced. Gently mix until the ingredients are well combined.", "original_lang": "en", "translation": "加芫荽细丝，轻拌均匀。", "translation_lang": "zh" },
+        { "original": "Adjust the seasoning with lime juice, serrano chili, and salt. Add a few drops of olive oil.", "original_lang": "en", "translation": "用青柠汁、Serrano、盐调味，滴几滴橄榄油。", "translation_lang": "zh" },
+        { "original": "Arrange the dish on a serving plate. Garnish with thinly sliced radish. Garnish with fresh cilantro leaves. Serve immediately.", "original_lang": "en", "translation": "摆盘，配樱桃萝卜片和芫荽叶，立即上桌。", "translation_lang": "zh" }
+      ]
+    }
+  ],
+
+  "assembly": {
+    "name": { "original": "Plating: Mexican-Style Octopus Ceviche", "original_lang": "en", "translation": "装盘：墨西哥风味章鱼 Ceviche", "translation_lang": "zh" },
+    "steps": [
+      { "original": "In a bowl, mix together the chopped onion, cucumber, and tomato. Add the octopus and the ceviche.", "original_lang": "en", "translation": "碗中拌洋葱、黄瓜、番茄，加章鱼、ceviche 底。", "translation_lang": "zh" },
+      { "original": "Add the cilantro, finely sliced. Gently mix until the ingredients are well combined.", "original_lang": "en", "translation": "加芫荽细丝，轻拌。", "translation_lang": "zh" },
+      { "original": "Adjust the seasoning with lime juice, serrano chili, and salt. Add a few drops of olive oil.", "original_lang": "en", "translation": "青柠汁、Serrano、盐调味，滴橄榄油。", "translation_lang": "zh" },
+      { "original": "Arrange the dish on a serving plate. Garnish with thinly sliced radish and fresh cilantro leaves. Serve immediately.", "original_lang": "en", "translation": "摆盘，配樱桃萝卜片和芫荽叶，立即上桌。", "translation_lang": "zh" }
+    ]
+  },
+
+  "images": { "hero": null, "components": [], "process": [], "note": { "original": "Source PDF contains page images; not extracted.", "original_lang": "en", "translation": "源 PDF 有页面图片，暂未提取。", "translation_lang": "zh" } },
+
+  "allergens": {
+    "original": ["molluscs"],
+    "original_lang": "en",
+    "translation": ["软体动物"],
+    "translation_lang": "zh"
+  },
+
+  "dietary_flags": { "original": [], "original_lang": "en", "translation": [], "translation_lang": "zh" },
+
+  "tags": {
+    "original": ["starter", "cold", "entertaining", "seafood", "Mexican"],
+    "original_lang": "en",
+    "translation": ["前菜", "冷菜", "宴客", "海鲜", "墨西哥菜"],
+    "translation_lang": "zh"
+  },
+
+  "review_queue": [
+    {
+      "field": "ingredient",
+      "original": "Clamato",
+      "translation": "Clamato",
+      "issue": {
+        "original": "The preparation mentions Clamato but the ingredient list does not. Clamato is a commercial tomato-clam juice blend, which affects allergens.",
+        "original_lang": "en",
+        "translation": "步骤中提到 Clamato，但食材清单没有。Clamato 是市售番茄蛤蜊汁，影响过敏原标注。",
+        "translation_lang": "zh"
+      },
+      "status": "pending"
+    },
+    {
+      "field": "ingredient",
+      "original": "chiltepin",
+      "translation": "Chiltepin 辣椒",
+      "issue": {
+        "original": "Chiltepin is a wild chili variety with no standard Chinese name.",
+        "original_lang": "en",
+        "translation": "Chiltepin 是野生辣椒品种，中文无标准译名。",
+        "translation_lang": "zh"
+      },
+      "status": "pending"
+    }
+  ]
+}

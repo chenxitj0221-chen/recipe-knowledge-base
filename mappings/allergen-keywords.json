@@ -1,0 +1,257 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-09-20",
+  "purpose": "为方案 B 提供致敏食材关键词匹配。系统只做提示，不做判断。",
+
+  "allergen_keywords": {
+    "gluten": {
+      "name": {
+        "original": "Gluten",
+        "original_lang": "en",
+        "translation": "麸质",
+        "translation_lang": "zh"
+      },
+      "keywords_zh": ["面粉", "面条", "面包", "饺子皮", "馄饨皮", "酱油", "老抽", "生抽", "豆瓣", "豆瓣酱", "面酱", "甜面酱", "黄酱", "面包糠", "面包粉", "啤酒", "大麦", "小麦", "燕麦", "黑麦", "面筋", "油面筋", "烤麸", "馒头", "花卷", "包子", "烧饼", "油条", "意面", "通心粉", "千层面"],
+      "keywords_en": ["flour", "noodle", "noodles", "bread", "breadcrumb", "breadcrumbs", "panko", "soy sauce", "tamari", "miso", "doubanjiang", "hoisin", "oyster sauce", "beer", "barley", "wheat", "oat", "rye", "seitan", "gluten", "pasta", "spaghetti", "macaroni", "lasagna", "couscous", "brioche", "tortilla", "pita"],
+      "note": {
+        "original": "酱油是否含麸质取决于酿造工艺和品牌，多数中式酱油含小麦。需人工确认。",
+        "original_lang": "zh",
+        "translation": "Whether soy sauce contains gluten depends on the brewing method and brand. Most Chinese soy sauces contain wheat. Manual confirmation needed.",
+        "translation_lang": "en"
+      }
+    },
+
+    "dairy": {
+      "name": {
+        "original": "Dairy",
+        "original_lang": "en",
+        "translation": "乳制品",
+        "translation_lang": "zh"
+      },
+      "keywords_zh": ["牛奶", "鲜奶", "奶油", "淡奶油", "黄油", "芝士", "奶酪", "帕玛森", "帕达诺", "马苏里拉", "马斯卡彭", "炼乳", "酸奶", "酸奶油", "乳清", "奶皮", "奶豆腐", "酥油", "起司"],
+      "keywords_en": ["milk", "cream", "butter", "cheese", "parmesan", "grana padano", "mozzarella", "mascarpone", "ricotta", "cheddar", "comté", "comte", "yoghurt", "yogurt", "whey", "ghee", "crème fraîche", "creme fraiche", "béchamel", "bechamel", "custard"],
+      "note": {
+        "original": "黄油和奶油在多数西餐中是结构性食材，替换会显著改变风味。需人工判断。",
+        "original_lang": "zh",
+        "translation": "Butter and cream are structural in most Western dishes; substitution significantly alters flavor. Manual judgment needed.",
+        "translation_lang": "en"
+      }
+    },
+
+    "egg": {
+      "name": {
+        "original": "Egg",
+        "original_lang": "en",
+        "translation": "蛋",
+        "translation_lang": "zh"
+      },
+      "keywords_zh": ["鸡蛋", "蛋清", "蛋黄", "蛋液", "全蛋", "鸭蛋", "鹌鹑蛋", "皮蛋", "咸蛋", "蛋皮", "蛋饺", "蛋卷", "蛋花"],
+      "keywords_en": ["egg", "eggs", "egg white", "egg yolk", "egg wash", "omelette", "omelet", "mayonnaise", "aioli", "meringue", "custard", "sabayon", "hollandaise"],
+      "note": {
+        "original": "蛋清淀粉浆、蛋液裹粉、蛋黄酱等都含蛋，但都是可替换的结构性食材。",
+        "original_lang": "zh",
+        "translation": "Egg-white starch, egg wash, and mayonnaise all contain egg but are substitutable structural ingredients.",
+        "translation_lang": "en"
+      }
+    },
+
+    "nuts": {
+      "name": {
+        "original": "Nuts",
+        "original_lang": "en",
+        "translation": "坚果",
+        "translation_lang": "zh"
+      },
+      "keywords_zh": ["花生", "杏仁", "核桃", "腰果", "榛子", "松子", "开心果", "夏威夷果", "碧根果", "巴旦木", "栗子", "芝麻"],
+      "keywords_en": ["peanut", "almond", "walnut", "cashew", "hazelnut", "pine nut", "pistachio", "macadamia", "pecan", "chestnut", "sesame"],
+      "note": {
+        "original": "芝麻在部分国家标准中单列，但常与坚果一起标注。",
+        "original_lang": "zh",
+        "translation": "Sesame is listed separately in some national standards but often grouped with nuts.",
+        "translation_lang": "en"
+      }
+    },
+
+    "shellfish": {
+      "name": {
+        "original": "Shellfish",
+        "original_lang": "en",
+        "translation": "甲壳类 / 贝类",
+        "translation_lang": "zh"
+      },
+      "keywords_zh": ["虾", "虾仁", "蟹", "螃蟹", "龙虾", "贝", "蛤", "蛤蜊", "蚝", "生蚝", "扇贝", "鲍鱼", "鱿鱼", "章鱼", "墨鱼", "蛏子", "青口"],
+      "keywords_en": ["shrimp", "prawn", "crab", "lobster", "clam", "oyster", "scallop", "abalone", "squid", "octopus", "cuttlefish", "mussel", "shellfish", "crustacean", "mollusc"],
+      "note": {
+        "original": "部分国家将甲壳类和软体动物分开标注。",
+        "original_lang": "zh",
+        "translation": "Some countries list crustaceans and molluscs separately.",
+        "translation_lang": "en"
+      }
+    },
+
+    "fish": {
+      "name": {
+        "original": "Fish",
+        "original_lang": "en",
+        "translation": "鱼",
+        "translation_lang": "zh"
+      },
+      "keywords_zh": ["鱼", "草鱼", "鲫鱼", "鲤鱼", "鲈鱼", "桂鱼", "鳜鱼", "三文鱼", "鳕鱼", "银鳕鱼", "金枪鱼", "鲭鱼", "沙丁鱼", "鳗鱼", "鳝鱼", "带鱼", "黄花鱼", "鲢鱼", "武昌鱼", "龙利鱼", "鲷鱼", "比目鱼", "鱼露", "鱼酱", "鱼丸"],
+      "keywords_en": ["fish", "salmon", "cod", "tuna", "mackerel", "sardine", "eel", "anchovy", "anchovies", "sea bass", "seabass", "snapper", "sole", "turbot", "halibut", "trout", "fish sauce", "worcestershire"],
+      "note": {
+        "original": "鱼露和伍斯特酱含鱼类成分，常被忽略。",
+        "original_lang": "zh",
+        "translation": "Fish sauce and Worcestershire sauce contain fish and are often overlooked.",
+        "translation_lang": "en"
+      }
+    },
+
+    "soy": {
+      "name": {
+        "original": "Soy",
+        "original_lang": "en",
+        "translation": "大豆",
+        "translation_lang": "zh"
+      },
+      "keywords_zh": ["大豆", "黄豆", "豆腐", "豆浆", "豆腐乳", "腐乳", "豆腐干", "豆皮", "腐竹", "豆豉", "酱油", "生抽", "老抽", "味噌", "豆芽", "毛豆", "豆粉", "黄豆酱", "豆奶"],
+      "keywords_en": ["soy", "soya", "soybean", "tofu", "soy milk", "soy sauce", "tamari", "miso", "edamame", "tempeh", "bean curd", "fermented tofu", "soy lecithin"],
+      "note": {
+        "original": "酱油同时命中 gluten 和 soy 两类，调用时按客人需求取并集或交集。",
+        "original_lang": "zh",
+        "translation": "Soy sauce matches both gluten and soy; the filter should take union or intersection depending on the guest's needs.",
+        "translation_lang": "en"
+      }
+    },
+
+    "celery": {
+      "name": {
+        "original": "Celery",
+        "original_lang": "en",
+        "translation": "芹菜",
+        "translation_lang": "zh"
+      },
+      "keywords_zh": ["芹菜", "西芹", "芹菜籽", "芹菜粉"],
+      "keywords_en": ["celery", "celeriac", "celery seed", "celery salt"],
+      "note": {
+        "original": "欧盟标准中芹菜是必标过敏原，中国标准未强制。",
+        "original_lang": "zh",
+        "translation": "Celery is a mandatory allergen label in the EU but not in China.",
+        "translation_lang": "en"
+      }
+    },
+
+    "mustard": {
+      "name": {
+        "original": "Mustard",
+        "original_lang": "en",
+        "translation": "芥末",
+        "translation_lang": "zh"
+      },
+      "keywords_zh": ["芥末", "芥末籽", "黄芥末", "第戎芥末", "芥末酱", "芥末油", "辣根"],
+      "keywords_en": ["mustard", "dijon", "whole grain mustard", "mustard seed", "horseradish", "wasabi"],
+      "note": {
+        "original": "第戎芥末和全籽芥末常用于西餐酱汁，中式凉拌菜也用芥末。",
+        "original_lang": "zh",
+        "translation": "Dijon and whole-grain mustard are common in Western sauces; Chinese cold dishes also use mustard.",
+        "translation_lang": "en"
+      }
+    },
+
+    "sesame": {
+      "name": {
+        "original": "Sesame",
+        "original_lang": "en",
+        "translation": "芝麻",
+        "translation_lang": "zh"
+      },
+      "keywords_zh": ["芝麻", "芝麻酱", "芝麻油", "香油", "芝麻面", "芝麻粉", "芝麻籽"],
+      "keywords_en": ["sesame", "tahini", "sesame oil", "sesame seed", "sesame paste"],
+      "note": {
+        "original": "芝麻在部分国家单列过敏原，需与坚果分开处理。",
+        "original_lang": "zh",
+        "translation": "Sesame is listed separately in some countries and should be handled apart from nuts.",
+        "translation_lang": "en"
+      }
+    },
+
+    "sulphites": {
+      "name": {
+        "original": "Sulphites",
+        "original_lang": "en",
+        "translation": "亚硫酸盐",
+        "translation_lang": "zh"
+      },
+      "keywords_zh": ["亚硫酸盐", "二氧化硫", "焦亚硫酸", "葡萄酒", "白葡萄酒", "红葡萄酒", "料酒", "米酒"],
+      "keywords_en": ["sulphite", "sulfite", "sulphur dioxide", "sulfur dioxide", "wine", "white wine", "red wine", "cooking wine", "mirin", "sake"],
+      "note": {
+        "original": "酒类通常含亚硫酸盐，中式料酒和日式味醂也含。",
+        "original_lang": "zh",
+        "translation": "Wines generally contain sulphites; Chinese cooking wine and Japanese mirin also do.",
+        "translation_lang": "en"
+      }
+    },
+
+    "vegan_blockers": {
+      "name": {
+        "original": "Vegan blockers",
+        "original_lang": "en",
+        "translation": "纯素阻碍物",
+        "translation_lang": "zh"
+      },
+      "keywords_zh": ["肉", "猪肉", "牛肉", "羊肉", "鸡肉", "鸭肉", "鹅肉", "鱼", "虾", "蟹", "贝", "蛋", "奶", "黄油", "芝士", "蜂蜜", "猪油", "鸡油", "鱼露", "蚝油", "明胶", "吉利丁", "高汤"],
+      "keywords_en": ["meat", "pork", "beef", "lamb", "chicken", "duck", "goose", "fish", "shrimp", "crab", "shellfish", "egg", "milk", "butter", "cheese", "honey", "lard", "fish sauce", "oyster sauce", "gelatin", "gelatine", "stock", "broth"],
+      "note": {
+        "original": "vegan 判断比 GF/DF 复杂，因为「高汤」等隐性食材常被忽略。建议纯素需求全部人工确认。",
+        "original_lang": "zh",
+        "translation": "Vegan filtering is harder than GF/DF because hidden ingredients like stock are often missed. Recommend full manual review for vegan requests.",
+        "translation_lang": "en"
+      }
+    }
+  },
+
+  "usage_note": {
+    "original": "系统拿本表的关键词去匹配菜例的食材清单，命中即提示，不命中即放过。系统不做「能不能改造」的判断，只做提示。最终判断权在厨师或提问者。",
+    "original_lang": "zh",
+    "translation": "The system matches these keywords against each dish's ingredient list. Hits are flagged, non-hits pass. The system does not judge substitutability, only flags. Final judgment rests with the chef or requester.",
+    "translation_lang": "en"
+  },
+
+  "review_queue": [
+    {
+      "field": "gluten.keywords_zh",
+      "original": "酱油",
+      "translation": "soy sauce",
+      "issue": {
+        "original": "中式酱油是否含小麦因品牌而异，部分品牌使用纯大豆酿造。建议在调用时提示「请确认酱油品牌」。",
+        "original_lang": "zh",
+        "translation": "Whether Chinese soy sauce contains wheat depends on the brand; some are brewed from soy only. Suggest flagging 'confirm soy sauce brand' at call time.",
+        "translation_lang": "en"
+      },
+      "status": "pending"
+    },
+    {
+      "field": "dairy.keywords_zh",
+      "original": "黄油",
+      "translation": "butter",
+      "issue": {
+        "original": "黄油在西餐中是结构性食材，替换会影响风味和质地，建议提示「替换需厨师确认」。",
+        "original_lang": "zh",
+        "translation": "Butter is structural in Western dishes; substitution affects flavor and texture. Suggest flagging 'chef confirmation needed'.",
+        "translation_lang": "en"
+      },
+      "status": "pending"
+    },
+    {
+      "field": "vegan_blockers",
+      "original": "高汤",
+      "translation": "stock / broth",
+      "issue": {
+        "original": "「高汤」可能是鸡高汤、牛高汤或蔬菜高汤，仅凭关键词无法判断是否 vegan。建议所有含高汤的菜在 vegan 调用时全部人工确认。",
+        "original_lang": "zh",
+        "translation": "'Stock' could be chicken, beef, or vegetable. Keyword matching cannot determine vegan status. Recommend manual review for all stock-containing dishes in vegan requests.",
+        "translation_lang": "en"
+      },
+      "status": "pending"
+    }
+  ]
+}

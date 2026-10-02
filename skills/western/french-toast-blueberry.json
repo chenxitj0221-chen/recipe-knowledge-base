@@ -1,0 +1,175 @@
+{
+  "id": "french-toast-blueberry",
+  "source_type": "single_dish",
+  "source_file": "EN_RECIPE-BOOK.pptx.pdf",
+  "source_author": "Eduardo García",
+
+  "cuisine_branch": "western",
+
+  "name": {
+    "original": "French Toast with Blueberry Compote and Ice Cream",
+    "original_lang": "en",
+    "translation": "法式吐司配蓝莓果酱和冰淇淋",
+    "translation_lang": "zh",
+    "review_status": "pending",
+    "review_note": {
+      "original": "'French toast' is an English name for what the French call 'pain perdu'. Chinese '法式吐司' is standard.",
+      "original_lang": "en",
+      "translation": "French toast 在法语中叫 pain perdu，中文「法式吐司」是通行译法。",
+      "translation_lang": "zh"
+    }
+  },
+
+  "classification": {
+    "cuisine": { "original": "Mexican", "original_lang": "en", "translation": "墨西哥菜", "translation_lang": "zh" },
+    "scenes": { "original": ["dessert", "brunch", "entertaining"], "original_lang": "en", "translation": ["甜点", "早午餐", "宴客"], "translation_lang": "zh" },
+    "meal": { "original": "dessert", "original_lang": "en", "translation": "甜点", "translation_lang": "zh" },
+    "role": { "original": "dessert", "original_lang": "en", "translation": "甜点", "translation_lang": "zh" },
+    "temperature": "warm"
+  },
+
+  "technique": null,
+  "sub_technique": null,
+
+  "flavor_profile": {
+    "original": ["sweet", "fruity", "creamy", "warm spice"],
+    "original_lang": "en",
+    "translation": ["甜", "果香", "奶香", "暖香料"],
+    "translation_lang": "zh",
+    "review_status": "pending"
+  },
+
+  "execution": {
+    "total_time_min": 50,
+    "active_time_min": 30,
+    "prep_ahead_required": false,
+    "difficulty": 2,
+    "servings": 12,
+    "serving_note": {
+      "original": "Bread and mix yields 12 pax. Blueberry compote yields 12 pax. Final dish is 1 pax.",
+      "original_lang": "en",
+      "translation": "面包混合液和蓝莓果酱均为 12 人份。最终出品每份 1 人份。",
+      "translation_lang": "zh"
+    },
+    "heat_level": { "original": "medium for pan-frying", "original_lang": "en", "translation": "煎吐司中火", "translation_lang": "zh" },
+    "oil_temperature": null,
+    "critical_points": [
+      {
+        "original": "Dip the brioche briefly; do not saturate the bread with too much liquid.",
+        "original_lang": "en",
+        "translation": "布里欧修短暂浸蘸，不要泡透。",
+        "translation_lang": "zh"
+      },
+      {
+        "original": "Lightly drain the slices before pan-frying.",
+        "original_lang": "en",
+        "translation": "煎前稍微沥一下。",
+        "translation_lang": "zh"
+      },
+      {
+        "original": "Transfer the brioche to a preheated oven for 3–5 minutes after pan-frying.",
+        "original_lang": "en",
+        "translation": "煎好后入预热烤箱 3–5 分钟。",
+        "translation_lang": "zh"
+      }
+    ],
+    "common_mistakes": [
+      {
+        "original": "Saturating the bread; it becomes soggy and falls apart.",
+        "original_lang": "en",
+        "translation": "面包泡透，成品软塌散架。",
+        "translation_lang": "zh"
+      },
+      {
+        "original": "Skipping the oven step; the center stays raw.",
+        "original_lang": "en",
+        "translation": "省略烤箱步骤，中间不熟。",
+        "translation_lang": "zh"
+      }
+    ]
+  },
+
+  "components": [
+    {
+      "id": "bread-and-mix",
+      "name": { "original": "Bread and Mix", "original_lang": "en", "translation": "面包和混合液", "translation_lang": "zh" },
+      "prep_ahead": "same day",
+      "reusable": true,
+      "ingredients": [
+        { "item": { "original": "sliced brioche bread, 3 cm thick", "original_lang": "en", "translation": "布里欧修面包片，3 cm 厚", "translation_lang": "zh" }, "amount": "as needed" },
+        { "item": { "original": "egg", "original_lang": "en", "translation": "鸡蛋", "translation_lang": "zh" }, "amount": "240 g" },
+        { "item": { "original": "milk", "original_lang": "en", "translation": "牛奶", "translation_lang": "zh" }, "amount": "360 g" },
+        { "item": { "original": "sugar", "original_lang": "en", "translation": "糖", "translation_lang": "zh" }, "amount": "360 g" },
+        { "item": { "original": "ground cinnamon", "original_lang": "en", "translation": "肉桂粉", "translation_lang": "zh" }, "amount": "2 g" },
+        { "item": { "original": "vanilla extract", "original_lang": "en", "translation": "香草精", "translation_lang": "zh" }, "amount": "12 g" }
+      ],
+      "method_steps": [
+        { "original": "Combine the egg, milk, sugar, ground cinnamon, and vanilla extract in a Thermomix or blender.", "original_lang": "en", "translation": "鸡蛋、牛奶、糖、肉桂粉、香草精入料理机或搅拌机。", "translation_lang": "zh" },
+        { "original": "Blend until the sugar is completely dissolved. Set the mixture aside for later use.", "original_lang": "en", "translation": "打至糖完全溶解，备用。", "translation_lang": "zh" },
+        { "original": "Cut the brioche bread into 3 cm thick slices. Set aside until ready to use.", "original_lang": "en", "translation": "布里欧修切 3 cm 厚片，备用。", "translation_lang": "zh" }
+      ]
+    },
+    {
+      "id": "blueberry-compote",
+      "name": { "original": "Blueberry Compote", "original_lang": "en", "translation": "蓝莓果酱", "translation_lang": "zh" },
+      "prep_ahead": "same day",
+      "reusable": true,
+      "ingredients": [
+        { "item": { "original": "blueberries", "original_lang": "en", "translation": "蓝莓", "translation_lang": "zh" }, "amount": "3 kg" },
+        { "item": { "original": "orange juice", "original_lang": "en", "translation": "橙汁", "translation_lang": "zh" }, "amount": "700 g" },
+        { "item": { "original": "sugar", "original_lang": "en", "translation": "糖", "translation_lang": "zh" }, "amount": "120 g" }
+      ],
+      "method_steps": [
+        { "original": "Add the orange juice and sugar to a saucepan. Heat until the sugar is completely dissolved.", "original_lang": "en", "translation": "橙汁和糖入锅，加热至糖完全溶解。", "translation_lang": "zh" },
+        { "original": "Stir in the blueberries. Cook until you have a thick compote consistency. Set aside.", "original_lang": "en", "translation": "加蓝莓，煮至浓稠果酱状，备用。", "translation_lang": "zh" }
+      ]
+    },
+    {
+      "id": "finishing",
+      "name": { "original": "Finishing", "original_lang": "en", "translation": "成品组装", "translation_lang": "zh" },
+      "prep_ahead": "at plating",
+      "reusable": false,
+      "ingredients": [
+        { "item": { "original": "pre-cooked brioche slices", "original_lang": "en", "translation": "预处理布里欧修片", "translation_lang": "zh" }, "amount": "as needed" },
+        { "item": { "original": "blueberry compote", "original_lang": "en", "translation": "蓝莓果酱", "translation_lang": "zh" }, "amount": "as needed" },
+        { "item": { "original": "vanilla ice cream", "original_lang": "en", "translation": "香草冰淇淋", "translation_lang": "zh" }, "amount": "as needed" }
+      ],
+      "method_steps": [
+        { "original": "Briefly dip the brioche slices in the base mixture. Avoid saturating the bread with too much liquid.", "original_lang": "en", "translation": "布里欧修片短暂浸混合液，不要泡透。", "translation_lang": "zh" },
+        { "original": "Lightly drain the slices. Melt butter in a skillet. Cook the brioche slices until they are evenly golden brown on both sides.", "original_lang": "en", "translation": "略沥干，平底锅化黄油，煎至两面金黄。", "translation_lang": "zh" },
+        { "original": "Transfer the brioche to a preheated oven. Bake for 3–5 minutes.", "original_lang": "en", "translation": "转入预热烤箱，烤 3–5 分钟。", "translation_lang": "zh" },
+        { "original": "Place the brioche on a serving plate. Serve with blueberry compote. Top with a scoop of vanilla ice cream. Serve immediately.", "original_lang": "en", "translation": "摆盘，配蓝莓果酱，加一球香草冰淇淋，立即上桌。", "translation_lang": "zh" }
+      ]
+    }
+  ],
+
+  "assembly": {
+    "name": { "original": "Plating: French Toast with Blueberry Compote and Ice Cream", "original_lang": "en", "translation": "装盘：法式吐司配蓝莓果酱和冰淇淋", "translation_lang": "zh" },
+    "steps": [
+      { "original": "Briefly dip the brioche slices in the base mixture. Avoid saturating the bread with too much liquid.", "original_lang": "en", "translation": "布里欧修片短暂浸混合液，不要泡透。", "translation_lang": "zh" },
+      { "original": "Lightly drain the slices. Melt butter in a skillet. Cook the brioche slices until they are evenly golden brown on both sides.", "original_lang": "en", "translation": "略沥干，平底锅化黄油，煎至两面金黄。", "translation_lang": "zh" },
+      { "original": "Transfer the brioche to a preheated oven. Bake for 3–5 minutes.", "original_lang": "en", "translation": "转入预热烤箱，烤 3–5 分钟。", "translation_lang": "zh" },
+      { "original": "Place the brioche on a serving plate. Serve with blueberry compote. Top with a scoop of vanilla ice cream. Serve immediately.", "original_lang": "en", "translation": "摆盘，配蓝莓果酱，加一球香草冰淇淋，立即上桌。", "translation_lang": "zh" }
+    ]
+  },
+
+  "images": { "hero": null, "components": [], "process": [], "note": { "original": "Source PDF contains page images; not extracted.", "original_lang": "en", "translation": "源 PDF 有页面图片，暂未提取。", "translation_lang": "zh" } },
+
+  "allergens": {
+    "original": ["dairy", "eggs", "cereals"],
+    "original_lang": "en",
+    "translation": ["奶", "蛋", "谷物"],
+    "translation_lang": "zh"
+  },
+
+  "dietary_flags": { "original": ["vegetarian"], "original_lang": "en", "translation": ["素食"], "translation_lang": "zh" },
+
+  "tags": {
+    "original": ["dessert", "brunch", "entertaining", "Mexican", "vegetarian"],
+    "original_lang": "en",
+    "translation": ["甜点", "早午餐", "宴客", "墨西哥菜", "素食"],
+    "translation_lang": "zh"
+  },
+
+  "review_queue": []
+}

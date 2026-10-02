@@ -1,0 +1,209 @@
+{
+  "id": "abalone-carpaccio",
+  "source_type": "single_dish",
+  "source_file": "EN_RECIPE-BOOK.pptx.pdf",
+  "source_author": "Eduardo García",
+
+  "cuisine_branch": "western",
+
+  "name": {
+    "original": "Abalone Carpaccio",
+    "original_lang": "en",
+    "translation": "鲍鱼薄切",
+    "translation_lang": "zh",
+    "review_status": "pending",
+    "review_note": {
+      "original": "Carpaccio originally refers to thinly sliced raw beef; here it is abalone. Chinese '薄切' captures the technique but not the Italian origin.",
+      "original_lang": "en",
+      "translation": "Carpaccio 原指薄切生牛肉，此处为鲍鱼。中文「薄切」传达了技法但未体现意大利起源。",
+      "translation_lang": "zh"
+    }
+  },
+
+  "classification": {
+    "cuisine": { "original": "Mexican", "original_lang": "en", "translation": "墨西哥菜", "translation_lang": "zh" },
+    "scenes": { "original": ["starter", "entertaining", "cold"], "original_lang": "en", "translation": ["前菜", "宴客", "冷菜"], "translation_lang": "zh" },
+    "meal": { "original": "starter", "original_lang": "en", "translation": "前菜", "translation_lang": "zh" },
+    "role": { "original": "starter", "original_lang": "en", "translation": "前菜", "translation_lang": "zh" },
+    "temperature": "cold"
+  },
+
+  "technique": null,
+  "sub_technique": null,
+
+  "flavor_profile": {
+    "original": ["savory", "umami", "citrusy", "spicy"],
+    "original_lang": "en",
+    "translation": ["咸鲜", "鲜味", "柑橘", "微辣"],
+    "translation_lang": "zh",
+    "review_status": "pending"
+  },
+
+  "execution": {
+    "total_time_min": 60,
+    "active_time_min": 30,
+    "prep_ahead_required": true,
+    "prep_ahead_note": {
+      "original": "Fried garlic needs 24 hours soaking in milk. Vinaigrette can be made ahead.",
+      "original_lang": "en",
+      "translation": "炸蒜需在牛奶中浸泡 24 小时。油醋汁可提前做好。",
+      "translation_lang": "zh"
+    },
+    "difficulty": 4,
+    "servings": 4,
+    "serving_note": {
+      "original": "Each component yields 4 pax.",
+      "original_lang": "en",
+      "translation": "各组件均为 4 人份。",
+      "translation_lang": "zh"
+    },
+    "heat_level": null,
+    "oil_temperature": { "original": "125°C for frying garlic", "original_lang": "en", "translation": "炸蒜 125°C", "translation_lang": "zh" },
+    "critical_points": [
+      {
+        "original": "Blanch abalone for exactly 30 seconds, then shock in ice water.",
+        "original_lang": "en",
+        "translation": "鲍鱼汆烫严格 30 秒，立即冰水镇。",
+        "translation_lang": "zh"
+      },
+      {
+        "original": "Soak garlic in milk for 24 hours before frying; this removes bitterness and yields even browning.",
+        "original_lang": "en",
+        "translation": "蒜在牛奶中浸泡 24 小时再炸，去苦且上色均匀。",
+        "translation_lang": "zh"
+      },
+      {
+        "original": "Slice abalone 1–1.5 mm thick and keep on ice until assembly.",
+        "original_lang": "en",
+        "translation": "鲍鱼切 1–1.5 mm 薄片，组装前一直冰镇。",
+        "translation_lang": "zh"
+      },
+      {
+        "original": "Mix gently so as not to damage the abalone slices.",
+        "original_lang": "en",
+        "translation": "拌的时候动作轻，别把鲍鱼片弄破。",
+        "translation_lang": "zh"
+      }
+    ],
+    "common_mistakes": [
+      {
+        "original": "Overcooking the abalone; it becomes rubbery.",
+        "original_lang": "en",
+        "translation": "鲍鱼煮过头，变橡皮。",
+        "translation_lang": "zh"
+      },
+      {
+        "original": "Frying garlic at too high a temperature; it burns before it dries.",
+        "original_lang": "en",
+        "translation": "炸蒜油温过高，外焦内生。",
+        "translation_lang": "zh"
+      }
+    ]
+  },
+
+  "components": [
+    {
+      "id": "abalone",
+      "name": { "original": "Abalone", "original_lang": "en", "translation": "鲍鱼", "translation_lang": "zh" },
+      "prep_ahead": "same day",
+      "reusable": false,
+      "ingredients": [
+        { "item": { "original": "fresh washed abalone", "original_lang": "en", "translation": "新鲜洗净鲍鱼", "translation_lang": "zh" }, "amount": "as needed" },
+        { "item": { "original": "water", "original_lang": "en", "translation": "水", "translation_lang": "zh" }, "amount": "as needed" }
+      ],
+      "method_steps": [
+        { "original": "Remove the shell and clean the abalone, discarding the liver.", "original_lang": "en", "translation": "去壳洗净，弃肝。", "translation_lang": "zh" },
+        { "original": "Tap the muscle foot if the abalone is firm.", "original_lang": "en", "translation": "如鲍鱼偏硬，敲打肌肉足部。", "translation_lang": "zh" },
+        { "original": "Blanch for 30 seconds in boiling water.", "original_lang": "en", "translation": "沸水汆烫 30 秒。", "translation_lang": "zh" },
+        { "original": "Cool immediately using a thermal shock. Let dry and set aside.", "original_lang": "en", "translation": "立即冰水镇。沥干备用。", "translation_lang": "zh" }
+      ]
+    },
+    {
+      "id": "soy-ginger-vinaigrette",
+      "name": { "original": "Soy and Ginger Vinaigrette", "original_lang": "en", "translation": "酱油姜味油醋汁", "translation_lang": "zh" },
+      "prep_ahead": "same day",
+      "reusable": true,
+      "ingredients": [
+        { "item": { "original": "light soy sauce", "original_lang": "en", "translation": "淡酱油", "translation_lang": "zh" }, "amount": "12 ml" },
+        { "item": { "original": "mirin", "original_lang": "en", "translation": "味醂", "translation_lang": "zh" }, "amount": "10 ml" },
+        { "item": { "original": "rice vinegar", "original_lang": "en", "translation": "米醋", "translation_lang": "zh" }, "amount": "6 ml" },
+        { "item": { "original": "lemon juice", "original_lang": "en", "translation": "柠檬汁", "translation_lang": "zh" }, "amount": "6 ml" },
+        { "item": { "original": "lime juice", "original_lang": "en", "translation": "青柠汁", "translation_lang": "zh" }, "amount": "6 ml" },
+        { "item": { "original": "yuzu juice", "original_lang": "en", "translation": "柚子汁", "translation_lang": "zh" }, "amount": "4 ml" },
+        { "item": { "original": "garum", "original_lang": "en", "translation": "鱼酱", "translation_lang": "zh" }, "amount": "4 ml" },
+        { "item": { "original": "sriracha", "original_lang": "en", "translation": "是拉差辣酱", "translation_lang": "zh" }, "amount": "2 ml" },
+        { "item": { "original": "shallot, finely diced", "original_lang": "en", "translation": "红葱头，细切", "translation_lang": "zh" }, "amount": "6 g" },
+        { "item": { "original": "ginger, finely diced", "original_lang": "en", "translation": "姜，细切", "translation_lang": "zh" }, "amount": "3 g" },
+        { "item": { "original": "extra virgin olive oil", "original_lang": "en", "translation": "特级初榨橄榄油", "translation_lang": "zh" }, "amount": "12 ml" },
+        { "item": { "original": "canola oil", "original_lang": "en", "translation": "芥花油", "translation_lang": "zh" }, "amount": "8 ml" }
+      ],
+      "method_steps": [
+        { "original": "Combine the light soy sauce, mirin, rice vinegar, lemon juice, lime juice, yuzu juice, garum, and sriracha.", "original_lang": "en", "translation": "酱油、味醂、米醋、柠檬汁、青柠汁、柚子汁、鱼酱、是拉差混合。", "translation_lang": "zh" },
+        { "original": "Add the shallot and ginger, finely diced.", "original_lang": "en", "translation": "加红葱头和姜细末。", "translation_lang": "zh" },
+        { "original": "Add the extra virgin olive oil and canola oil.", "original_lang": "en", "translation": "加橄榄油和芥花油。", "translation_lang": "zh" },
+        { "original": "Emulsify until a smooth vinaigrette forms. Refrigerate until ready to use.", "original_lang": "en", "translation": "乳化至顺滑，冷藏备用。", "translation_lang": "zh" }
+      ]
+    },
+    {
+      "id": "fried-garlic",
+      "name": { "original": "Fried Garlic", "original_lang": "en", "translation": "炸蒜片", "translation_lang": "zh" },
+      "prep_ahead": "24 hours soak",
+      "reusable": true,
+      "ingredients": [
+        { "item": { "original": "milk", "original_lang": "en", "translation": "牛奶", "translation_lang": "zh" }, "amount": "400 ml" },
+        { "item": { "original": "sliced garlic", "original_lang": "en", "translation": "蒜片", "translation_lang": "zh" }, "amount": "as needed" },
+        { "item": { "original": "vegetable oil for frying", "original_lang": "en", "translation": "炸用植物油", "translation_lang": "zh" }, "amount": "as needed" }
+      ],
+      "method_steps": [
+        { "original": "Slice the garlic.", "original_lang": "en", "translation": "蒜切片。", "translation_lang": "zh" },
+        { "original": "Soak the garlic in milk for 24 hours.", "original_lang": "en", "translation": "牛奶中浸泡 24 小时。", "translation_lang": "zh" },
+        { "original": "Strain the garlic. Rinse the garlic. Dry the garlic on paper towels.", "original_lang": "en", "translation": "沥出，冲洗，厨房纸吸干。", "translation_lang": "zh" },
+        { "original": "Preheat the vegetable oil to 125°C.", "original_lang": "en", "translation": "植物油预热至 125°C。", "translation_lang": "zh" },
+        { "original": "Fry the garlic until it turns a uniform golden brown. Drain on paper towels.", "original_lang": "en", "translation": "炸至均匀金黄，厨房纸吸油。", "translation_lang": "zh" }
+      ]
+    }
+  ],
+
+  "assembly": {
+    "name": { "original": "Plating: Abalone Carpaccio", "original_lang": "en", "translation": "装盘：鲍鱼薄切", "translation_lang": "zh" },
+    "steps": [
+      { "original": "Slice the abalone into 1–1.5 mm thick slices.", "original_lang": "en", "translation": "鲍鱼切 1–1.5 mm 薄片。", "translation_lang": "zh" },
+      { "original": "Keep the abalone on ice or on a chilled tray until ready to assemble.", "original_lang": "en", "translation": "组装前保持冰镇。", "translation_lang": "zh" },
+      { "original": "Place the sliced abalone in a bowl. Add the vinaigrette. Stir in the red onion brunoise. Add the translucent, thin slices of serrano chili. Gently mix so as not to damage the abalone slices.", "original_lang": "en", "translation": "鲍鱼片入碗，加油醋汁、红洋葱末、Serrano 辣椒薄片，轻拌。", "translation_lang": "zh" },
+      { "original": "Arrange the mixture on a serving plate. Finish with the fried garlic. Add 3–4 drops of extra virgin olive oil. Plate and serve immediately to preserve the texture.", "original_lang": "en", "translation": "摆盘，撒炸蒜，滴 3–4 滴橄榄油，立即上桌。", "translation_lang": "zh" }
+    ]
+  },
+
+  "images": { "hero": null, "components": [], "process": [], "note": { "original": "Source PDF contains page images; not extracted.", "original_lang": "en", "translation": "源 PDF 有页面图片，暂未提取。", "translation_lang": "zh" } },
+
+  "allergens": {
+    "original": ["molluscs", "soy", "fish", "dairy"],
+    "original_lang": "en",
+    "translation": ["软体动物", "大豆", "鱼", "奶"],
+    "translation_lang": "zh"
+  },
+
+  "dietary_flags": { "original": [], "original_lang": "en", "translation": [], "translation_lang": "zh" },
+
+  "tags": {
+    "original": ["starter", "entertaining", "cold", "seafood", "Mexican"],
+    "original_lang": "en",
+    "translation": ["前菜", "宴客", "冷菜", "海鲜", "墨西哥菜"],
+    "translation_lang": "zh"
+  },
+
+  "review_queue": [
+    {
+      "field": "name",
+      "original": "Carpaccio",
+      "translation": "薄切",
+      "issue": {
+        "original": "Carpaccio technically refers to raw beef. Here it is abalone. Suggest keeping 'carpaccio' with a note.",
+        "original_lang": "en",
+        "translation": "Carpaccio 严格指生牛肉，此处为鲍鱼。建议保留 carpaccio 并附注。",
+        "translation_lang": "zh"
+      },
+      "status": "pending"
+    }
+  ]
+}

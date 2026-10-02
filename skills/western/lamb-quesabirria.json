@@ -1,0 +1,274 @@
+{
+  "id": "lamb-quesabirria",
+  "source_type": "single_dish",
+  "source_file": "EN_RECIPE-BOOK.pptx.pdf",
+  "source_author": "Eduardo García",
+
+  "cuisine_branch": "western",
+
+  "name": {
+    "original": "Lamb Quesabirria",
+    "original_lang": "en",
+    "translation": "羊肉 Quesabirria",
+    "translation_lang": "zh",
+    "review_status": "pending",
+    "review_note": {
+      "original": "Quesabirria is a Mexican fusion dish (quesadilla + birria). Chinese has no standard name.",
+      "original_lang": "en",
+      "translation": "Quesabirria 是墨西哥融合菜（quesadilla + birria），中文无标准译名。建议保留原名并附注。",
+      "translation_lang": "zh"
+    }
+  },
+
+  "classification": {
+    "cuisine": { "original": "Mexican", "original_lang": "en", "translation": "墨西哥菜", "translation_lang": "zh" },
+    "scenes": { "original": ["main course", "casual", "entertaining"], "original_lang": "en", "translation": ["主菜", "休闲", "宴客"], "translation_lang": "zh" },
+    "meal": { "original": "main course", "original_lang": "en", "translation": "主菜", "translation_lang": "zh" },
+    "role": { "original": "main", "original_lang": "en", "translation": "主菜", "translation_lang": "zh" },
+    "temperature": "hot"
+  },
+
+  "technique": null,
+  "sub_technique": null,
+
+  "flavor_profile": {
+    "original": ["spicy", "smoky", "savory", "rich"],
+    "original_lang": "en",
+    "translation": ["辣", "烟熏", "咸鲜", "浓郁"],
+    "translation_lang": "zh",
+    "review_status": "pending"
+  },
+
+  "execution": {
+    "total_time_min": 540,
+    "active_time_min": 60,
+    "prep_ahead_required": true,
+    "prep_ahead_note": {
+      "original": "Lamb marinates 24 hours, then bakes 6–8 hours. Dried chili marinade takes about 35 minutes.",
+      "original_lang": "en",
+      "translation": "羊肉腌 24 小时，烤 6–8 小时。干辣椒腌料约 35 分钟。",
+      "translation_lang": "zh"
+    },
+    "difficulty": 5,
+    "servings": 4,
+    "serving_note": {
+      "original": "Final dish 4 pax. Marinade yields 4 pax.",
+      "original_lang": "en",
+      "translation": "最终出品 4 人份。腌料为 4 人份。",
+      "translation_lang": "zh"
+    },
+    "heat_level": { "original": "low for baking", "original_lang": "en", "translation": "烤制用小火", "translation_lang": "zh" },
+    "oil_temperature": null,
+    "critical_points": [
+      {
+        "original": "Marinate the lamb for 24 hours in the refrigerator, ensuring full coverage.",
+        "original_lang": "en",
+        "translation": "羊肉冷藏腌 24 小时，确保完全覆盖。",
+        "translation_lang": "zh"
+      },
+      {
+        "original": "Wrap the lamb in banana leaves and bake at 130°C for 6–8 hours.",
+        "original_lang": "en",
+        "translation": "羊肉用香蕉叶包裹，130°C 烤 6–8 小时。",
+        "translation_lang": "zh"
+      },
+      {
+        "original": "Form a cheese crust on the griddle before adding the birria and tortilla.",
+        "original_lang": "en",
+        "translation": "铁板先做一层芝士脆壳，再放 birria 和玉米饼。",
+        "translation_lang": "zh"
+      }
+    ],
+    "common_mistakes": [
+      {
+        "original": "Marinating less than 24 hours; the lamb stays tough and bland.",
+        "original_lang": "en",
+        "translation": "腌制不足 24 小时，羊肉不软不入味。",
+        "translation_lang": "zh"
+      },
+      {
+        "original": "Baking without banana leaves; the lamb dries out.",
+        "original_lang": "en",
+        "translation": "不用香蕉叶包裹，羊肉容易干。",
+        "translation_lang": "zh"
+      }
+    ]
+  },
+
+  "components": [
+    {
+      "id": "dried-chili-marinade",
+      "name": { "original": "Dried Chili Marinade", "original_lang": "en", "translation": "干辣椒腌料", "translation_lang": "zh" },
+      "prep_ahead": "same day",
+      "reusable": true,
+      "ingredients": [
+        { "item": { "original": "dried guajillo chili", "original_lang": "en", "translation": "干 Guajillo 辣椒", "translation_lang": "zh" }, "amount": "10 g" },
+        { "item": { "original": "dried pasilla chili", "original_lang": "en", "translation": "干 Pasilla 辣椒", "translation_lang": "zh" }, "amount": "8 g" },
+        { "item": { "original": "dried morita chili", "original_lang": "en", "translation": "干 Morita 辣椒", "translation_lang": "zh" }, "amount": "5 g" },
+        { "item": { "original": "tomato", "original_lang": "en", "translation": "番茄", "translation_lang": "zh" }, "amount": "120 g" },
+        { "item": { "original": "white onion", "original_lang": "en", "translation": "白洋葱", "translation_lang": "zh" }, "amount": "30 g" },
+        { "item": { "original": "garlic", "original_lang": "en", "translation": "大蒜", "translation_lang": "zh" }, "amount": "10 g" },
+        { "item": { "original": "avocado leaf", "original_lang": "en", "translation": "牛油果叶", "translation_lang": "zh" }, "amount": "1" },
+        { "item": { "original": "fresh epazote", "original_lang": "en", "translation": "新鲜土荆芥", "translation_lang": "zh" }, "amount": "2 g" },
+        { "item": { "original": "black pepper", "original_lang": "en", "translation": "黑胡椒", "translation_lang": "zh" }, "amount": "to taste" },
+        { "item": { "original": "clove", "original_lang": "en", "translation": "丁香", "translation_lang": "zh" }, "amount": "1 g" },
+        { "item": { "original": "cumin", "original_lang": "en", "translation": "孜然", "translation_lang": "zh" }, "amount": "0.5 g" },
+        { "item": { "original": "fine salt", "original_lang": "en", "translation": "细盐", "translation_lang": "zh" }, "amount": "4 g" },
+        { "item": { "original": "water", "original_lang": "en", "translation": "水", "translation_lang": "zh" }, "amount": "as needed" }
+      ],
+      "method_steps": [
+        { "original": "Remove the seeds from the chilies. Soak the chilies in hot water until they are soft.", "original_lang": "en", "translation": "辣椒去籽，热水泡软。", "translation_lang": "zh" },
+        { "original": "Roast the tomatoes directly over the flame until the skin is charred and the flesh is concentrated.", "original_lang": "en", "translation": "番茄明火烤至表皮焦黑、果肉浓缩。", "translation_lang": "zh" },
+        { "original": "Sauté the onion and garlic until evenly browned and aromatic.", "original_lang": "en", "translation": "洋葱和大蒜炒至金黄出香。", "translation_lang": "zh" },
+        { "original": "Lightly toast the pepper, cloves, and cumin. Add the toasted spices to the sautéed mixture.", "original_lang": "en", "translation": "胡椒、丁香、孜然略炒香，加入洋葱蒜里。", "translation_lang": "zh" },
+        { "original": "Add the avocado leaf and epazote. Add the rehydrated chilies.", "original_lang": "en", "translation": "加牛油果叶、土荆芥、泡发辣椒。", "translation_lang": "zh" },
+        { "original": "Cook over medium heat until the chilies are completely soft and incorporated.", "original_lang": "en", "translation": "中火炒至辣椒完全软烂融合。", "translation_lang": "zh" },
+        { "original": "Add the roasted tomato. Simmer the mixture to blend the flavors.", "original_lang": "en", "translation": "加烤番茄，小火熬至融合。", "translation_lang": "zh" },
+        { "original": "Season with salt. Blend until you have a smooth, homogeneous paste, then set aside.", "original_lang": "en", "translation": "盐调味，打至顺滑均匀，备用。", "translation_lang": "zh" }
+      ]
+    },
+    {
+      "id": "lamb-birria",
+      "name": { "original": "Lamb Birria", "original_lang": "en", "translation": "羊肉 Birria", "translation_lang": "zh" },
+      "prep_ahead": "24 hours marinate + 6–8 hours bake",
+      "reusable": true,
+      "ingredients": [
+        { "item": { "original": "lamb, cut into pieces", "original_lang": "en", "translation": "羊肉块", "translation_lang": "zh" }, "amount": "180 g" },
+        { "item": { "original": "coarse salt", "original_lang": "en", "translation": "粗盐", "translation_lang": "zh" }, "amount": "4 g" },
+        { "item": { "original": "chili marinade", "original_lang": "en", "translation": "辣椒腌料", "translation_lang": "zh" }, "amount": "60 g" },
+        { "item": { "original": "banana leaves", "original_lang": "en", "translation": "香蕉叶", "translation_lang": "zh" }, "amount": "as needed" },
+        { "item": { "original": "water", "original_lang": "en", "translation": "水", "translation_lang": "zh" }, "amount": "30 ml" }
+      ],
+      "method_steps": [
+        { "original": "Prepare the lamb for the slow cooking.", "original_lang": "en", "translation": "羊肉准备好慢炖。", "translation_lang": "zh" },
+        { "original": "Season evenly with salt. Coat thoroughly with the marinade.", "original_lang": "en", "translation": "均匀撒盐，抹匀腌料。", "translation_lang": "zh" },
+        { "original": "Marinate for 24 hours in the refrigerator, ensuring full coverage.", "original_lang": "en", "translation": "冷藏腌 24 小时，确保完全覆盖。", "translation_lang": "zh" },
+        { "original": "Wrap the lamb in banana leaves. Add the water.", "original_lang": "en", "translation": "香蕉叶包裹羊肉，加水。", "translation_lang": "zh" },
+        { "original": "Bake at 130°C for 6–8 hours, or until the meat is very tender.", "original_lang": "en", "translation": "130°C 烤 6–8 小时，至肉非常酥软。", "translation_lang": "zh" },
+        { "original": "Remove from the oven. Shred the meat finely. Mix with its cooking juices. Set aside.", "original_lang": "en", "translation": "取出，撕成细丝，拌入烤汁，备用。", "translation_lang": "zh" }
+      ]
+    },
+    {
+      "id": "pork-and-beans",
+      "name": { "original": "Pork and Beans", "original_lang": "en", "translation": "猪肉豆", "translation_lang": "zh" },
+      "prep_ahead": "same day",
+      "reusable": true,
+      "ingredients": [
+        { "item": { "original": "cooked beans", "original_lang": "en", "translation": "熟豆", "translation_lang": "zh" }, "amount": "80 g" },
+        { "item": { "original": "white onion", "original_lang": "en", "translation": "白洋葱", "translation_lang": "zh" }, "amount": "15 g" },
+        { "item": { "original": "garlic", "original_lang": "en", "translation": "大蒜", "translation_lang": "zh" }, "amount": "5 g" },
+        { "item": { "original": "dried chilies", "original_lang": "en", "translation": "干辣椒", "translation_lang": "zh" }, "amount": "3 g" },
+        { "item": { "original": "epazote", "original_lang": "en", "translation": "土荆芥", "translation_lang": "zh" }, "amount": "1 g" },
+        { "item": { "original": "cilantro", "original_lang": "en", "translation": "芫荽", "translation_lang": "zh" }, "amount": "2 g" },
+        { "item": { "original": "cumin", "original_lang": "en", "translation": "孜然", "translation_lang": "zh" }, "amount": "0.3 g" },
+        { "item": { "original": "cloves", "original_lang": "en", "translation": "丁香", "translation_lang": "zh" }, "amount": "0.2 g" },
+        { "item": { "original": "black pepper", "original_lang": "en", "translation": "黑胡椒", "translation_lang": "zh" }, "amount": "0.3 g" },
+        { "item": { "original": "tomato", "original_lang": "en", "translation": "番茄", "translation_lang": "zh" }, "amount": "40 g" },
+        { "item": { "original": "chorizo", "original_lang": "en", "translation": "西班牙辣香肠", "translation_lang": "zh" }, "amount": "15 g" },
+        { "item": { "original": "bacon", "original_lang": "en", "translation": "培根", "translation_lang": "zh" }, "amount": "10 g" }
+      ],
+      "method_steps": [
+        { "original": "Sauté the onion and garlic until translucent.", "original_lang": "en", "translation": "洋葱、大蒜炒至透明。", "translation_lang": "zh" },
+        { "original": "Add the spices and dried chilies. Cook until the aromas are released.", "original_lang": "en", "translation": "加香料和干辣椒，炒出香味。", "translation_lang": "zh" },
+        { "original": "Add the epazote and tomato. Simmer until the ingredients are fully incorporated.", "original_lang": "en", "translation": "加土荆芥和番茄，小火熬至融合。", "translation_lang": "zh" },
+        { "original": "Add the chorizo and bacon. Cook until the fat is rendered.", "original_lang": "en", "translation": "加辣香肠和培根，炒至出油。", "translation_lang": "zh" },
+        { "original": "Add the beans and cilantro. Blend until creamy and smooth.", "original_lang": "en", "translation": "加豆和芫荽，打至顺滑。", "translation_lang": "zh" },
+        { "original": "Adjust the seasoning. Set aside.", "original_lang": "en", "translation": "调味，备用。", "translation_lang": "zh" }
+      ]
+    },
+    {
+      "id": "finishing",
+      "name": { "original": "Finishing", "original_lang": "en", "translation": "成品组装", "translation_lang": "zh" },
+      "prep_ahead": "at plating",
+      "reusable": false,
+      "ingredients": [
+        { "item": { "original": "flour tortilla", "original_lang": "en", "translation": "面粉玉米饼", "translation_lang": "zh" }, "amount": "40 g" },
+        { "item": { "original": "cheese", "original_lang": "en", "translation": "芝士", "translation_lang": "zh" }, "amount": "30 g" },
+        { "item": { "original": "lamb birria", "original_lang": "en", "translation": "羊肉 birria", "translation_lang": "zh" }, "amount": "140 g" },
+        { "item": { "original": "black-eyed peas", "original_lang": "en", "translation": "黑眼豆", "translation_lang": "zh" }, "amount": "60 g" },
+        { "item": { "original": "pickled onion", "original_lang": "en", "translation": "腌洋葱", "translation_lang": "zh" }, "amount": "20 g" }
+      ],
+      "method_steps": [
+        { "original": "Heat a griddle until it reaches a high temperature.", "original_lang": "en", "translation": "铁板加热至高温。", "translation_lang": "zh" },
+        { "original": "Form a cheese crust on the griddle. Cook until evenly browned and crispy.", "original_lang": "en", "translation": "铁板上做芝士脆壳，煎至金黄酥脆。", "translation_lang": "zh" },
+        { "original": "Place the birria on top of the melted cheese. Place the tortilla on top of the mixture. Fold into a quesadilla shape. Fold in half.", "original_lang": "en", "translation": "birria 放在芝士上，玉米饼盖上去，对折成 quesadilla。", "translation_lang": "zh" },
+        { "original": "Cook until the outside is crispy and golden brown.", "original_lang": "en", "translation": "煎至外皮金黄酥脆。", "translation_lang": "zh" },
+        { "original": "Heat the pork beans. Serve the quesabirria with the pork beans. Top with pickled onions. Serve immediately.", "original_lang": "en", "translation": "猪肉豆加热，quesabirria 配豆上桌，撒腌洋葱，立即食用。", "translation_lang": "zh" }
+      ]
+    }
+  ],
+
+  "assembly": {
+    "name": { "original": "Plating: Lamb Quesabirria", "original_lang": "en", "translation": "装盘：羊肉 Quesabirria", "translation_lang": "zh" },
+    "steps": [
+      { "original": "Heat a griddle until it reaches a high temperature.", "original_lang": "en", "translation": "铁板加热至高温。", "translation_lang": "zh" },
+      { "original": "Form a cheese crust on the griddle. Cook until evenly browned and crispy.", "original_lang": "en", "translation": "铁板上做芝士脆壳，煎至金黄酥脆。", "translation_lang": "zh" },
+      { "original": "Place the birria on top of the melted cheese. Place the tortilla on top. Fold into a quesadilla shape and fold in half.", "original_lang": "en", "translation": "birria 放在芝士上，玉米饼盖上去，对折。", "translation_lang": "zh" },
+      { "original": "Cook until the outside is crispy and golden brown.", "original_lang": "en", "translation": "煎至外皮金黄酥脆。", "translation_lang": "zh" },
+      { "original": "Heat the pork beans. Serve the quesabirria with the pork beans. Top with pickled onions. Serve immediately.", "original_lang": "en", "translation": "猪肉豆加热，quesabirria 配豆上桌，撒腌洋葱，立即食用。", "translation_lang": "zh" }
+    ]
+  },
+
+  "images": { "hero": null, "components": [], "process": [], "note": { "original": "Source PDF contains page images; not extracted.", "original_lang": "en", "translation": "源 PDF 有页面图片，暂未提取。", "translation_lang": "zh" } },
+
+  "allergens": {
+    "original": ["dairy", "cereals"],
+    "original_lang": "en",
+    "translation": ["奶", "谷物"],
+    "translation_lang": "zh",
+    "review_note": {
+      "original": "Tortilla and cheese are the main allergen sources. The chili marinade itself is GF/DF.",
+      "original_lang": "en",
+      "translation": "玉米饼和芝士是主要过敏原。辣椒腌料本身 GF/DF 友好。",
+      "translation_lang": "zh"
+    }
+  },
+
+  "dietary_flags": { "original": [], "original_lang": "en", "translation": [], "translation_lang": "zh" },
+
+  "tags": {
+    "original": ["main", "casual", "entertaining", "lamb", "Mexican", "slow-cook"],
+    "original_lang": "en",
+    "translation": ["主菜", "休闲", "宴客", "羊肉", "墨西哥菜", "慢炖"],
+    "translation_lang": "zh"
+  },
+
+  "review_queue": [
+    {
+      "field": "name",
+      "original": "Lamb Quesabirria",
+      "translation": "羊肉 Quesabirria",
+      "issue": {
+        "original": "Quesabirria is a Mexican fusion name; keep as-is.",
+        "original_lang": "en",
+        "translation": "Quesabirria 保留原名。",
+        "translation_lang": "zh"
+      },
+      "status": "pending"
+    },
+    {
+      "field": "ingredient",
+      "original": "morita chili",
+      "translation": "Morita 辣椒",
+      "issue": {
+        "original": "Morita is a smoked jalapeño variety; Chinese has no standard name.",
+        "original_lang": "en",
+        "translation": "Morita 是烟熏墨西哥辣椒品种，中文无标准译名。",
+        "translation_lang": "zh"
+      },
+      "status": "pending"
+    },
+    {
+      "field": "ingredient",
+      "original": "black-eyed peas",
+      "translation": "黑眼豆",
+      "issue": {
+        "original": "The recipe lists 'black-eyed peas' in the finishing but 'pork and beans' component uses generic 'cooked beans'. Need to confirm which bean is used.",
+        "original_lang": "en",
+        "translation": "原文 finishing 用 black-eyed peas，但 pork and beans 组件写的是 cooked beans，需确认是否同一种豆。",
+        "translation_lang": "zh"
+      },
+      "status": "pending"
+    }
+  ]
+}

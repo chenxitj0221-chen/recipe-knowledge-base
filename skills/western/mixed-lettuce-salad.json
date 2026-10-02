@@ -1,0 +1,172 @@
+{
+  "id": "mixed-lettuce-salad",
+  "source_type": "single_dish",
+  "source_file": "EN_RECIPE-BOOK.pptx.pdf",
+  "source_author": "Eduardo García",
+
+  "cuisine_branch": "western",
+
+  "name": {
+    "original": "Mixed Lettuce Salad with Lemon and Mustard Vinaigrette",
+    "original_lang": "en",
+    "translation": "混合生菜沙拉配柠檬芥末油醋汁",
+    "translation_lang": "zh",
+    "review_status": "pending"
+  },
+
+  "classification": {
+    "cuisine": { "original": "Mexican", "original_lang": "en", "translation": "墨西哥菜", "translation_lang": "zh" },
+    "scenes": { "original": ["starter", "light", "entertaining"], "original_lang": "en", "translation": ["前菜", "清淡", "宴客"], "translation_lang": "zh" },
+    "meal": { "original": "starter", "original_lang": "en", "translation": "前菜", "translation_lang": "zh" },
+    "role": { "original": "starter", "original_lang": "en", "translation": "前菜", "translation_lang": "zh" },
+    "temperature": "cold"
+  },
+
+  "technique": null,
+  "sub_technique": null,
+
+  "flavor_profile": {
+    "original": ["fresh", "citrusy", "tangy", "savory"],
+    "original_lang": "en",
+    "translation": ["清爽", "柑橘", "酸香", "咸鲜"],
+    "translation_lang": "zh",
+    "review_status": "pending"
+  },
+
+  "execution": {
+    "total_time_min": 25,
+    "active_time_min": 15,
+    "prep_ahead_required": false,
+    "difficulty": 2,
+    "servings": 4,
+    "serving_note": {
+      "original": "Each component yields 4 pax.",
+      "original_lang": "en",
+      "translation": "各组件均为 4 人份。",
+      "translation_lang": "zh"
+    },
+    "heat_level": null,
+    "oil_temperature": null,
+    "critical_points": [
+      {
+        "original": "Dry the lettuce thoroughly before assembling; wet leaves dilute the dressing.",
+        "original_lang": "en",
+        "translation": "生菜彻底沥干再组装，湿叶子会稀释酱汁。",
+        "translation_lang": "zh"
+      },
+      {
+        "original": "Use only enough vinaigrette to make the leaves slightly glossy.",
+        "original_lang": "en",
+        "translation": "油醋汁用量以叶片微微发亮为准。",
+        "translation_lang": "zh"
+      },
+      {
+        "original": "Add the Parmesan cheese at the end and do not mix it into the salad.",
+        "original_lang": "en",
+        "translation": "帕玛森最后撒，不要拌进沙拉。",
+        "translation_lang": "zh"
+      }
+    ],
+    "common_mistakes": [
+      {
+        "original": "Dressing the salad too early; the leaves wilt.",
+        "original_lang": "en",
+        "translation": "提前太久拌汁，生菜会塌。",
+        "translation_lang": "zh"
+      },
+      {
+        "original": "Overdressing the salad; the leaves become heavy and oily.",
+        "original_lang": "en",
+        "translation": "酱汁过量，叶片油腻。",
+        "translation_lang": "zh"
+      }
+    ]
+  },
+
+  "components": [
+    {
+      "id": "vinaigrette",
+      "name": { "original": "Lemon and Mustard Vinaigrette", "original_lang": "en", "translation": "柠檬芥末油醋汁", "translation_lang": "zh" },
+      "prep_ahead": "same day",
+      "reusable": true,
+      "ingredients": [
+        { "item": { "original": "lemon juice", "original_lang": "en", "translation": "柠檬汁", "translation_lang": "zh" }, "amount": "30 ml" },
+        { "item": { "original": "white wine vinegar", "original_lang": "en", "translation": "白葡萄酒醋", "translation_lang": "zh" }, "amount": "15–20 ml" },
+        { "item": { "original": "fine kosher salt", "original_lang": "en", "translation": "细盐", "translation_lang": "zh" }, "amount": "2 g" },
+        { "item": { "original": "white pepper", "original_lang": "en", "translation": "白胡椒", "translation_lang": "zh" }, "amount": "1 g" },
+        { "item": { "original": "shallot", "original_lang": "en", "translation": "红葱头", "translation_lang": "zh" }, "amount": "15 g" },
+        { "item": { "original": "olive oil", "original_lang": "en", "translation": "橄榄油", "translation_lang": "zh" }, "amount": "60 ml" },
+        { "item": { "original": "mustard", "original_lang": "en", "translation": "芥末", "translation_lang": "zh" }, "amount": "as needed", "note": { "original": "implied by the name but not listed in the ingredient list", "original_lang": "en", "translation": "菜名含芥末但原文食材未列", "translation_lang": "zh" } }
+      ],
+      "method_steps": [
+        { "original": "Combine the lemon juice, white wine vinegar, fine kosher salt, white pepper, and finely brunoise-diced shallot.", "original_lang": "en", "translation": "柠檬汁、白葡萄酒醋、盐、白胡椒、红葱头细末混合。", "translation_lang": "zh" },
+        { "original": "Emulsify by slowly drizzling in the olive oil.", "original_lang": "en", "translation": "慢慢淋入橄榄油乳化。", "translation_lang": "zh" },
+        { "original": "Adjust the seasoning. Set aside.", "original_lang": "en", "translation": "调味备用。", "translation_lang": "zh" }
+      ]
+    },
+    {
+      "id": "salad",
+      "name": { "original": "Salad", "original_lang": "en", "translation": "沙拉", "translation_lang": "zh" },
+      "prep_ahead": "same day",
+      "reusable": false,
+      "ingredients": [
+        { "item": { "original": "organic mixed greens", "original_lang": "en", "translation": "有机混合生菜", "translation_lang": "zh" }, "amount": "60 g" },
+        { "item": { "original": "cherry tomatoes", "original_lang": "en", "translation": "小番茄", "translation_lang": "zh" }, "amount": "40 g" },
+        { "item": { "original": "seedless cucumber", "original_lang": "en", "translation": "无籽黄瓜", "translation_lang": "zh" }, "amount": "30 g" },
+        { "item": { "original": "sliced radish", "original_lang": "en", "translation": "樱桃萝卜片", "translation_lang": "zh" }, "amount": "20 g" },
+        { "item": { "original": "white onion, very finely julienned", "original_lang": "en", "translation": "白洋葱，细丝", "translation_lang": "zh" }, "amount": "10 g" },
+        { "item": { "original": "Parmesan", "original_lang": "en", "translation": "帕玛森", "translation_lang": "zh" }, "amount": "15 g" },
+        { "item": { "original": "yellow lemon", "original_lang": "en", "translation": "黄柠檬", "translation_lang": "zh" }, "amount": "1/2" }
+      ],
+      "method_steps": [
+        { "original": "Place the organic mixed greens in a bowl. Add the cherry tomatoes, cut in half.", "original_lang": "en", "translation": "生菜入碗，加半切小番茄。", "translation_lang": "zh" },
+        { "original": "Add the seeded cucumber, cut into half-moons.", "original_lang": "en", "translation": "加半月形黄瓜片。", "translation_lang": "zh" },
+        { "original": "Add the sliced radish. Add the white onion, julienned very finely.", "original_lang": "en", "translation": "加樱桃萝卜片、白洋葱细丝。", "translation_lang": "zh" },
+        { "original": "Dress with the vinaigrette.", "original_lang": "en", "translation": "淋油醋汁。", "translation_lang": "zh" },
+        { "original": "Arrange the salad on a serving plate. Grate the Parmesan cheese over the salad. Garnish with a lemon wedge.", "original_lang": "en", "translation": "摆盘，刨帕玛森，配柠檬角。", "translation_lang": "zh" }
+      ]
+    }
+  ],
+
+  "assembly": {
+    "name": { "original": "Plating: Mixed Lettuce Salad", "original_lang": "en", "translation": "装盘：混合生菜沙拉", "translation_lang": "zh" },
+    "steps": [
+      { "original": "Dry the lettuce thoroughly before assembling.", "original_lang": "en", "translation": "生菜彻底沥干。", "translation_lang": "zh" },
+      { "original": "Use only enough vinaigrette to make the leaves slightly glossy.", "original_lang": "en", "translation": "油醋汁用量以叶片微亮为准。", "translation_lang": "zh" },
+      { "original": "Add the Parmesan cheese at the end and do not mix it into the salad.", "original_lang": "en", "translation": "帕玛森最后撒，不拌入。", "translation_lang": "zh" }
+    ]
+  },
+
+  "images": { "hero": null, "components": [], "process": [], "note": { "original": "Source PDF contains page images; not extracted.", "original_lang": "en", "translation": "源 PDF 有页面图片，暂未提取。", "translation_lang": "zh" } },
+
+  "allergens": {
+    "original": ["dairy", "mustard", "sulphites"],
+    "original_lang": "en",
+    "translation": ["奶", "芥末", "亚硫酸盐"],
+    "translation_lang": "zh"
+  },
+
+  "dietary_flags": { "original": ["vegetarian"], "original_lang": "en", "translation": ["素食"], "translation_lang": "zh" },
+
+  "tags": {
+    "original": ["starter", "light", "salad", "Mexican", "vegetarian"],
+    "original_lang": "en",
+    "translation": ["前菜", "清淡", "沙拉", "墨西哥菜", "素食"],
+    "translation_lang": "zh"
+  },
+
+  "review_queue": [
+    {
+      "field": "ingredient",
+      "original": "mustard",
+      "translation": "芥末",
+      "issue": {
+        "original": "Dish name mentions mustard but the ingredient list does not include it. Need to confirm whether mustard is in the vinaigrette.",
+        "original_lang": "en",
+        "translation": "菜名含芥末，但食材清单未列芥末。需确认油醋汁是否含芥末。",
+        "translation_lang": "zh"
+      },
+      "status": "pending"
+    }
+  ]
+}

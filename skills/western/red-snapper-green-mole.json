@@ -1,0 +1,219 @@
+{
+  "id": "red-snapper-green-mole",
+  "source_type": "single_dish",
+  "source_file": "EN_RECIPE-BOOK.pptx.pdf",
+  "source_author": "Eduardo García",
+
+  "cuisine_branch": "western",
+
+  "name": {
+    "original": "Red Snapper with Green Mole",
+    "original_lang": "en",
+    "translation": "绿鼹鼠酱红鲷鱼",
+    "translation_lang": "zh",
+    "review_status": "pending",
+    "review_note": {
+      "original": "'Mole' is a Mexican sauce tradition; 'green mole' (mole verde) is distinct from the better-known dark mole poblano. Chinese '鼹鼠酱' is a literal reading and may mislead.",
+      "original_lang": "en",
+      "translation": "Mole 是墨西哥酱料传统，绿 mole 与更知名的深色 mole poblano 不同。中文「鼹鼠酱」是字面直译，可能误导。建议保留 mole verde 并附注。",
+      "translation_lang": "zh"
+    }
+  },
+
+  "classification": {
+    "cuisine": { "original": "Mexican", "original_lang": "en", "translation": "墨西哥菜", "translation_lang": "zh" },
+    "scenes": { "original": ["main course", "entertaining"], "original_lang": "en", "translation": ["主菜", "宴客"], "translation_lang": "zh" },
+    "meal": { "original": "main course", "original_lang": "en", "translation": "主菜", "translation_lang": "zh" },
+    "role": { "original": "main", "original_lang": "en", "translation": "主菜", "translation_lang": "zh" },
+    "temperature": "hot"
+  },
+
+  "technique": null,
+  "sub_technique": null,
+
+  "flavor_profile": {
+    "original": ["savory", "herbal", "mildly spicy", "nutty"],
+    "original_lang": "en",
+    "translation": ["咸鲜", "香草", "微辣", "坚果香"],
+    "translation_lang": "zh",
+    "review_status": "pending"
+  },
+
+  "execution": {
+    "total_time_min": 50,
+    "active_time_min": 35,
+    "prep_ahead_required": false,
+    "difficulty": 4,
+    "servings": 2,
+    "serving_note": {
+      "original": "Final dish 2 pax. Green mole yields 2 pax.",
+      "original_lang": "en",
+      "translation": "最终出品 2 人份。绿 mole 酱为 2 人份。",
+      "translation_lang": "zh"
+    },
+    "heat_level": { "original": "medium-high for searing, low for simmering", "original_lang": "en", "translation": "煎鱼中大火，熬酱小火", "translation_lang": "zh" },
+    "oil_temperature": null,
+    "critical_points": [
+      {
+        "original": "Pat the snapper dry before searing; skin-side down first to get crispy skin.",
+        "original_lang": "en",
+        "translation": "煎前擦干鱼身，先煎鱼皮面至酥脆。",
+        "translation_lang": "zh"
+      },
+      {
+        "original": "Baste the fish continuously with foaming butter while cooking.",
+        "original_lang": "en",
+        "translation": "煎制过程中用起泡黄油持续浇淋鱼身。",
+        "translation_lang": "zh"
+      },
+      {
+        "original": "Roast the chilies until the skin is charred, then peel before blending.",
+        "original_lang": "en",
+        "translation": "辣椒烤至表皮焦黑，去皮后再打酱。",
+        "translation_lang": "zh"
+      },
+      {
+        "original": "Toast the spices and seeds before blending to develop the mole's depth.",
+        "original_lang": "en",
+        "translation": "香料和籽先炒香再打，mole 才有层次。",
+        "translation_lang": "zh"
+      }
+    ],
+    "common_mistakes": [
+      {
+        "original": "Searing the fish without drying it, causing the skin to stick and tear.",
+        "original_lang": "en",
+        "translation": "鱼身没擦干就下锅，鱼皮粘锅撕破。",
+        "translation_lang": "zh"
+      },
+      {
+        "original": "Blending the mole with unpeeled charred chilies, giving a bitter taste.",
+        "original_lang": "en",
+        "translation": "焦皮辣椒没去皮就打酱，成品发苦。",
+        "translation_lang": "zh"
+      }
+    ]
+  },
+
+  "components": [
+    {
+      "id": "red-snapper",
+      "name": { "original": "Red Snapper", "original_lang": "en", "translation": "红鲷鱼", "translation_lang": "zh" },
+      "prep_ahead": "same day",
+      "reusable": false,
+      "ingredients": [
+        { "item": { "original": "red snapper fillet", "original_lang": "en", "translation": "红鲷鱼柳", "translation_lang": "zh" }, "amount": "170–210 g" },
+        { "item": { "original": "salt", "original_lang": "en", "translation": "盐", "translation_lang": "zh" }, "amount": "to taste" },
+        { "item": { "original": "black pepper", "original_lang": "en", "translation": "黑胡椒", "translation_lang": "zh" }, "amount": "to taste" },
+        { "item": { "original": "fresh thyme", "original_lang": "en", "translation": "新鲜百里香", "translation_lang": "zh" }, "amount": "1 sprig" },
+        { "item": { "original": "garlic", "original_lang": "en", "translation": "大蒜", "translation_lang": "zh" }, "amount": "1 clove" },
+        { "item": { "original": "cold butter", "original_lang": "en", "translation": "冷黄油", "translation_lang": "zh" }, "amount": "100 g", "note": { "original": "cubed", "original_lang": "en", "translation": "切丁", "translation_lang": "zh" } }
+      ],
+      "method_steps": [
+        { "original": "Pat the red snapper fillet dry with paper towels.", "original_lang": "en", "translation": "用厨房纸擦干鱼柳。", "translation_lang": "zh" },
+        { "original": "Season both sides with salt and black pepper.", "original_lang": "en", "translation": "两面用盐和黑胡椒调味。", "translation_lang": "zh" },
+        { "original": "Heat a skillet over medium-high heat.", "original_lang": "en", "translation": "煎锅中大火加热。", "translation_lang": "zh" },
+        { "original": "Place the fillet skin-side down and cook until the skin is golden brown and crispy.", "original_lang": "en", "translation": "鱼皮朝下，煎至金黄酥脆。", "translation_lang": "zh" },
+        { "original": "Add the cold butter in cubes, the lightly crushed garlic clove, and the sprig of fresh thyme.", "original_lang": "en", "translation": "加冷黄油丁、轻拍的大蒜、百里香。", "translation_lang": "zh" },
+        { "original": "Continuously baste the fish with the foaming butter using a spoon.", "original_lang": "en", "translation": "用勺持续把起泡黄油浇淋鱼身。", "translation_lang": "zh" },
+        { "original": "Cook until the desired doneness is reached. Remove the fillet and let it rest briefly before serving.", "original_lang": "en", "translation": "达到理想熟度后取出，静置片刻再上桌。", "translation_lang": "zh" }
+      ]
+    },
+    {
+      "id": "green-mole",
+      "name": { "original": "Green Mole", "original_lang": "en", "translation": "绿 mole 酱", "translation_lang": "zh" },
+      "prep_ahead": "same day",
+      "reusable": true,
+      "ingredients": [
+        { "item": { "original": "white onion", "original_lang": "en", "translation": "白洋葱", "translation_lang": "zh" }, "amount": "50 g" },
+        { "item": { "original": "garlic", "original_lang": "en", "translation": "大蒜", "translation_lang": "zh" }, "amount": "1.5 cloves" },
+        { "item": { "original": "roasted poblano pepper", "original_lang": "en", "translation": "烤 Poblano 辣椒", "translation_lang": "zh" }, "amount": "120 g" },
+        { "item": { "original": "roasted guero chili", "original_lang": "en", "translation": "烤 Guero 辣椒", "translation_lang": "zh" }, "amount": "1" },
+        { "item": { "original": "roasted chilaça chili", "original_lang": "en", "translation": "烤 Chilaça 辣椒", "translation_lang": "zh" }, "amount": "1/2" },
+        { "item": { "original": "boiled green tomatoes", "original_lang": "en", "translation": "煮绿番茄", "translation_lang": "zh" }, "amount": "120 g" },
+        { "item": { "original": "boiled yellow tomatoes", "original_lang": "en", "translation": "煮黄番茄", "translation_lang": "zh" }, "amount": "80 g" },
+        { "item": { "original": "toasted pumpkin seeds", "original_lang": "en", "translation": "烤南瓜籽", "translation_lang": "zh" }, "amount": "25 g" },
+        { "item": { "original": "sunflower seeds", "original_lang": "en", "translation": "葵花籽", "translation_lang": "zh" }, "amount": "15 g" },
+        { "item": { "original": "epazote", "original_lang": "en", "translation": "土荆芥", "translation_lang": "zh" }, "amount": "4 g" },
+        { "item": { "original": "cilantro", "original_lang": "en", "translation": "芫荽", "translation_lang": "zh" }, "amount": "18 g" },
+        { "item": { "original": "black pepper", "original_lang": "en", "translation": "黑胡椒", "translation_lang": "zh" }, "amount": "1 g" },
+        { "item": { "original": "cloves", "original_lang": "en", "translation": "丁香", "translation_lang": "zh" }, "amount": "1 g" },
+        { "item": { "original": "cumin", "original_lang": "en", "translation": "孜然", "translation_lang": "zh" }, "amount": "1 g" },
+        { "item": { "original": "coriander seeds", "original_lang": "en", "translation": "芫荽籽", "translation_lang": "zh" }, "amount": "1 g" },
+        { "item": { "original": "fennel seed", "original_lang": "en", "translation": "茴香籽", "translation_lang": "zh" }, "amount": "1 g" },
+        { "item": { "original": "salt", "original_lang": "en", "translation": "盐", "translation_lang": "zh" }, "amount": "to taste" }
+      ],
+      "method_steps": [
+        { "original": "Roast the chilies until the skin is charred. Peel the chilies and set aside.", "original_lang": "en", "translation": "辣椒烤至表皮焦黑，去皮备用。", "translation_lang": "zh" },
+        { "original": "Boil the green and yellow tomatoes. Set aside.", "original_lang": "en", "translation": "绿番茄、黄番茄煮好备用。", "translation_lang": "zh" },
+        { "original": "Sauté the onion. Toast the spices and add them to the onion.", "original_lang": "en", "translation": "炒洋葱，香料炒香后加入。", "translation_lang": "zh" },
+        { "original": "Add the garlic, epazote, and cilantro.", "original_lang": "en", "translation": "加蒜、土荆芥、芫荽。", "translation_lang": "zh" },
+        { "original": "Add the seeds and chilies. Simmer the mixture until the flavors blend.", "original_lang": "en", "translation": "加籽和辣椒，小火熬至味道融合。", "translation_lang": "zh" },
+        { "original": "Blend all the ingredients until you have a smooth sauce. Season with salt and pepper to taste. Set aside.", "original_lang": "en", "translation": "全部打至顺滑，盐和胡椒调味，备用。", "translation_lang": "zh" }
+      ]
+    }
+  ],
+
+  "assembly": {
+    "name": { "original": "Plating: Red Snapper with Green Mole", "original_lang": "en", "translation": "装盘：绿 mole 酱红鲷鱼", "translation_lang": "zh" },
+    "steps": [
+      { "original": "Cook the red snapper until the skin is golden brown and crispy.", "original_lang": "en", "translation": "红鲷鱼煎至鱼皮金黄酥脆。", "translation_lang": "zh" },
+      { "original": "Season with fresh thyme and garlic while cooking.", "original_lang": "en", "translation": "煎制时用百里香和大蒜增香。", "translation_lang": "zh" },
+      { "original": "Add the butter and continuously baste the fish to finish cooking.", "original_lang": "en", "translation": "加黄油，持续浇淋至熟。", "translation_lang": "zh" },
+      { "original": "Heat the green mole.", "original_lang": "en", "translation": "绿 mole 酱加热。", "translation_lang": "zh" },
+      { "original": "Place the green mole on the bottom of the plate.", "original_lang": "en", "translation": "绿 mole 酱铺在盘底。", "translation_lang": "zh" },
+      { "original": "Arrange the red snapper on top of the mole. Serve immediately.", "original_lang": "en", "translation": "红鲷鱼放在酱上，立即上桌。", "translation_lang": "zh" }
+    ]
+  },
+
+  "images": { "hero": null, "components": [], "process": [], "note": { "original": "Source PDF contains page images; not extracted.", "original_lang": "en", "translation": "源 PDF 有页面图片，暂未提取。", "translation_lang": "zh" } },
+
+  "allergens": {
+    "original": ["fish", "dairy"],
+    "original_lang": "en",
+    "translation": ["鱼", "奶"],
+    "translation_lang": "zh",
+    "review_note": {
+      "original": "Source lists fish and dairy. Seeds (pumpkin, sunflower) may also be allergens for some guests.",
+      "original_lang": "en",
+      "translation": "原文标注鱼和奶。南瓜籽、葵花籽对部分客人也可能致敏。",
+      "translation_lang": "zh"
+    }
+  },
+
+  "dietary_flags": { "original": [], "original_lang": "en", "translation": [], "translation_lang": "zh" },
+
+  "tags": {
+    "original": ["main", "entertaining", "seafood", "Mexican", "mole"],
+    "original_lang": "en",
+    "translation": ["主菜", "宴客", "海鲜", "墨西哥菜", "mole 酱"],
+    "translation_lang": "zh"
+  },
+
+  "review_queue": [
+    {
+      "field": "name",
+      "original": "Red Snapper with Green Mole",
+      "translation": "绿鼹鼠酱红鲷鱼",
+      "issue": {
+        "original": "'Mole' should stay as 'mole' in English; '鼹鼠酱' is a mistranslation. Suggest 'mole verde（墨西哥绿酱）'.",
+        "original_lang": "en",
+        "translation": "mole 应保留原文，「鼹鼠酱」是误译。建议改为「mole verde（墨西哥绿酱）」。",
+        "translation_lang": "zh"
+      },
+      "status": "pending"
+    },
+    {
+      "field": "ingredient",
+      "original": "chilaça chili",
+      "translation": "Chilaça 辣椒",
+      "issue": {
+        "original": "Chilaça (chilaca) is a specific dried chili. Chinese has no standard name.",
+        "original_lang": "en",
+        "translation": "Chilaça 是特定干辣椒品种，中文无标准译名。",
+        "translation_lang": "zh"
+      },
+      "status": "pending"
+    }
+  ]
+}

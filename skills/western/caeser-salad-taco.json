@@ -1,0 +1,201 @@
+{
+  "id": "caesar-salad-taco",
+  "source_type": "single_dish",
+  "source_file": "EN-_Recipe-Book_Amazing-Menus-To-Go-1.pdf",
+  "source_author": null,
+
+  "cuisine_branch": "western",
+
+  "name": {
+    "original": "Caesar Salad Taco",
+    "original_lang": "en",
+    "translation": "凯撒沙拉塔可",
+    "translation_lang": "zh",
+    "review_status": "pending",
+    "review_note": {
+      "original": "Taco here is a lettuce-leaf taco, not a Mexican tortilla taco. Chinese '塔可' may mislead.",
+      "original_lang": "en",
+      "translation": "这里的 Taco 是生菜叶造型，不是墨西哥玉米饼塔可，中文「塔可」可能误导。",
+      "translation_lang": "zh"
+    }
+  },
+
+  "classification": {
+    "cuisine": { "original": "Modern European", "original_lang": "en", "translation": "现代欧式", "translation_lang": "zh" },
+    "scenes": { "original": ["starter", "entertaining"], "original_lang": "en", "translation": ["前菜", "宴客"], "translation_lang": "zh" },
+    "meal": { "original": "starter", "original_lang": "en", "translation": "前菜", "translation_lang": "zh" },
+    "role": { "original": "starter", "original_lang": "en", "translation": "前菜", "translation_lang": "zh" },
+    "temperature": "warm"
+  },
+
+  "technique": null,
+  "sub_technique": null,
+
+  "flavor_profile": {
+    "original": ["savory", "creamy", "salty", "fresh"],
+    "original_lang": "en",
+    "translation": ["咸鲜", "奶香", "咸", "清爽"],
+    "translation_lang": "zh",
+    "review_status": "pending"
+  },
+
+  "execution": {
+    "total_time_min": 60,
+    "active_time_min": 30,
+    "prep_ahead_required": true,
+    "prep_ahead_note": {
+      "original": "Croquettes can be shaped, breaded and frozen until use. Caesar sauce can be made ahead and reserved in a pastry bag.",
+      "original_lang": "en",
+      "translation": "可乐饼可塑形、裹粉后冷冻备用。凯撒酱可提前做好，装入裱花袋冷藏。",
+      "translation_lang": "zh"
+    },
+    "difficulty": 3,
+    "servings": 2,
+    "serving_note": {
+      "original": "Final assembly yields 2 tacos. Croquette and Caesar sauce components yield 8 pax each.",
+      "original_lang": "en",
+      "translation": "最终组装为 2 个塔可。可乐饼和凯撒酱两个组件各为 8 人份。",
+      "translation_lang": "zh"
+    },
+    "heat_level": { "original": "high heat for frying", "original_lang": "en", "translation": "油炸用大火", "translation_lang": "zh" },
+    "oil_temperature": { "original": "180°C (356°F)", "original_lang": "en", "translation": "180°C", "translation_lang": "zh" },
+    "critical_points": [
+      {
+        "original": "Season the Caesar sauce at the end; anchovies and Grana Padano are already high in salt.",
+        "original_lang": "en",
+        "translation": "凯撒酱最后调味；鳀鱼和帕达诺本身很咸。",
+        "translation_lang": "zh"
+      },
+      {
+        "original": "Adjust water in the Caesar sauce to reach the desired texture: more liquid for drizzling, thicker for piping.",
+        "original_lang": "en",
+        "translation": "调整凯撒酱的水量来控制质地：稀一点可淋，稠一点可挤。",
+        "translation_lang": "zh"
+      },
+      {
+        "original": "Croquettes are fried from frozen at 180°C to keep their shape.",
+        "original_lang": "en",
+        "translation": "可乐饼从冷冻状态直接下 180°C 油炸，以保持形状。",
+        "translation_lang": "zh"
+      }
+    ],
+    "common_mistakes": [
+      {
+        "original": "Over-salting the sauce because anchovies and Parmesan are already salty.",
+        "original_lang": "en",
+        "translation": "酱汁过咸，因为鳀鱼和帕玛森本身就有盐分。",
+        "translation_lang": "zh"
+      },
+      {
+        "original": "Thawing croquettes before frying; they may lose shape.",
+        "original_lang": "en",
+        "translation": "可乐饼解冻后再炸，容易散形。",
+        "translation_lang": "zh"
+      }
+    ]
+  },
+
+  "components": [
+    {
+      "id": "croquette",
+      "name": { "original": "Croquette", "original_lang": "en", "translation": "可乐饼", "translation_lang": "zh" },
+      "prep_ahead": "1 day (can be frozen)",
+      "reusable": true,
+      "reuse_note": {
+        "original": "Freeze until use; fry from frozen at 180°C.",
+        "original_lang": "en",
+        "translation": "冷冻保存，使用时 180°C 直接油炸。",
+        "translation_lang": "zh"
+      },
+      "ingredients": [
+        { "item": { "original": "whole roasted chicken", "original_lang": "en", "translation": "整只烤鸡", "translation_lang": "zh" }, "amount": "1 whole" },
+        { "item": { "original": "fat and juices from roasting", "original_lang": "en", "translation": "烤鸡的油脂和汁水", "translation_lang": "zh" }, "amount": "50 g" },
+        { "item": { "original": "milk", "original_lang": "en", "translation": "牛奶", "translation_lang": "zh" }, "amount": "1 L" },
+        { "item": { "original": "meat stock", "original_lang": "en", "translation": "肉高汤", "translation_lang": "zh" }, "amount": "200 g" },
+        { "item": { "original": "flour", "original_lang": "en", "translation": "面粉", "translation_lang": "zh" }, "amount": "80 g" },
+        { "item": { "original": "butter", "original_lang": "en", "translation": "黄油", "translation_lang": "zh" }, "amount": "50 g" },
+        { "item": { "original": "salt and pepper", "original_lang": "en", "translation": "盐和胡椒", "translation_lang": "zh" }, "amount": "to taste" },
+        { "item": { "original": "flour, egg and panko breadcrumbs", "original_lang": "en", "translation": "面粉、蛋液、日式面包糠", "translation_lang": "zh" }, "amount": "for coating" }
+      ],
+      "method_steps": [
+        { "original": "Debone the chicken by hand and chop the skin with a knife. Reserve.", "original_lang": "en", "translation": "手工去骨，鸡皮用刀切碎，备用。", "translation_lang": "zh" },
+        { "original": "Put the cooking juices, butter and flour in a large saucepan.", "original_lang": "en", "translation": "烤汁、黄油、面粉放入大锅。", "translation_lang": "zh" },
+        { "original": "When the flour is cooked, add the milk little by little to thicken the bechamel.", "original_lang": "en", "translation": "面粉炒熟后，慢慢加牛奶，做成白酱。", "translation_lang": "zh" },
+        { "original": "Add the chicken and skin, stir.", "original_lang": "en", "translation": "加入鸡肉和鸡皮，拌匀。", "translation_lang": "zh" },
+        { "original": "Finally, add the meat stock little by little so that the texture of the bechamel is creamy. Season with salt and pepper.", "original_lang": "en", "translation": "慢慢加入肉高汤，让白酱质地顺滑。用盐和胡椒调味。", "translation_lang": "zh" },
+        { "original": "Shape the croquettes and bread them.", "original_lang": "en", "translation": "塑形，裹粉。", "translation_lang": "zh" },
+        { "original": "Freeze until use.", "original_lang": "en", "translation": "冷冻备用。", "translation_lang": "zh" }
+      ]
+    },
+    {
+      "id": "caesar-sauce",
+      "name": { "original": "Caesar Sauce", "original_lang": "en", "translation": "凯撒酱", "translation_lang": "zh" },
+      "prep_ahead": "same day",
+      "reusable": true,
+      "reuse_note": {
+        "original": "Reserve in a pastry bag.",
+        "original_lang": "en",
+        "translation": "装入裱花袋备用。",
+        "translation_lang": "zh"
+      },
+      "ingredients": [
+        { "item": { "original": "soft cream cheese", "original_lang": "en", "translation": "软质奶油芝士", "translation_lang": "zh" }, "amount": "350 g" },
+        { "item": { "original": "cream 35%", "original_lang": "en", "translation": "35% 淡奶油", "translation_lang": "zh" }, "amount": "100 g" },
+        { "item": { "original": "mineral water", "original_lang": "en", "translation": "矿泉水", "translation_lang": "zh" }, "amount": "100 g" },
+        { "item": { "original": "Grana Padano", "original_lang": "en", "translation": "帕达诺奶酪", "translation_lang": "zh" }, "amount": "100 g" },
+        { "item": { "original": "anchovy fillet", "original_lang": "en", "translation": "鳀鱼柳", "translation_lang": "zh" }, "amount": "1" },
+        { "item": { "original": "lemon juice", "original_lang": "en", "translation": "柠檬汁", "translation_lang": "zh" }, "amount": "juice of 1/2 lemon" },
+        { "item": { "original": "whole grain French mustard", "original_lang": "en", "translation": "法式全籽芥末", "translation_lang": "zh" }, "amount": "1 tsp" },
+        { "item": { "original": "salt and white pepper", "original_lang": "en", "translation": "盐和白胡椒", "translation_lang": "zh" }, "amount": "to taste" }
+      ],
+      "method_steps": [
+        { "original": "Mix all the ingredients, adding the water in moderation, in a blender until you get a perfectly textured, shiny sauce.", "original_lang": "en", "translation": "所有材料放入搅拌机，逐步加水，打到质地完美、有光泽的酱汁。", "translation_lang": "zh" },
+        { "original": "If you want a more liquid or thicker texture, adjust the quantity of water.", "original_lang": "en", "translation": "想要更稀或更稠，调整水量。", "translation_lang": "zh" },
+        { "original": "Take care adding salt, since anchovies and Parmesan are high in salt. Season at the end.", "original_lang": "en", "translation": "注意盐量，鳀鱼和帕玛森本身很咸。最后调味。", "translation_lang": "zh" },
+        { "original": "Reserve in a pastry bag.", "original_lang": "en", "translation": "装入裱花袋备用。", "translation_lang": "zh" }
+      ]
+    }
+  ],
+
+  "assembly": {
+    "name": { "original": "Plating: Caesar Salad Taco", "original_lang": "en", "translation": "装盘：凯撒沙拉塔可", "translation_lang": "zh" },
+    "steps": [
+      { "original": "Fry the croquettes in plenty of oil at 180°C (356°F).", "original_lang": "en", "translation": "可乐饼在 180°C 油中炸。", "translation_lang": "zh" },
+      { "original": "Plate the whole lettuce leaves and arrange the julienne on top. Season with salt and oil.", "original_lang": "en", "translation": "整片生菜叶摆盘，上面放切丝生菜。用盐和油调味。", "translation_lang": "zh" },
+      { "original": "Place the croquettes on top and finish with the sauce and cheese.", "original_lang": "en", "translation": "放上可乐饼，挤酱、撒芝士。", "translation_lang": "zh" }
+    ]
+  },
+
+  "images": { "hero": null, "components": [], "process": [], "note": { "original": "Source PDF contains page images; not extracted.", "original_lang": "en", "translation": "源 PDF 有页面图片，暂未提取。", "translation_lang": "zh" } },
+
+  "allergens": {
+    "original": ["sulphites", "mustard", "fish", "dairy", "eggs", "cereals"],
+    "original_lang": "en",
+    "translation": ["亚硫酸盐", "芥末", "鱼", "奶", "蛋", "谷物"],
+    "translation_lang": "zh"
+  },
+
+  "dietary_flags": { "original": [], "original_lang": "en", "translation": [], "translation_lang": "zh" },
+
+  "tags": {
+    "original": ["make-ahead", "component-reuse", "starter", "entertaining", "taco"],
+    "original_lang": "en",
+    "translation": ["可预制", "组件复用", "前菜", "宴客", "塔可"],
+    "translation_lang": "zh"
+  },
+
+  "review_queue": [
+    {
+      "field": "name",
+      "original": "Caesar Salad Taco",
+      "translation": "凯撒沙拉塔可",
+      "issue": {
+        "original": "Taco here is a lettuce-leaf taco, not a Mexican tortilla taco.",
+        "original_lang": "en",
+        "translation": "这里的 Taco 是生菜叶造型，不是墨西哥玉米饼塔可。",
+        "translation_lang": "zh"
+      },
+      "status": "pending"
+    }
+  ]
+}

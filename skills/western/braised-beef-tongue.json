@@ -1,0 +1,233 @@
+{
+  "id": "braised-beef-tongue",
+  "source_type": "single_dish",
+  "source_file": "EN_RECIPE-BOOK.pptx.pdf",
+  "source_author": "Eduardo García",
+
+  "cuisine_branch": "western",
+
+  "name": {
+    "original": "Braised Beef Tongue",
+    "original_lang": "en",
+    "translation": "慢炖牛舌",
+    "translation_lang": "zh",
+    "review_status": "pending"
+  },
+
+  "classification": {
+    "cuisine": { "original": "Mexican", "original_lang": "en", "translation": "墨西哥菜", "translation_lang": "zh" },
+    "scenes": { "original": ["main course", "entertaining"], "original_lang": "en", "translation": ["主菜", "宴客"], "translation_lang": "zh" },
+    "meal": { "original": "main course", "original_lang": "en", "translation": "主菜", "translation_lang": "zh" },
+    "role": { "original": "main", "original_lang": "en", "translation": "主菜", "translation_lang": "zh" },
+    "temperature": "hot"
+  },
+
+  "technique": null,
+  "sub_technique": null,
+
+  "flavor_profile": {
+    "original": ["savory", "smoky", "spicy", "nutty"],
+    "original_lang": "en",
+    "translation": ["咸鲜", "烟熏", "辣", "坚果香"],
+    "translation_lang": "zh",
+    "review_status": "pending"
+  },
+
+  "execution": {
+    "total_time_min": 510,
+    "active_time_min": 60,
+    "prep_ahead_required": true,
+    "prep_ahead_note": {
+      "original": "Tongue brines 5 hours, then braises 8 hours. Black mole takes about 50 minutes.",
+      "original_lang": "en",
+      "translation": "牛舌盐渍 5 小时，慢炖 8 小时。黑 mole 酱约 50 分钟。",
+      "translation_lang": "zh"
+    },
+    "difficulty": 5,
+    "servings": 4,
+    "serving_note": {
+      "original": "Final dish 4 pax. Black mole yields 4 pax.",
+      "original_lang": "en",
+      "translation": "最终出品 4 人份。黑 mole 酱为 4 人份。",
+      "translation_lang": "zh"
+    },
+    "heat_level": { "original": "low for braising", "original_lang": "en", "translation": "慢炖用小火", "translation_lang": "zh" },
+    "oil_temperature": null,
+    "critical_points": [
+      {
+        "original": "Brine the tongue for 5 hours before cooking to season and tenderize it.",
+        "original_lang": "en",
+        "translation": "牛舌先盐渍 5 小时，入味并软化。",
+        "translation_lang": "zh"
+      },
+      {
+        "original": "Braise at 130°C for 8 hours; the tongue should be completely tender.",
+        "original_lang": "en",
+        "translation": "130°C 慢炖 8 小时，至完全酥软。",
+        "translation_lang": "zh"
+      },
+      {
+        "original": "Blend the mole with a little stock, then simmer again to integrate.",
+        "original_lang": "en",
+        "translation": "mole 酱加少量高汤打匀，再回锅熬至融合。",
+        "translation_lang": "zh"
+      }
+    ],
+    "common_mistakes": [
+      {
+        "original": "Not brining long enough; the tongue stays bland.",
+        "original_lang": "en",
+        "translation": "盐渍时间不够，牛舌不入味。",
+        "translation_lang": "zh"
+      },
+      {
+        "original": "Blending the mole without enough liquid, making it pasty.",
+        "original_lang": "en",
+        "translation": "mole 打酱时液体不够，成品太稠。",
+        "translation_lang": "zh"
+      }
+    ]
+  },
+
+  "components": [
+    {
+      "id": "braised-tongue",
+      "name": { "original": "Braised Tongue", "original_lang": "en", "translation": "慢炖牛舌", "translation_lang": "zh" },
+      "prep_ahead": "5 hours brine + 8 hours braise",
+      "reusable": true,
+      "ingredients": [
+        { "item": { "original": "raw beef tongue", "original_lang": "en", "translation": "生牛舌", "translation_lang": "zh" }, "amount": "750 g" },
+        { "item": { "original": "water", "original_lang": "en", "translation": "水", "translation_lang": "zh" }, "amount": "2 L" },
+        { "item": { "original": "salt", "original_lang": "en", "translation": "盐", "translation_lang": "zh" }, "amount": "40 g" },
+        { "item": { "original": "onion", "original_lang": "en", "translation": "洋葱", "translation_lang": "zh" }, "amount": "80 g" },
+        { "item": { "original": "celery", "original_lang": "en", "translation": "芹菜", "translation_lang": "zh" }, "amount": "60 g" },
+        { "item": { "original": "carrot", "original_lang": "en", "translation": "胡萝卜", "translation_lang": "zh" }, "amount": "60 g" },
+        { "item": { "original": "dark beer", "original_lang": "en", "translation": "黑啤酒", "translation_lang": "zh" }, "amount": "400 ml" },
+        { "item": { "original": "chicken stock", "original_lang": "en", "translation": "鸡高汤", "translation_lang": "zh" }, "amount": "1 L" },
+        { "item": { "original": "whole black peppercorns", "original_lang": "en", "translation": "黑胡椒粒", "translation_lang": "zh" }, "amount": "4 g" },
+        { "item": { "original": "bay leaves", "original_lang": "en", "translation": "香叶", "translation_lang": "zh" }, "amount": "2" },
+        { "item": { "original": "thyme", "original_lang": "en", "translation": "百里香", "translation_lang": "zh" }, "amount": "2 sprigs" }
+      ],
+      "method_steps": [
+        { "original": "Prepare a 2% brine and dissolve the salt completely. Add the spices to infuse the liquid.", "original_lang": "en", "translation": "配 2% 盐水，盐完全溶解，加香料浸泡。", "translation_lang": "zh" },
+        { "original": "Submerge the tongue fully in the brine. Let it brine for 5 hours before cooking.", "original_lang": "en", "translation": "牛舌完全浸入盐水，盐渍 5 小时。", "translation_lang": "zh" },
+        { "original": "Remove and drain the tongue. Place it in a roasting pan.", "original_lang": "en", "translation": "取出沥干，放入烤盘。", "translation_lang": "zh" },
+        { "original": "Add the chicken stock, beer, spices, and onion brisket to the pan.", "original_lang": "en", "translation": "加鸡高汤、啤酒、香料、洋葱。", "translation_lang": "zh" },
+        { "original": "Braise at 130°C for 8 hours, or until the tongue is completely tender.", "original_lang": "en", "translation": "130°C 慢炖 8 小时，至完全酥软。", "translation_lang": "zh" },
+        { "original": "Remove the tongue from the cooking liquid. Set aside for later use.", "original_lang": "en", "translation": "取出牛舌，备用。", "translation_lang": "zh" }
+      ]
+    },
+    {
+      "id": "black-mole",
+      "name": { "original": "Black Mole", "original_lang": "en", "translation": "黑 mole 酱", "translation_lang": "zh" },
+      "prep_ahead": "same day",
+      "reusable": true,
+      "ingredients": [
+        { "item": { "original": "rehydrated dried chilies", "original_lang": "en", "translation": "泡发干辣椒", "translation_lang": "zh" }, "amount": "50 g" },
+        { "item": { "original": "onion", "original_lang": "en", "translation": "洋葱", "translation_lang": "zh" }, "amount": "70 g" },
+        { "item": { "original": "garlic", "original_lang": "en", "translation": "大蒜", "translation_lang": "zh" }, "amount": "3 cloves" },
+        { "item": { "original": "black pepper", "original_lang": "en", "translation": "黑胡椒", "translation_lang": "zh" }, "amount": "1 g" },
+        { "item": { "original": "cumin", "original_lang": "en", "translation": "孜然", "translation_lang": "zh" }, "amount": "1 g" },
+        { "item": { "original": "cloves", "original_lang": "en", "translation": "丁香", "translation_lang": "zh" }, "amount": "1 g" },
+        { "item": { "original": "caraway", "original_lang": "en", "translation": "葛缕子", "translation_lang": "zh" }, "amount": "1 g" },
+        { "item": { "original": "avocado leaf", "original_lang": "en", "translation": "牛油果叶", "translation_lang": "zh" }, "amount": "1" },
+        { "item": { "original": "epazote", "original_lang": "en", "translation": "土荆芥", "translation_lang": "zh" }, "amount": "4 g" },
+        { "item": { "original": "cilantro", "original_lang": "en", "translation": "芫荽", "translation_lang": "zh" }, "amount": "12 g" },
+        { "item": { "original": "mole paste", "original_lang": "en", "translation": "mole 酱底", "translation_lang": "zh" }, "amount": "35 g" },
+        { "item": { "original": "pistachios", "original_lang": "en", "translation": "开心果", "translation_lang": "zh" }, "amount": "15 g" },
+        { "item": { "original": "pine nuts", "original_lang": "en", "translation": "松子", "translation_lang": "zh" }, "amount": "10 g" },
+        { "item": { "original": "pumpkin seeds", "original_lang": "en", "translation": "南瓜籽", "translation_lang": "zh" }, "amount": "15 g" },
+        { "item": { "original": "sunflower seeds", "original_lang": "en", "translation": "葵花籽", "translation_lang": "zh" }, "amount": "10 g" },
+        { "item": { "original": "macadamia nuts", "original_lang": "en", "translation": "夏威夷果", "translation_lang": "zh" }, "amount": "10 g" },
+        { "item": { "original": "toasted bread", "original_lang": "en", "translation": "烤面包", "translation_lang": "zh" }, "amount": "25 g" },
+        { "item": { "original": "burnt tortilla", "original_lang": "en", "translation": "烤焦玉米饼", "translation_lang": "zh" }, "amount": "1" },
+        { "item": { "original": "boiled tomato", "original_lang": "en", "translation": "煮番茄", "translation_lang": "zh" }, "amount": "120 g" },
+        { "item": { "original": "roasted apple", "original_lang": "en", "translation": "烤苹果", "translation_lang": "zh" }, "amount": "80 g" },
+        { "item": { "original": "roasted plantain", "original_lang": "en", "translation": "烤大蕉", "translation_lang": "zh" }, "amount": "80 g" },
+        { "item": { "original": "chicken stock", "original_lang": "en", "translation": "鸡高汤", "translation_lang": "zh" }, "amount": "450 ml" }
+      ],
+      "method_steps": [
+        { "original": "Sauté the vegetables until lightly browned.", "original_lang": "en", "translation": "蔬菜炒至微黄。", "translation_lang": "zh" },
+        { "original": "Add the spices and mole paste and cook briefly.", "original_lang": "en", "translation": "加香料和 mole 酱底，略炒。", "translation_lang": "zh" },
+        { "original": "Incorporate the soaked, drained chilies and cook until everything is well combined.", "original_lang": "en", "translation": "加泡发沥干的辣椒，炒匀。", "translation_lang": "zh" },
+        { "original": "Add the fruit, bread, tortilla, seeds, and tomatoes.", "original_lang": "en", "translation": "加水果、面包、玉米饼、籽、番茄。", "translation_lang": "zh" },
+        { "original": "Simmer to develop flavor and season to taste.", "original_lang": "en", "translation": "小火熬至出味，调味。", "translation_lang": "zh" },
+        { "original": "Blend until smooth, adding a little chicken stock to loosen.", "original_lang": "en", "translation": "打至顺滑，加少量鸡高汤调整浓度。", "translation_lang": "zh" },
+        { "original": "Return to the heat and simmer again to integrate the sauce. Adjust seasoning and set aside.", "original_lang": "en", "translation": "回锅再熬至融合，调味备用。", "translation_lang": "zh" }
+      ]
+    },
+    {
+      "id": "sweet-potato-puree",
+      "name": { "original": "Sweet Potato Puree", "original_lang": "en", "translation": "红薯泥", "translation_lang": "zh" },
+      "prep_ahead": "same day",
+      "reusable": true,
+      "ingredients": [
+        { "item": { "original": "roasted sweet potato", "original_lang": "en", "translation": "烤红薯", "translation_lang": "zh" }, "amount": "300 g" },
+        { "item": { "original": "brown butter", "original_lang": "en", "translation": "焦化黄油", "translation_lang": "zh" }, "amount": "30 g" },
+        { "item": { "original": "hot milk", "original_lang": "en", "translation": "热牛奶", "translation_lang": "zh" }, "amount": "60 ml" },
+        { "item": { "original": "salt", "original_lang": "en", "translation": "盐", "translation_lang": "zh" }, "amount": "to taste" },
+        { "item": { "original": "white pepper", "original_lang": "en", "translation": "白胡椒", "translation_lang": "zh" }, "amount": "to taste" }
+      ],
+      "method_steps": [
+        { "original": "Sauté the sweet potato in melted butter until tender.", "original_lang": "en", "translation": "红薯在融化黄油中炒至软。", "translation_lang": "zh" },
+        { "original": "Add the milk and season to taste.", "original_lang": "en", "translation": "加牛奶，调味。", "translation_lang": "zh" },
+        { "original": "Blend until smooth and creamy. Adjust seasoning. Keep warm until ready to serve.", "original_lang": "en", "translation": "打至顺滑。调味，保温备用。", "translation_lang": "zh" }
+      ]
+    }
+  ],
+
+  "assembly": {
+    "name": { "original": "Plating: Braised Beef Tongue", "original_lang": "en", "translation": "装盘：慢炖牛舌", "translation_lang": "zh" },
+    "steps": [
+      { "original": "Heat the mole until it reaches serving temperature.", "original_lang": "en", "translation": "mole 酱加热至出餐温度。", "translation_lang": "zh" },
+      { "original": "Pour the mole over the tongue portion.", "original_lang": "en", "translation": "mole 酱浇在牛舌上。", "translation_lang": "zh" },
+      { "original": "Form a quenelle of sweet potato purée. Place the quenelle next to the tongue.", "original_lang": "en", "translation": "红薯泥做成橄榄形，放在牛舌旁边。", "translation_lang": "zh" },
+      { "original": "Scatter the pickled red onion over the dish. Garnish with fresh cilantro leaves. Serve immediately.", "original_lang": "en", "translation": "撒腌红洋葱、新鲜芫荽叶，立即上桌。", "translation_lang": "zh" }
+    ]
+  },
+
+  "images": { "hero": null, "components": [], "process": [], "note": { "original": "Source PDF contains page images; not extracted.", "original_lang": "en", "translation": "源 PDF 有页面图片，暂未提取。", "translation_lang": "zh" } },
+
+  "allergens": {
+    "original": ["sulphites", "dairy", "cereals", "nuts"],
+    "original_lang": "en",
+    "translation": ["亚硫酸盐", "奶", "谷物", "坚果"],
+    "translation_lang": "zh"
+  },
+
+  "dietary_flags": { "original": [], "original_lang": "en", "translation": [], "translation_lang": "zh" },
+
+  "tags": {
+    "original": ["main", "entertaining", "beef", "Mexican", "mole", "slow-cook"],
+    "original_lang": "en",
+    "translation": ["主菜", "宴客", "牛肉", "墨西哥菜", "mole 酱", "慢炖"],
+    "translation_lang": "zh"
+  },
+
+  "review_queue": [
+    {
+      "field": "name",
+      "original": "Black Mole",
+      "translation": "黑 mole 酱",
+      "issue": {
+        "original": "Keep 'mole' as-is; do not translate to '鼹鼠酱'.",
+        "original_lang": "en",
+        "translation": "mole 保留原文，不译成「鼹鼠酱」。",
+        "translation_lang": "zh"
+      },
+      "status": "pending"
+    },
+    {
+      "field": "ingredient",
+      "original": "mole paste",
+      "translation": "mole 酱底",
+      "issue": {
+        "original": "Commercial mole paste is a shortcut; brand varies.",
+        "original_lang": "en",
+        "translation": "市售 mole 酱底品牌不一，需确认成分。",
+        "translation_lang": "zh"
+      },
+      "status": "pending"
+    }
+  ]
+}
