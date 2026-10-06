@@ -1,10 +1,10 @@
 # Recipe Knowledge Base
 
-¸öÈË²ËÆ×ÖªÊ¶¿â¡£
+ä¸ªäººèœè°±çŸ¥è¯†åº“ã€‚
 
-## ½á¹¹
-- skills/western£ºÎ÷²Í
-- skills/chinese£ºÖĞ²Í
-- assets£ºÍ¼Æ¬
-- mappings£º¿ç¿âÓ³Éä
-- review£º´ı¸´ºËÏî
+## ç»“æ„
+- skills/westernï¼šè¥¿é¤
+- skills/chineseï¼šä¸­é¤
+- assetsï¼šå›¾ç‰‡
+- mappingsï¼šè·¨åº“æ˜ å°„
+- reviewï¼šå¾…å¤æ ¸é¡¹
