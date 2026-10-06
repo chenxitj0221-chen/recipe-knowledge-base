@@ -57,6 +57,9 @@
     "temperature": "cold"
   },
 
+  "technique": null,
+  "sub_technique": null,
+
   "execution": {
     "total_time_min": 150,
     "active_time_min": 30,
@@ -77,7 +80,7 @@
     }
   },
 
-  "flavor": {
+  "flavor_profile": {
     "original": ["酸甜", "番茄", "彩椒", "柠檬"],
     "original_lang": "zh",
     "translation": ["sweet-sour", "tomato", "bell pepper", "lemon"],

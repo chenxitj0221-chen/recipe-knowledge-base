@@ -189,7 +189,8 @@
     "original": ["白油肉片", "辣子鸡", "宫保鸡", "鱼香肉片", "家常牛肉丝", "盐煎肉", "蒜薹肉丝", "韭黄肉丝", "野鸡红"],
     "original_lang": "zh",
     "translation": ["white-oil pork slices", "spicy chicken", "kung pao chicken", "fish-fragrant pork slices", "home-style beef shreds", "salt-fried pork", "garlic sprout pork shreds", "chive pork shreds", "pheasant red"],
-    "translation_lang": "en"
+    "translation_lang": "en",
+    "dish_refs": [null, null, null, "yuxiang-rou-pian", null, null, null, null, null]
   },
 
   "images": {

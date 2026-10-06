@@ -179,7 +179,8 @@
     "original": ["鲜熘鱼片", "番茄熘鱼片", "熘鸡丝", "醋熘鸡", "蚕豆熘虾仁", "糖醋脆皮鱼", "鱼香八块鸡"],
     "original_lang": "zh",
     "translation": ["fresh liu fish slices", "tomato liu fish slices", "liu chicken shreds", "vinegar liu chicken", "fava liu shrimp", "sweet-sour crispy fish", "fish-fragrant eight-piece chicken"],
-    "translation_lang": "en"
+    "translation_lang": "en",
+    "dish_refs": ["xianliu-yu-pian", null, null, null, null, "tangcu-cuipi-yu", null]
   },
 
   "images": {

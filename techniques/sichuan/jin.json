@@ -194,7 +194,8 @@
     "original": ["香橙浸仔鸭", "油浸草鱼", "红白萝卜浸蛤", "水浸鱼片"],
     "original_lang": "zh",
     "translation": ["orange-immersed duckling", "oil-immersed grass carp", "radish-immersed clams", "water-immersed fish slices"],
-    "translation_lang": "en"
+    "translation_lang": "en",
+    "dish_refs": ["xiangcheng-jin-ya", null, null, null]
   },
 
   "images": {

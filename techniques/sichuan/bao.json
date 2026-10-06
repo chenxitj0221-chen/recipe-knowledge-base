@@ -190,7 +190,8 @@
     "original": ["火爆腰花", "青笋爆肚条", "腐乳爆肉片", "孜然肥牛肉", "山椒爆蛤"],
     "original_lang": "zh",
     "translation": ["huo-bao pig kidney", "celtuce bao tripe strips", "fermented tofu bao pork slices", "cumin bao beef", "wild pepper bao clams"],
-    "translation_lang": "en"
+    "translation_lang": "en",
+    "dish_refs": [null, null, "furubi-bao-rou-pian", null, null]
   },
 
   "images": {

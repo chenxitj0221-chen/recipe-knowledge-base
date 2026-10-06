@@ -196,7 +196,8 @@
     "original": ["口蘑煎猪扒", "香橙软煎鸡", "香菱煎肉饼", "生煎鸭粒饼", "蒜香银鳕鱼", "三鲜煎蛋"],
     "original_lang": "zh",
     "translation": ["mushroom pan-fried pork chop", "orange soft-fried chicken", "coriander pan-fried meat patty", "pan-fried duck patty", "garlic silver cod", "three-delicacy omelette"],
-    "translation_lang": "en"
+    "translation_lang": "en",
+    "dish_refs": [null, "xiangcheng-ruanjian-ji", null, null, null, null]
   },
 
   "images": {

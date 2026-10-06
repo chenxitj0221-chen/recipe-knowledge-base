@@ -42,6 +42,9 @@
     "temperature": "hot"
   },
 
+  "technique": null,
+  "sub_technique": null,
+
   "execution": {
     "total_time_min": 90,
     "active_time_min": 45,
@@ -62,7 +65,7 @@
     }
   },
 
-  "flavor": {
+  "flavor_profile": {
     "original": ["sour", "savory", "creamy", "mildly spicy", "herbal"],
     "original_lang": "en",
     "translation": ["酸", "咸鲜", "奶香", "微辣", "香草"],

@@ -189,7 +189,8 @@
     "original": ["糖醋脆皮鱼", "鱼香八块鸡", "椒盐茄饼", "香酥鸭", "油淋仔鸡", "芝麻蛋黄卷", "虾仁黄金球"],
     "original_lang": "zh",
     "translation": ["sweet-sour crispy fish", "fish-fragrant eight-piece chicken", "salt-pepper eggplant patties", "crispy duck", "oil-drizzled spring chicken", "sesame egg-yolk rolls", "golden shrimp balls"],
-    "translation_lang": "en"
+    "translation_lang": "en",
+    "dish_refs": ["tangcu-cuipi-yu", null, null, null, null, null, null]
   },
 
   "images": {
