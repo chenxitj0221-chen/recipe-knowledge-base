@@ -1,0 +1,71 @@
+{
+  "format_version": "0.1",
+  "provenance": {
+    "source_type": "book",
+    "source_title": "Amazing Menus To Go",
+    "author": null,
+    "source_path": null,
+    "locator": null,
+    "edited_by": "样例：由 skills/western/salmon-saffron.json 回填，raw 未与原书核对",
+    "edited_at": "2026-10-06"
+  },
+  "lang": "en",
+  "name": "Salmon with Saffron Sauce and Sauteed Vegetables",
+  "servings": { "qty": null, "raw": null },
+  "components": [
+    {
+      "id": "saffron-sauce",
+      "name": "Saffron Sauce",
+      "ingredients": [
+        { "id": "onion", "raw": "onion 50 g", "item": "onion", "qty": 50, "unit": "g", "prep": null },
+        { "id": "butter", "raw": "butter 75 g", "item": "butter", "qty": 75, "unit": "g", "prep": null },
+        { "id": "white-wine", "raw": "white wine 100 g", "item": "white wine", "qty": 100, "unit": "g", "prep": null },
+        { "id": "bomba-rice", "raw": "bomba paella rice 75 g", "item": "bomba paella rice", "qty": 75, "unit": "g", "prep": null },
+        { "id": "saffron", "raw": "saffron 0.5 g", "item": "saffron", "qty": 0.5, "unit": "g", "prep": null },
+        { "id": "stock", "raw": "stock 350 g", "item": "stock", "qty": 350, "unit": "g", "prep": null },
+        { "id": "salt-sauce", "raw": "salt and white pepper to taste", "item": "salt", "qty": null, "unit": null, "prep": null },
+        { "id": "white-pepper", "raw": "salt and white pepper to taste", "item": "white pepper", "qty": null, "unit": null, "prep": null }
+      ],
+      "steps": [
+        { "text": "Put the finely chopped onion with the wine in a small saucepan, heat until the wine is completely reduced.", "uses": [{ "ref": "onion" }, { "ref": "white-wine" }] },
+        { "text": "Add the butter and when it melts add the saffron, cook for a few seconds over high heat.", "uses": [{ "ref": "butter" }, { "ref": "saffron" }] },
+        { "text": "Add the bomba rice. Continue cooking for a few more minutes and add the stock.", "uses": [{ "ref": "bomba-rice" }, { "ref": "stock" }] },
+        { "text": "Cook for 18 minutes, or until it starts to cook through.", "uses": [] },
+        { "text": "Season with salt and pepper. Blend. Leave to cool and reserve.", "uses": [{ "ref": "salt-sauce" }, { "ref": "white-pepper" }] }
+      ]
+    },
+    {
+      "id": "sauteed-vegetables",
+      "name": "Sauteed Vegetables",
+      "ingredients": [
+        { "id": "courgette", "raw": "courgette 50 g", "item": "courgette", "qty": 50, "unit": "g", "prep": null },
+        { "id": "carrot", "raw": "carrot 50 g", "item": "carrot", "qty": 50, "unit": "g", "prep": null },
+        { "id": "white-cabbage", "raw": "white cabbage 50 g", "item": "white cabbage", "qty": 50, "unit": "g", "prep": null },
+        { "id": "celery", "raw": "celery 50 g", "item": "celery", "qty": 50, "unit": "g", "prep": null },
+        { "id": "spring-onion", "raw": "spring onion 50 g", "item": "spring onion", "qty": 50, "unit": "g", "prep": null },
+        { "id": "ginger", "raw": "ginger 10 g", "item": "ginger", "qty": 10, "unit": "g", "prep": null },
+        { "id": "salt-veg", "raw": "salt and pepper to taste", "item": "salt", "qty": null, "unit": null, "prep": null },
+        { "id": "pepper-veg", "raw": "salt and pepper to taste", "item": "pepper", "qty": null, "unit": null, "prep": null },
+        { "id": "olive-oil", "raw": "olive oil as needed", "item": "olive oil", "qty": null, "unit": null, "prep": null }
+      ],
+      "steps": [
+        { "text": "Slice the vegetables very thinly. Add the grated ginger, salt, pepper and oil.", "uses": [{ "ref": "courgette" }, { "ref": "carrot" }, { "ref": "white-cabbage" }, { "ref": "celery" }, { "ref": "spring-onion" }, { "ref": "ginger" }, { "ref": "salt-veg" }, { "ref": "pepper-veg" }, { "ref": "olive-oil" }] },
+        { "text": "Leave the mixture to marinate for a minimum of 2 hours.", "uses": [] },
+        { "text": "Saute in a very hot pan with oil for 2 minutes.", "uses": [{ "ref": "olive-oil" }] },
+        { "text": "Reserve. Serve al dente.", "uses": [] }
+      ]
+    }
+  ],
+  "assembly": {
+    "ingredients": [
+      { "id": "salmon", "raw": "Season the salmon and brush with oil.", "item": "salmon", "qty": null, "unit": null, "prep": null, "listed_in_source": false },
+      { "id": "oil", "raw": "Season the salmon and brush with oil.", "item": "oil", "qty": null, "unit": null, "prep": null, "listed_in_source": false },
+      { "id": "sprouts", "raw": "Plate the vegetables, followed by the salmon, cover with sauce and finish with sprouts.", "item": "sprouts", "qty": null, "unit": null, "prep": null, "listed_in_source": false }
+    ],
+    "steps": [
+      { "text": "Season the salmon and brush with oil.", "uses": [{ "ref": "salmon" }, { "ref": "oil" }] },
+      { "text": "Seal the top part of the fish over a high heat, then cook the skin side.", "uses": [{ "ref": "salmon" }] },
+      { "text": "Plate the vegetables, followed by the salmon, cover with sauce and finish with sprouts.", "uses": [{ "ref": "sauteed-vegetables" }, { "ref": "salmon" }, { "ref": "saffron-sauce" }, { "ref": "sprouts" }] }
+    ]
+  }
+}

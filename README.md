@@ -9,7 +9,10 @@
 - assets：图片
 - mappings：跨库映射（致敏食材关键词、食材分类）
 - review：待复核项
-- docs：操作笔记
+- docs：格式规范与操作笔记
+- intake：外部编辑系统提交的菜谱（格式见 [docs/intake-format.md](docs/intake-format.md)）
+- schemas：JSON Schema
+- tools：校验、SOP 生成、覆盖统计脚本
 
 ## 约定
 - 文件名与 `id` 一致：`skills/chinese/yuxiang-rou-pian.json` 的 `id` 为 `yuxiang-rou-pian`。

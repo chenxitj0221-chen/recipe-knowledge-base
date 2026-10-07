@@ -1,0 +1,64 @@
+{
+  "format_version": "0.1",
+  "provenance": {
+    "source_type": "book",
+    "source_title": "川菜烹饪技法解密：爆、炒、熘、煎、浸、炸",
+    "author": "李凯、普天红",
+    "source_path": null,
+    "locator": null,
+    "edited_by": "样例：由 skills/chinese/xianliu-yu-pian.json 回填，raw 未与原书核对",
+    "edited_at": "2026-10-06"
+  },
+  "lang": "zh",
+  "name": "鲜熘鱼片",
+  "servings": { "qty": null, "raw": null },
+  "components": [
+    {
+      "id": "fish",
+      "name": "鱼片码味码芡",
+      "type": "maqian",
+      "ingredients": [
+        { "id": "grass-carp", "raw": "草鱼 约 750 克", "item": "草鱼", "qty": 750, "unit": "克", "prep": "取净肉，切片" },
+        { "id": "egg-white", "raw": "鸡蛋清 1 个", "item": "鸡蛋清", "qty": 1, "unit": "个", "prep": null },
+        { "id": "dry-starch", "raw": "干豆粉 30 克", "item": "干豆粉", "qty": 30, "unit": "克", "prep": null },
+        { "id": "salt-fish", "raw": "盐、味精、胡椒面、绍酒、水豆粉、化猪油、汤 适量", "item": "盐", "qty": null, "unit": null, "prep": null },
+        { "id": "wine-fish", "raw": "盐、味精、胡椒面、绍酒、水豆粉、化猪油、汤 适量", "item": "绍酒", "qty": null, "unit": null, "prep": null }
+      ],
+      "steps": [
+        { "text": "鱼整治干净，去头尾、去刺、去皮，取净肉片成 0.4 厘米厚、6 厘米宽的片。", "uses": [{ "ref": "grass-carp" }] },
+        { "text": "鱼片入碗，加盐、绍酒、蛋清豆粉拌匀。", "uses": [{ "ref": "salt-fish" }, { "ref": "wine-fish" }, { "ref": "egg-white" }, { "ref": "dry-starch" }] }
+      ]
+    },
+    {
+      "id": "sauce",
+      "name": "滋汁",
+      "type": "zizhi",
+      "ingredients": [
+        { "id": "salt-sauce", "raw": "盐、味精、胡椒面、绍酒、水豆粉、化猪油、汤 适量", "item": "盐", "qty": null, "unit": null, "prep": null },
+        { "id": "pepper", "raw": "盐、味精、胡椒面、绍酒、水豆粉、化猪油、汤 适量", "item": "胡椒面", "qty": null, "unit": null, "prep": null },
+        { "id": "msg", "raw": "盐、味精、胡椒面、绍酒、水豆粉、化猪油、汤 适量", "item": "味精", "qty": null, "unit": null, "prep": null },
+        { "id": "wine-sauce", "raw": "盐、味精、胡椒面、绍酒、水豆粉、化猪油、汤 适量", "item": "绍酒", "qty": null, "unit": null, "prep": null },
+        { "id": "wet-starch", "raw": "盐、味精、胡椒面、绍酒、水豆粉、化猪油、汤 适量", "item": "水豆粉", "qty": null, "unit": null, "prep": null },
+        { "id": "stock", "raw": "盐、味精、胡椒面、绍酒、水豆粉、化猪油、汤 适量", "item": "汤", "qty": null, "unit": null, "prep": null }
+      ],
+      "steps": [
+        { "text": "另取碗，放盐、胡椒面、味精、绍酒、水豆粉、汤，调成滋汁。", "uses": [{ "ref": "salt-sauce" }, { "ref": "pepper" }, { "ref": "msg" }, { "ref": "wine-sauce" }, { "ref": "wet-starch" }, { "ref": "stock" }] }
+      ]
+    }
+  ],
+  "assembly": {
+    "ingredients": [
+      { "id": "lard", "raw": "盐、味精、胡椒面、绍酒、水豆粉、化猪油、汤 适量", "item": "化猪油", "qty": null, "unit": null, "prep": null },
+      { "id": "bamboo", "raw": "熟冬笋 75 克", "item": "熟冬笋", "qty": 75, "unit": "克", "prep": "切薄片" },
+      { "id": "tomato", "raw": "番茄 半个或 1 个", "item": "番茄", "qty": null, "unit": null, "prep": "去皮去瓤，切片" },
+      { "id": "garlic", "raw": "蒜片、姜片、马耳朵葱 各 15 克", "item": "蒜片", "qty": 15, "unit": "克", "prep": null },
+      { "id": "ginger", "raw": "蒜片、姜片、马耳朵葱 各 15 克", "item": "姜片", "qty": 15, "unit": "克", "prep": null },
+      { "id": "scallion", "raw": "蒜片、姜片、马耳朵葱 各 15 克", "item": "马耳朵葱", "qty": 15, "unit": "克", "prep": null }
+    ],
+    "steps": [
+      { "text": "炒锅旺火，化猪油烧至三四成，下鱼片轻轻滑散，打起。", "uses": [{ "ref": "lard" }, { "ref": "fish" }] },
+      { "text": "锅中留油 25 克，油温略升至五成，下冬笋、姜、葱、蒜、番茄炒熟。", "uses": [{ "ref": "lard", "qty": 25, "unit": "克" }, { "ref": "bamboo" }, { "ref": "ginger" }, { "ref": "scallion" }, { "ref": "garlic" }, { "ref": "tomato" }] },
+      { "text": "下鱼片，烹滋汁，合炒几下，汁一收浓，起锅。", "uses": [{ "ref": "fish" }, { "ref": "sauce" }] }
+    ]
+  }
+}

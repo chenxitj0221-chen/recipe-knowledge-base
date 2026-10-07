@@ -1,0 +1,63 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-10-06",
+  "purpose": "组件类型固定词表，供 intake 格式的 component.type 使用，用于跨菜检索（如「所有滋汁」）。可升级：新类型先以 proposed 状态加入，确认后改为 active 并升版本号。",
+
+  "usage_note": {
+    "original": "词表按菜系划分作用域，不做跨菜系对应。英文只是释义，不代表等同于西餐的某个术语。不在词表里的组件可以不填 type，只填 name。",
+    "original_lang": "zh",
+    "translation": "Types are scoped by cuisine; no cross-cuisine equivalence is implied. English text is a gloss, not an equivalent Western term. Components outside this list may omit type and use name only.",
+    "translation_lang": "en"
+  },
+
+  "types": {
+    "mawei": {
+      "scope": "chinese",
+      "name": { "original": "码味", "original_lang": "zh", "translation": "mawei (pre-seasoning)", "translation_lang": "en" },
+      "definition": { "original": "烹制前用盐、料酒等给主料预先入底味。", "original_lang": "zh", "translation": "Pre-seasoning the main ingredient with salt, wine, etc. before cooking.", "translation_lang": "en" },
+      "status": "active",
+      "review_status": "pending",
+      "added_at": "2026-10-06"
+    },
+    "maqian": {
+      "scope": "chinese",
+      "name": { "original": "码芡", "original_lang": "zh", "translation": "maqian (starch coating)", "translation_lang": "en" },
+      "definition": { "original": "主料拌蛋清、淀粉等，形成一层薄浆。其他地区多称「上浆」。", "original_lang": "zh", "translation": "Coating the main ingredient with egg white and starch into a thin slurry layer; called shangjiang in other regions.", "translation_lang": "en" },
+      "status": "active",
+      "review_status": "pending",
+      "added_at": "2026-10-06"
+    },
+    "guahu": {
+      "scope": "chinese",
+      "name": { "original": "挂糊", "original_lang": "zh", "translation": "guahu (batter coating)", "translation_lang": "en" },
+      "definition": { "original": "主料裹上较厚的糊（如全蛋糊、蛋清糊、水粉糊）再烹制。", "original_lang": "zh", "translation": "Coating the main ingredient in a thicker batter (whole-egg, egg-white, or starch-water) before cooking.", "translation_lang": "en" },
+      "status": "active",
+      "review_status": "pending",
+      "added_at": "2026-10-06"
+    },
+    "paifen": {
+      "scope": "chinese",
+      "name": { "original": "拍粉", "original_lang": "zh", "translation": "paifen (dry dusting)", "translation_lang": "en" },
+      "definition": { "original": "主料表面拍上干粉。", "original_lang": "zh", "translation": "Dusting the main ingredient with dry starch or flour.", "translation_lang": "en" },
+      "status": "active",
+      "review_status": "pending",
+      "added_at": "2026-10-06"
+    },
+    "zizhi": {
+      "scope": "chinese",
+      "name": { "original": "滋汁", "original_lang": "zh", "translation": "zizhi (pre-mixed sauce)", "translation_lang": "en" },
+      "definition": { "original": "预先在碗中调好的调味芡汁，烹制最后烹入锅中。也称「碗芡」。", "original_lang": "zh", "translation": "A seasoning-and-starch sauce mixed in a bowl beforehand and added at the end of cooking; also called wanqian.", "translation_lang": "en" },
+      "status": "active",
+      "review_status": "pending",
+      "added_at": "2026-10-06"
+    },
+    "gaotang": {
+      "scope": "chinese",
+      "name": { "original": "高汤", "original_lang": "zh", "translation": "gaotang (stock)", "translation_lang": "en" },
+      "definition": { "original": "单独熬制、供其他菜使用的汤。", "original_lang": "zh", "translation": "Stock prepared separately for use in other dishes.", "translation_lang": "en" },
+      "status": "active",
+      "review_status": "pending",
+      "added_at": "2026-10-06"
+    }
+  }
+}
